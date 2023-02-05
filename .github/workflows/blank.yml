@@ -37,17 +37,20 @@ jobs:
           
       # Spotify api short_term range
       - name: Call Spotify API
-        id: spotifyRes
-        uses: satak/webrequest-action@master
+        uses: actions/http-client@v2
         with:
-          url: https://api.spotify.com/v1/me/top/tracks
           method: GET
-          payload: '{"limit": "5", "time_range": "short_term"}'
-          headers: '{"Authorization": "Bearer ${{ secrets.SPOTIFY_ACCESS_TOKEN }}"}'
+          url: https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=long_term
+          headers: |
+            {
+              "Authorization": "Bearer ${{ secrets.SPOTIFY_ACCESS_TOKEN }}"
+            }
+        id: spotifyRes
           
       # Echo spotifyRes 
-      - name: Echo Spotify response
-        run: echo "${{ steps.spotifyRes.outputs.output }}"
+      - name: Print response body
+        run: |
+          echo "Response Body: ${{ steps.spotifyRes.outputs.body }}"
       
       # Read README file
       - name: Read file

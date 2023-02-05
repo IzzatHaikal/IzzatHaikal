@@ -52,7 +52,7 @@ jobs:
           # Request Method
           method: 'GET'
           # Bearer Authentication Token
-          bearerToken: ${{ process.env.SPOTIFY_REFRESH_TOKEN }}
+          bearerToken: $SPOTIFY_REFRESH_TOKEN
           
       # Echo spotifyRes 
       - name: Show Response

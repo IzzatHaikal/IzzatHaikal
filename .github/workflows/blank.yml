@@ -61,6 +61,20 @@ jobs:
           echo ${{ steps.spotifyRes.outputs.headers }}
           echo ${{ fromJson(steps.spotifyRes.outputs.response).limit }}
       
+      - name: Get User's Top Tracks
+        uses: actions/http-action@v1
+        with:
+          method: GET
+          url: https://api.spotify.com/v1/me/top/tracks
+          headers:
+            Authorization: ${{ secrets.SPOTIFY_API_KEY }}
+        id: top_tracks
+
+      - name: Log User's Top Tracks
+        run: |
+          echo "Top Tracks:"
+          echo "${{ toJson(steps.top_tracks.outputs.body) }}"
+      
       # Read README file
       - name: Read file
         id: readmeFile

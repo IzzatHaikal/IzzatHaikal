@@ -63,7 +63,7 @@ jobs:
       
       - name: Get User's Top Tracks
         run: |
-          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5" -H "Authorization: Bearer ${{ secrets.SPOTIFY_REFRESH_TOKEN }}"
+          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5" -H "Authorization: Bearer ${{ secrets.SPOTIFY_ACCESS_TOKEN }}"
         id: top_tracks
 
       - name: Log User's Top Tracks

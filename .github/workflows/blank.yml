@@ -39,38 +39,27 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      
-      # Refresh spotify token
-      - name: Save the new access token
-        run: |
-          ACCESS_TOKEN=$(curl -X POST "https://accounts.spotify.com/api/token" \
-            -H "Content-Type: application/x-www-form-urlencoded" \
-            -d "grant_type=refresh_token" \
-            -d "refresh_token=${{ secrets.SPOTIFY_REFRESH_TOKEN }}" \
-            -d "client_id=${{ secrets.SPOTIFY_CLIENT_ID }}" \
-            -d "client_secret=${{ secrets.SPOTIFY_CLIENT_SECRET }}" | jq -r '.access_token')
-          echo "::set-env name=SPOTIFY_ACCESS_TOKEN::$ACCESS_TOKEN"
           
       # Spotify api short_term range
-#       - name: HTTP Request Action
-#         id: spotifyRes
-#       # You may pin to the exact commit or the version.
-#       # uses: fjogeleit/http-request-action@4ae1dfba856bfb530598ebb818f204befbb24cda
-#         uses: fjogeleit/http-request-action@v1.13.0
-#         with:
-#           # Request URL
-#           url: 'https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=long_term'
-#           # Request Method
-#           method: 'GET'
-#           # Bearer Authentication Token
-#           bearerToken: ${{ secrets.SPOTIFY_ACCESS_TOKEN }}
+      - name: HTTP Request Action
+        id: spotifyRes
+      # You may pin to the exact commit or the version.
+      # uses: fjogeleit/http-request-action@4ae1dfba856bfb530598ebb818f204befbb24cda
+        uses: fjogeleit/http-request-action@v1.13.0
+        with:
+          # Request URL
+          url: 'https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=long_term'
+          # Request Method
+          method: 'GET'
+          # Bearer Authentication Token
+          bearerToken: SPOTIFY_REFRESH_TOKEN
           
-#       # Echo spotifyRes 
-#       - name: Show Response
-#         run: |
-#           echo ${{ steps.spotifyRes.outputs.response }}
-#           echo ${{ steps.spotifyRes.outputs.headers }}
-#           echo ${{ fromJson(steps.spotifyRes.outputs.response).limit }}
+      # Echo spotifyRes 
+      - name: Show Response
+        run: |
+          echo ${{ steps.spotifyRes.outputs.response }}
+          echo ${{ steps.spotifyRes.outputs.headers }}
+          echo ${{ fromJson(steps.spotifyRes.outputs.response).limit }}
       
       # Read README file
       - name: Read file

@@ -34,6 +34,19 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      # Spotify api short_term range
+      - name: Call Spotify API
+        id: spotifyRes
+        uses: satak/webrequest-action@master
+        with:
+          url: https://api.spotify.com/v1/me/top/tracks
+          method: GET
+          payload: '{"limit": 5, "time_range": "short_term"}'
+          
+      # Echo spotifyRes 
+      - name: Echo Spotify response
+        run: echo "${{ steps.spotifyRes.outputs.output.limit }}"
       
       # Read README file
       - name: Read file
@@ -46,6 +59,8 @@ jobs:
           path: README.md
         
       # Echo README file
-      - name: Echo package.json
+      - name: Echo README file
         run: echo "${{ steps.readmeFile.outputs.content }}"
+        
+      
   

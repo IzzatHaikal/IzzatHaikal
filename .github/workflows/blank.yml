@@ -60,22 +60,24 @@ jobs:
                 data: `grant_type=refresh_token&refresh_token=${process.env.SPOTIFY_REFRESH_TOKEN}`
               });
 
-              return response.data.access_token;
+              return response.data;
             }
 
             async function run() {
-              const accessToken = await refreshAccessToken();
-
-              console.log(`Updating Spotify access token`);
-              console.log(accessToken)
-
-              await octokit.actions.createOrUpdateSecretForRepo({
-                owner: process.env.GITHUB_REPOSITORY.split('/')[0],
-                repo: process.env.GITHUB_REPOSITORY.split('/')[1],
-                secret_name: SPOTIFY_ACCESS_TOKEN,
-              encrypted_value: ${{ toJson(accessToken) }},
-              visibility: private
-              });
+                const { access_token: accessToken } = await refreshAccessToken();
+                
+                octokit.authenticate({
+                  type: "token",
+                  token: accessToken,
+                });
+                
+                await octokit.actions.createOrUpdateRepoSecret({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: "SPOTIFY_REFRESH_TOKEN",
+                  encrypted_value: ${{ toJson(accessToken) }},
+                  visibility: "private",
+                });
             }
 
             run().catch(error => {

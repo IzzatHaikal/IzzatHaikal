@@ -50,7 +50,7 @@ jobs:
       # Echo spotifyRes 
       - name: Show Response
         run: |
-          echo ${{ steps.accessTokenRes.outputs.response }}
+          echo ${{ steps.accessTokenRes.outputs }}
       
       # Spotify api short_term range
       - name: HTTP Request Action

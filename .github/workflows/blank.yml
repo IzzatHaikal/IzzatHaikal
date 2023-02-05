@@ -40,6 +40,18 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       
+      - name: Generate Access Token
+        id: accessTokenRes
+        run: |
+          curl -X POST "https://accounts.spotify.com/api/token" \
+          -H "Content-Type: application/x-www-form-urlencoded" \
+          -d "grant_type=refresh_token&refresh_token=${{ secrets.SPOTIFY_REFRESH_TOKEN }}&client_id=${{ secrets.SPOTIFY_CLIENT_ID }}&client_secret=${{ secrets.SPOTIFY_CLIENT_SECRET }}"
+      
+      # Echo spotifyRes 
+      - name: Show Response
+        run: |
+          echo ${{ steps.accessTokenRes.outputs.response }}
+      
       # Spotify api short_term range
       - name: HTTP Request Action
         id: spotifyRes
@@ -84,38 +96,5 @@ jobs:
       # Echo README file
       - name: Echo README file
         run: echo "${{ steps.readmeFile.outputs.content }}"
-        
-  generate-access-token:
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout Code
-      uses: actions/checkout@v2
-      
-    - name: Generate Access Token
-      run: |
-        curl -X POST "https://accounts.spotify.com/api/token" \
-        -H "Content-Type: application/x-www-form-urlencoded" \
-        -d "grant_type=refresh_token&refresh_token=${{ secrets.SPOTIFY_REFRESH_TOKEN }}&client_id=${{ secrets.SPOTIFY_CLIENT_ID }}&client_secret=${{ secrets.SPOTIFY_CLIENT_SECRET }}" > response.json
-      
-      
-    - name: Parse Access Token
-      run: |
-        ACCESS_TOKEN=$(jq -r '.access_token' response.json)
-        echo "::set-output name=access_token::$ACCESS_TOKEN"
-        
-  get-top-tracks:
-    runs-on: ubuntu-latest
-    needs: generate-access-token
-    
-    steps:
-    - name: Get User Top Tracks
-      run: |
-        curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=10" \
-        -H "Authorization: Bearer ${{ steps.generate-access-token.outputs.access_token }}" > top_tracks.json
-        
-    - name: Display User Top Tracks
-      run: |
-        cat top_tracks.json
 
   

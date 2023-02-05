@@ -67,6 +67,7 @@ jobs:
               const accessToken = await refreshAccessToken();
 
               console.log(`Updating Spotify access token`);
+              console.log(accessToken)
 
               await octokit.actions.createOrUpdateSecretForRepo({
                 owner: process.env.GITHUB_REPOSITORY.split('/')[0],

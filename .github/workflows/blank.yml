@@ -66,8 +66,7 @@ jobs:
         with:
           method: GET
           url: https://api.spotify.com/v1/me/top/tracks
-          headers:
-            Authorization: ${{ secrets.SPOTIFY_API_KEY }}
+          headers: '{"Authorization": "${{ secrets.SPOTIFY_REFRESH_TOKEN }}"}'
         id: top_tracks
 
       - name: Log User's Top Tracks

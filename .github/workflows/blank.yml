@@ -47,7 +47,7 @@ jobs:
           
       # Echo spotifyRes 
       - name: Echo Spotify response
-        run: echo "${{ steps.spotifyRes.outputs.output.limit }}"
+        run: echo "${{ steps.spotifyRes.outputs.output }}"
       
       # Read README file
       - name: Read file

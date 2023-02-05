@@ -52,7 +52,7 @@ jobs:
           # Request Method
           method: 'GET'
           # Bearer Authentication Token
-          bearerToken: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          bearerToken: ${{ secrets.SPOTIFY_ACCESS_TOKEN }}
           
       # Echo spotifyRes 
       - name: Show Response

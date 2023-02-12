@@ -50,7 +50,15 @@ jobs:
       # Echo spotifyRes 
       - name: Show Response
         run: |
-          echo ${{ steps.accessTokenRes.outputs.access_token }}
+          echo ${{ steps.accessTokenRes.outputs }}
+          
+      - name: Update Secret
+        run: |
+          curl -X PUT \
+          -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          -d '{ "SPOTIFY_REFRESH_TOKEN": ${{ steps.accessTokenRes.outputs.refresh_token }} }' \
+          https://api.github.com/repos/IzzatHaikal/WorkflowTest/actions/secrets/SPOTIFY_REFRESH_TOKEN
       
       # Spotify api short_term range
       - name: HTTP Request Action

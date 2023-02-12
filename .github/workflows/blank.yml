@@ -48,17 +48,31 @@ jobs:
           -d "grant_type=authorization_code&code=${{ secrets.SPOTIFY_REFRESH_TOKEN }}&redirect_uri=http://127.0.0.1:5173/spotify-refresh-token&client_id=${{ secrets.SPOTIFY_CLIENT_ID }}&client_secret=${{ secrets.SPOTIFY_CLIENT_SECRET }}"
       
       # Echo spotifyRes 
+      - name: Show spotifyRes
+        run: |
+          echo ${{ steps.accessTokenRes.outputs.access_token }}
+          
+      - name: Get key_id
+        id: spotifyRefreshTokenKeys
+        run: |
+          curl \
+          -H "Accept: application/vnd.github+json" \
+          -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}"\
+          -H "X-GitHub-Api-Version: 2022-11-28" \
+          https://api.github.com/repos/IzzatHaikal/WorkflowTest/actions/secrets/SPOTIFY_REFRESH_TOKEN
+      
+      # Echo spotifyRes 
       - name: Show Response
         run: |
-          echo ${{ steps.accessTokenRes.outputs }}
-          
-      - name: Update Secret
-        run: |
-          curl -X PUT \
-          -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" \
-          -H "Content-Type: application/json" \
-          -d '{ "encrypted_value": "${{ steps.accessTokenRes.outputs.refresh_token }}" }' \
-          https://api.github.com/repos/IzzatHaikal/WorkflowTest/actions/secrets/SPOTIFY_REFRESH_TOKEN
+          echo ${{ steps.spotifyRefreshTokenKeys.outputs.key_id }}
+      
+#       - name: Update Secret
+#         run: |
+#           curl -X PUT \
+#           -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" \
+#           -H "Content-Type: application/json" \
+#           -d '{ "encrypted_value": "${{ steps.accessTokenRes.outputs.refresh_token }}", "key_id": "<your_key_id>"} }' \
+#           https://api.github.com/repos/IzzatHaikal/WorkflowTest/actions/secrets/SPOTIFY_REFRESH_TOKEN
       
       # Spotify api short_term range
       - name: HTTP Request Action

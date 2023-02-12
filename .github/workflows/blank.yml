@@ -57,7 +57,7 @@ jobs:
           curl -X PUT \
           -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" \
           -H "Content-Type: application/json" \
-          -d '{ "SPOTIFY_REFRESH_TOKEN": "${{ steps.accessTokenRes.outputs.refresh_token }}" }' \
+          -d '{ "encrypted_value": "${{ steps.accessTokenRes.outputs.refresh_token }}" }' \
           https://api.github.com/repos/IzzatHaikal/WorkflowTest/actions/secrets/SPOTIFY_REFRESH_TOKEN
       
       # Spotify api short_term range
@@ -72,7 +72,7 @@ jobs:
           # Request Method
           method: 'GET'
           # Bearer Authentication Token
-          bearerToken: ${{ steps.accessTokenRes.outputs.access_token }}
+          bearerToken: "${{ steps.accessTokenRes.outputs.access_token }}"
           
       # Echo spotifyRes 
       - name: Show Response

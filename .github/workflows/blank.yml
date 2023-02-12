@@ -43,7 +43,7 @@ jobs:
       - name: Generate Access Token
         id: accessTokenRes
         run: |
-          spotifyRes = $(curl -X POST "https://accounts.spotify.com/api/token" \
+          spotifyRes=$(curl -X POST "https://accounts.spotify.com/api/token" \
           -H "Content-Type: application/x-www-form-urlencoded" \
           -d "grant_type=authorization_code&code=${{ secrets.SPOTIFY_REFRESH_TOKEN }}&redirect_uri=http://127.0.0.1:5173/spotify-refresh-token&client_id=${{ secrets.SPOTIFY_CLIENT_ID }}&client_secret=${{ secrets.SPOTIFY_CLIENT_SECRET }}")
           
@@ -58,7 +58,7 @@ jobs:
       - name: Get key_id
         id: spotifyRefreshTokenKeys
         run: |
-          spotifyKeys = $(curl \
+          spotifyKeys=$(curl \
           -H "Accept: application/vnd.github+json" \
           -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}"\
           -H "X-GitHub-Api-Version: 2022-11-28" \

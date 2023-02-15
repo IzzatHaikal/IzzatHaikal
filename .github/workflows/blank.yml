@@ -52,12 +52,12 @@ jobs:
       # Echo spotifyRes 
       - name: Show spotify refresh token
         run: |
-          echo ${{ env.spotifyWebResRefreshToken }}
+          echo '${{ env.spotifyWebResRefreshToken }}'
       
       # Echo spotifyRes 
       - name: Show spotify access token
         run: |
-          echo ${{ env.spotifyWebResAccessToken }}
+          echo '${{ env.spotifyWebResAccessToken }}'
           
 #       - name: Get key_id
 #         id: spotifyRefreshTokenKeys
@@ -68,31 +68,19 @@ jobs:
 #           -H "X-GitHub-Api-Version: 2022-11-28" \
 #           https://api.github.com/repos/IzzatHaikal/WorkflowTest/actions/secrets/public-key
       
-      # Create Github Secret Action
-      - name: Update SPOTIFY_REFRESH_TOKEN
+      - name: Set Action Secret (SPOTIFY_REFRESH_TOKEN)
         # You may pin to the exact commit or the version.
-        # uses: gliech/create-github-secret-action@ea87807ab20663b30a1a2d14d7f6dd9490b1e7a1
-        uses: gliech/create-github-secret-action@v1.4.10
+        # uses: hmanzur/actions-set-secret@377391a32b6d43a053d7847dde34ac6179ac9f55
+        uses: hmanzur/actions-set-secret@v2.0.0
         with:
-          # Name of the secret that you want to create/update
-          name: SPOTIFY_REFRESH_TOKEN
-          # Value of the secret that you want to create/update
-          value: "${{ env.spotifyWebResRefreshToken }}"
-          # Personal access token with permission to modify repository or organization secrets
-          pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
-      
-      # Create Github Secret Action
-      - name: Update SPOTIFY_ACCESS_TOKEN
-        # You may pin to the exact commit or the version.
-        # uses: gliech/create-github-secret-action@ea87807ab20663b30a1a2d14d7f6dd9490b1e7a1
-        uses: gliech/create-github-secret-action@v1.4.10
-        with:
-          # Name of the secret that you want to create/update
-          name: SPOTIFY_ACCESS_TOKEN
-          # Value of the secret that you want to create/update
-          value: "${{ env.spotifyWebResAccessToken }}"
-          # Personal access token with permission to modify repository or organization secrets
-          pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
+          # Secret name
+          name: 'SPOTIFY_REFRESH_TOKEN'
+          # Secret value
+          value: '${{ env.spotifyWebResRefreshToken }}'
+          # Repository name
+          # Repository access token
+          token: ${{ secrets.WT_PERSONAL_TOKEN }}
+          # For orgs only. Indicate access level all, private or selected
       
 #       # Echo spotifyRes 
 #       - name: Show Response
@@ -119,7 +107,7 @@ jobs:
           # Request Method
           method: 'GET'
           # Bearer Authentication Token
-          bearerToken: ${{ env.spotifyWebResAccessToken }}
+          bearerToken: '${{ env.spotifyWebResAccessToken }}'
           
       # Echo spotifyRes 
       - name: Show Response

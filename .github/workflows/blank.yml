@@ -50,12 +50,12 @@ jobs:
           echo "spotifyWebResAccessToken= $(jq '.access_token' res.json)" >> $GITHUB_ENV
       
       # Echo spotifyRes 
-      - name: Show spotify access token
+      - name: Show spotify refresh token
         run: |
           echo ${{ env.spotifyWebResRefreshToken }}
       
       # Echo spotifyRes 
-      - name: Show spotify refresh token
+      - name: Show spotify access token
         run: |
           echo ${{ env.spotifyWebResAccessToken }}
           
@@ -77,7 +77,7 @@ jobs:
           # Name of the secret that you want to create/update
           name: SPOTIFY_REFRESH_TOKEN
           # Value of the secret that you want to create/update
-          value: ${{ env.spotifyWebResRefreshToken }}
+          value: "${{ env.spotifyWebResRefreshToken }}"
           # Personal access token with permission to modify repository or organization secrets
           pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
       
@@ -90,7 +90,7 @@ jobs:
           # Name of the secret that you want to create/update
           name: SPOTIFY_ACCESS_TOKEN
           # Value of the secret that you want to create/update
-          value: ${{ env.spotifyWebResAccessToken }}
+          value: "${{ env.spotifyWebResAccessToken }}"
           # Personal access token with permission to modify repository or organization secrets
           pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
       

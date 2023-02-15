@@ -68,33 +68,19 @@ jobs:
 #           -H "X-GitHub-Api-Version: 2022-11-28" \
 #           https://api.github.com/repos/IzzatHaikal/WorkflowTest/actions/secrets/public-key
       
-      - name: Repo Secret Manager (SPOTIFY REFRESH TOKEN)
-        # You may pin to the exact commit or the version.
-        # uses: philips-software/Repo-Secret-Manager@b45b8e7808845c053229f23cbf70c9bc9e7a2de4
-        uses: philips-software/Repo-Secret-Manager@v1.2
+      - name: Update GitHub Secret (SPOTIFY_REFRESH_TOKEN)
+        uses: atomlong/gh-update-secret@master
         with:
-          # The action to be performed. `create`, `update`, or `delete`
-          action: update
-          # A GitHub PAT with permission to manage secrets. Can NOT be the GITHUB_TOKEN secret.
-          token: ${{ secrets.WT_PERSONAL_TOKEN }}
-          # A comma-separated list of secret name(s) to apply the action to
-          secret-names: SPOTIFY_REFRESH_TOKEN
-          # A comma-separated list of secret value(s). Only required if `create` or `update` is selected
-          secret-values: ${{ env.spotifyWebResRefreshToken }}
-      
-      - name: Repo Secret Manager (SPOTIFY ACCESS TOKEN)
-        # You may pin to the exact commit or the version.
-        # uses: philips-software/Repo-Secret-Manager@b45b8e7808845c053229f23cbf70c9bc9e7a2de4
-        uses: philips-software/Repo-Secret-Manager@v1.2
+          name: SPOTIFY_REFRESH_TOKEN
+          value: ${{ env.spotifyWebResRefreshToken }}
+          pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
+          
+      - name: Update GitHub Secret (SPOTIFY_ACCESS_TOKEN)
+        uses: atomlong/gh-update-secret@master
         with:
-          # The action to be performed. `create`, `update`, or `delete`
-          action: update
-          # A GitHub PAT with permission to manage secrets. Can NOT be the GITHUB_TOKEN secret.
-          token: ${{ secrets.WT_PERSONAL_TOKEN }}
-          # A comma-separated list of secret name(s) to apply the action to
-          secret-names: SPOTIFY_ACCESS_TOKEN
-          # A comma-separated list of secret value(s). Only required if `create` or `update` is selected
-          secret-values: ${{ env.spotifyWebResAccessToken }}
+          name: SPOTIFY_ACCESS_TOKEN
+          value: ${{ env.spotifyWebResAccessToken }}
+          pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
       
 #       # Echo spotifyRes 
 #       - name: Show Response

@@ -68,19 +68,20 @@ jobs:
 #           -H "X-GitHub-Api-Version: 2022-11-28" \
 #           https://api.github.com/repos/IzzatHaikal/WorkflowTest/actions/secrets/public-key
       
-      - name: Set Action Secret (SPOTIFY_REFRESH_TOKEN)
+      - name: Repo Secret Manager (SPOTIFY REFRESH TOKEN)
         # You may pin to the exact commit or the version.
-        # uses: hmanzur/actions-set-secret@377391a32b6d43a053d7847dde34ac6179ac9f55
-        uses: hmanzur/actions-set-secret@v2.0.0
+        # uses: philips-software/Repo-Secret-Manager@b45b8e7808845c053229f23cbf70c9bc9e7a2de4
+        uses: philips-software/Repo-Secret-Manager@v1.2
         with:
-          # Secret name
-          name: 'SPOTIFY_REFRESH_TOKEN'
-          # Secret value
-          value: ${{ env.spotifyWebResRefreshToken }}
-          # Repository name
-          # Repository access token
+          # The action to be performed. `create`, `update`, or `delete`
+          action: update
+          # A GitHub PAT with permission to manage secrets. Can NOT be the GITHUB_TOKEN secret.
           token: ${{ secrets.WT_PERSONAL_TOKEN }}
-          # For orgs only. Indicate access level all, private or selected
+          # A comma-separated list of secret name(s) to apply the action to
+          secret-names: SPOTIFY_REFRESH_TOKEN
+          # A comma-separated list of secret value(s). Only required if `create` or `update` is selected
+          secret-values: ${{ env.spotifyWebResRefreshToken }}
+          repo: WorkflowTest
       
 #       # Echo spotifyRes 
 #       - name: Show Response

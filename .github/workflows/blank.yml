@@ -48,23 +48,54 @@ jobs:
           -d "grant_type=authorization_code&code=${{ secrets.SPOTIFY_REFRESH_TOKEN }}&redirect_uri=http://127.0.0.1:5173/spotify-refresh-token&client_id=${{ secrets.SPOTIFY_CLIENT_ID }}&client_secret=${{ secrets.SPOTIFY_CLIENT_SECRET }}"
       
       # Echo spotifyRes 
-      - name: Show spotifyRes
+      - name: Show spotify access token
         run: |
           echo ${{ steps.accessTokenRes.outputs.access_token }}
-          
-      - name: Get key_id
-        id: spotifyRefreshTokenKeys
-        run: |
-          curl \
-          -H "Accept: application/vnd.github+json" \
-          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}"\
-          -H "X-GitHub-Api-Version: 2022-11-28" \
-          https://api.github.com/repos/IzzatHaikal/WorkflowTest/actions/secrets/public-key
       
       # Echo spotifyRes 
-      - name: Show Response
+      - name: Show spotify refresh token
         run: |
-          echo ${{ steps.spotifyRefreshTokenKeys.outputs.key_id }}
+          echo ${{ steps.accessTokenRes.outputs.refresh_token }}
+          
+#       - name: Get key_id
+#         id: spotifyRefreshTokenKeys
+#         run: |
+#           curl \
+#           -H "Accept: application/vnd.github+json" \
+#           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}"\
+#           -H "X-GitHub-Api-Version: 2022-11-28" \
+#           https://api.github.com/repos/IzzatHaikal/WorkflowTest/actions/secrets/public-key
+      
+      # Create Github Secret Action
+      - name: Update SPOTIFY_REFRESH_TOKEN
+        # You may pin to the exact commit or the version.
+        # uses: gliech/create-github-secret-action@ea87807ab20663b30a1a2d14d7f6dd9490b1e7a1
+        uses: gliech/create-github-secret-action@v1.4.10
+        with:
+          # Name of the secret that you want to create/update
+          name: SPOTIFY_REFRESH_TOKEN
+          # Value of the secret that you want to create/update
+          value: ${{ steps.accessTokenRes.outputs.request_token }}
+          # Personal access token with permission to modify repository or organization secrets
+          pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
+      
+      # Create Github Secret Action
+      - name: Update SPOTIFY_ACCESS_TOKEN
+        # You may pin to the exact commit or the version.
+        # uses: gliech/create-github-secret-action@ea87807ab20663b30a1a2d14d7f6dd9490b1e7a1
+        uses: gliech/create-github-secret-action@v1.4.10
+        with:
+          # Name of the secret that you want to create/update
+          name: SPOTIFY_ACCESS_TOKEN
+          # Value of the secret that you want to create/update
+          value: ${{ steps.accessTokenRes.outputs.access_token }}
+          # Personal access token with permission to modify repository or organization secrets
+          pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
+      
+#       # Echo spotifyRes 
+#       - name: Show Response
+#         run: |
+#           echo ${{ steps.spotifyRefreshTokenKeys.outputs.key_id }}
       
 #       - name: Update Secret
 #         run: |

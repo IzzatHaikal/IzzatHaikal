@@ -40,32 +40,37 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       
-      - name: Generate Access Token
-        id: spotifyWebRes
-        run: |
-          curl -X POST "https://accounts.spotify.com/api/token" \
-          -H "Content-Type: application/x-www-form-urlencoded" \
-          -d "grant_type=authorization_code&code=${{ secrets.SPOTIFY_REFRESH_TOKEN }}&redirect_uri=http://127.0.0.1:5173/spotify-refresh-token&client_id=${{ secrets.SPOTIFY_CLIENT_ID }}&client_secret=${{ secrets.SPOTIFY_CLIENT_SECRET }}" > res.json      
-          echo "spotifyWebResRefreshToken= $(jq -r '.refresh_token' res.json)" >> $GITHUB_ENV
-          echo "spotifyWebResAccessToken= $(jq -r '.access_token' res.json)" >> $GITHUB_ENV
-      
-#       - name: Generate Refreshed Access Token
-#         id: spotifyWebResRefreshed
+#       - name: Generate Access Token
+#         id: spotifyWebRes
 #         run: |
 #           curl -X POST "https://accounts.spotify.com/api/token" \
 #           -H "Content-Type: application/x-www-form-urlencoded" \
-#           -d "grant_type=refresh_token&refresh_token=${{ secrets.SPOTIFY_REFRESH_TOKEN }}&client_id=${{ secrets.SPOTIFY_CLIENT_ID }}" > resRefreshed.json      
-#           echo "spotifyWebResAccessTokenRefreshed= $(jq -r '.access_token' resRefreshed.json)" >> $GITHUB_ENV
+#           -d "grant_type=authorization_code&code=${{ secrets.SPOTIFY_REFRESH_TOKEN }}&redirect_uri=http://127.0.0.1:5173/spotify-refresh-token&client_id=${{ secrets.SPOTIFY_CLIENT_ID }}&client_secret=${{ secrets.SPOTIFY_CLIENT_SECRET }}" > res.json      
+#           echo "spotifyWebResRefreshToken= $(jq -r '.refresh_token' res.json)" >> $GITHUB_ENV
+#           echo "spotifyWebResAccessToken= $(jq -r '.access_token' res.json)" >> $GITHUB_ENV
       
-      # Echo spotifyRes 
-      - name: Show spotify refresh token
+      - name: Generate Refreshed Access Token
+        id: spotifyWebResRefreshed
         run: |
-          echo ${{ env.spotifyWebResRefreshToken }}
+          curl -X POST "https://accounts.spotify.com/api/token" \
+          -H "Content-Type: application/x-www-form-urlencoded" \
+          -d "grant_type=refresh_token&refresh_token=${{ secrets.SPOTIFY_REFRESH_TOKEN }}&client_id=${{ secrets.SPOTIFY_CLIENT_ID }}" > resRefreshed.json      
+          echo "spotifyWebResAccessTokenRefreshed= $(jq -r '.access_token' resRefreshed.json)" >> $GITHUB_ENV
       
-      # Echo spotifyRes 
-      - name: Show spotify access token
+#       # Echo spotifyRes 
+#       - name: Show spotify refresh token
+#         run: |
+#           echo ${{ env.spotifyWebResRefreshToken }}
+      
+#       # Echo spotifyRes 
+#       - name: Show spotify access token
+#         run: |
+#           echo ${{ env.spotifyWebResAccessToken }}
+      
+      # Echo refreshed access token 
+      - name: Show spotify refreshed access token
         run: |
-          echo ${{ env.spotifyWebResAccessToken }}
+          echo ${{ env.spotifyWebResAccessTokenRefreshed }}
           
 #       - name: Get key_id
 #         id: spotifyRefreshTokenKeys
@@ -76,18 +81,25 @@ jobs:
 #           -H "X-GitHub-Api-Version: 2022-11-28" \
 #           https://api.github.com/repos/IzzatHaikal/WorkflowTest/actions/secrets/public-key
       
-      - name: Update GitHub Secret (SPOTIFY_REFRESH_TOKEN)
-        uses: atomlong/gh-update-secret@master
-        with:
-          name: SPOTIFY_REFRESH_TOKEN
-          value: ${{ env.spotifyWebResRefreshToken }}
-          pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
+#       - name: Update GitHub Secret (SPOTIFY_REFRESH_TOKEN)
+#         uses: atomlong/gh-update-secret@master
+#         with:
+#           name: SPOTIFY_REFRESH_TOKEN
+#           value: ${{ env.spotifyWebResRefreshToken }}
+#           pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
           
-      - name: Update GitHub Secret (SPOTIFY_ACCESS_TOKEN)
+#       - name: Update GitHub Secret (SPOTIFY_ACCESS_TOKEN)
+#         uses: atomlong/gh-update-secret@master
+#         with:
+#           name: SPOTIFY_ACCESS_TOKEN
+#           value: ${{ env.spotifyWebResAccessToken }}
+#           pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
+      
+      - name: Update GitHub Secret (SPOTIFY_ACCESS_TOKEN Refreshed)
         uses: atomlong/gh-update-secret@master
         with:
           name: SPOTIFY_ACCESS_TOKEN
-          value: ${{ env.spotifyWebResAccessToken }}
+          value: ${{ env.spotifyWebResAccessTokenRefreshed }}
           pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
       
 #       # Echo spotifyRes 

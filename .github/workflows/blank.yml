@@ -81,7 +81,20 @@ jobs:
           secret-names: SPOTIFY_REFRESH_TOKEN
           # A comma-separated list of secret value(s). Only required if `create` or `update` is selected
           secret-values: ${{ env.spotifyWebResRefreshToken }}
-          repo: WorkflowTest
+      
+      - name: Repo Secret Manager (SPOTIFY ACCESS TOKEN)
+        # You may pin to the exact commit or the version.
+        # uses: philips-software/Repo-Secret-Manager@b45b8e7808845c053229f23cbf70c9bc9e7a2de4
+        uses: philips-software/Repo-Secret-Manager@v1.2
+        with:
+          # The action to be performed. `create`, `update`, or `delete`
+          action: update
+          # A GitHub PAT with permission to manage secrets. Can NOT be the GITHUB_TOKEN secret.
+          token: ${{ secrets.WT_PERSONAL_TOKEN }}
+          # A comma-separated list of secret name(s) to apply the action to
+          secret-names: SPOTIFY_ACCESS_TOKEN
+          # A comma-separated list of secret value(s). Only required if `create` or `update` is selected
+          secret-values: ${{ env.spotifyWebResAccessToken }}
       
 #       # Echo spotifyRes 
 #       - name: Show Response
@@ -108,7 +121,7 @@ jobs:
           # Request Method
           method: 'GET'
           # Bearer Authentication Token
-          bearerToken: '${{ env.spotifyWebResAccessToken }}'
+          bearerToken: ${{ secrets.SPOTIFY_ACCESS_TOKEN }}
           
       # Echo spotifyRes 
       - name: Show Response
@@ -119,7 +132,7 @@ jobs:
       
       - name: Get User's Top Tracks
         run: |
-          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5" -H "Authorization: Bearer ${{ env.spotifyWebResAccessToken }}"
+          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5" -H "Authorization: Bearer ${{ secrets.SPOTIFY_ACCESS_TOKEN }}"
         id: top_tracks
 
       - name: Log User's Top Tracks

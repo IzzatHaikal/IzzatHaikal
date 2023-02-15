@@ -119,7 +119,7 @@ jobs:
           # Request Method
           method: 'GET'
           # Bearer Authentication Token
-          bearerToken: "${{ env.spotifyWebResAccessToken }}"
+          bearerToken: ${{ env.spotifyWebResAccessToken }}
           
       # Echo spotifyRes 
       - name: Show Response

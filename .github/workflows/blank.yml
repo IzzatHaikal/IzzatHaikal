@@ -76,7 +76,7 @@ jobs:
           # Secret name
           name: 'SPOTIFY_REFRESH_TOKEN'
           # Secret value
-          value: '${{ env.spotifyWebResRefreshToken }}'
+          value: ${{ env.spotifyWebResRefreshToken }}
           # Repository name
           # Repository access token
           token: ${{ secrets.WT_PERSONAL_TOKEN }}

@@ -52,12 +52,12 @@ jobs:
       # Echo spotifyRes 
       - name: Show spotify refresh token
         run: |
-          echo '${{ env.spotifyWebResRefreshToken }}'
+          echo ${{ env.spotifyWebResRefreshToken }}
       
       # Echo spotifyRes 
       - name: Show spotify access token
         run: |
-          echo '${{ env.spotifyWebResAccessToken }}'
+          echo ${{ env.spotifyWebResAccessToken }}
           
 #       - name: Get key_id
 #         id: spotifyRefreshTokenKeys
@@ -68,19 +68,37 @@ jobs:
 #           -H "X-GitHub-Api-Version: 2022-11-28" \
 #           https://api.github.com/repos/IzzatHaikal/WorkflowTest/actions/secrets/public-key
       
-      - name: Update GitHub Secret (SPOTIFY_REFRESH_TOKEN)
-        uses: atomlong/gh-update-secret@master
-        with:
-          name: SPOTIFY_REFRESH_TOKEN
-          value: ${{ env.spotifyWebResRefreshToken }}
-          pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
+#       - name: Update GitHub Secret (SPOTIFY_REFRESH_TOKEN)
+#         uses: atomlong/gh-update-secret@master
+#         with:
+#           name: SPOTIFY_REFRESH_TOKEN
+#           value: ${{ env.spotifyWebResRefreshToken }}
+#           pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
           
-      - name: Update GitHub Secret (SPOTIFY_ACCESS_TOKEN)
-        uses: atomlong/gh-update-secret@master
-        with:
-          name: SPOTIFY_ACCESS_TOKEN
-          value: ${{ env.spotifyWebResAccessToken }}
-          pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
+#       - name: Update GitHub Secret (SPOTIFY_ACCESS_TOKEN)
+#         uses: atomlong/gh-update-secret@master
+#         with:
+#           name: SPOTIFY_ACCESS_TOKEN
+#           value: ${{ env.spotifyWebResAccessToken }}
+#           pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
+          
+      - name: Create or update Github Actions secret (SPOTIFY_REFRESH_TOKEN)
+        uses: ekowcharles/update-github-actions-secret@v1
+        env:
+          OWNER: IzzatHaikal
+          REPOSITORY: WorkflowTest
+          ACCESS_TOKEN: ${{ secrets.WT_PERSONAL_TOKEN }}
+          SECRET_NAME: SPOTIFY_REFRESH_TOKEN
+          SECRET_VALUE: ${{ env.spotifyWebResRefreshToken }}
+          
+      - name: Create or update Github Actions secret (SPOTIFY_ACCESS_TOKEN)
+        uses: ekowcharles/update-github-actions-secret@v1
+        env:
+          OWNER: IzzatHaikal
+          REPOSITORY: WorkflowTest
+          ACCESS_TOKEN: ${{ secrets.WT_PERSONAL_TOKEN }}
+          SECRET_NAME: SPOTIFY_REFRESH_TOKEN
+          SECRET_VALUE: ${{ env.spotifyWebResAccessToken }}
       
 #       # Echo spotifyRes 
 #       - name: Show Response

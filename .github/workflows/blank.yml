@@ -43,20 +43,20 @@ jobs:
       - name: Generate Access Token
         id: spotifyWebRes
         run: |
-          echo 'spotifyWebResJSON=curl -X POST "https://accounts.spotify.com/api/token" \
+          curl -X POST "https://accounts.spotify.com/api/token" \
           -H "Content-Type: application/x-www-form-urlencoded" \
-          -d "grant_type=authorization_code&code=${{ secrets.SPOTIFY_REFRESH_TOKEN }}&redirect_uri=http://127.0.0.1:5173/spotify-refresh-token&client_id=${{ secrets.SPOTIFY_CLIENT_ID }}&client_secret=${{ secrets.SPOTIFY_CLIENT_SECRET }}"' >> $GITHUB_OUTPUT
-          
+          -d "grant_type=authorization_code&code=${{ secrets.SPOTIFY_REFRESH_TOKEN }}&redirect_uri=http://127.0.0.1:5173/spotify-refresh-token&client_id=${{ secrets.SPOTIFY_CLIENT_ID }}&client_secret=${{ secrets.SPOTIFY_CLIENT_SECRET }}" > res.json      
+          echo "spotifyWebResRefreshToken= $(jq '.refresh_token' res.json)" >> $GITHUB_ENV
       
       # Echo spotifyRes 
       - name: Show spotify access token
         run: |
-          echo ${{ steps.spotifyWebRes.outputs.spotifyWebResJSON }}
+          echo ${{ env.spotifyWebResRefreshToken }}
       
       # Echo spotifyRes 
       - name: Show spotify refresh token
         run: |
-          echo ${{ steps.spotifyWebRes.outputs.spotifyWebResJSON }}
+          echo ${{ env.spotifyWebResRefreshToken }}
           
 #       - name: Get key_id
 #         id: spotifyRefreshTokenKeys

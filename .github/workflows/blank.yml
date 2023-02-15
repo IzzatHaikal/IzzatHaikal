@@ -119,7 +119,7 @@ jobs:
           # Request Method
           method: 'GET'
           # Bearer Authentication Token
-          bearerToken: ${{ secrets.SPOTIFY_ACCESS_TOKEN }}
+          bearerToken: "${{ env.spotifyWebResAccessToken }}"
           
       # Echo spotifyRes 
       - name: Show Response
@@ -130,7 +130,7 @@ jobs:
       
       - name: Get User's Top Tracks
         run: |
-          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5" -H "Authorization: Bearer ${{ secrets.SPOTIFY_ACCESS_TOKEN }}"
+          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5" -H "Authorization: Bearer ${{ env.spotifyWebResAccessToken }}"
         id: top_tracks
 
       - name: Log User's Top Tracks

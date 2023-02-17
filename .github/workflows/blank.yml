@@ -164,7 +164,7 @@ jobs:
       - name: Log User's Top Tracks
         run: |
           echo "Top Tracks:"
-          echo "${{ toJson(steps.top_tracks.outputs.items) }}"
+          echo "${{ toJson(steps.top_tracks.outputs.items[0]) }}"
       
       # Read README file
       - name: Read file
@@ -185,23 +185,16 @@ jobs:
       - name: Echo README file
         run: echo "${{ steps.readmeFile.outputs.content }}"
         
-      - name: Modify Markdown file
+      - name: Update Markdown File
         run: |
-          const fs = require('fs');
-          const path = require('path');
-          const markdownPath = path.join(process.env.GITHUB_WORKSPACE, 'README.md');
-          const markdown = fs.readFileSync(markdownPath, 'utf8');
-          const replacements = {
-            'shortImg_1': ${{ steps.top_tracks.outputs.items[0].album.images[2].url }},
-            'mediumImg_1': ${{ steps.top_tracks.outputs.items[0].album.images[2].url }},
-            'longImg_1': ${{ steps.top_tracks.outputs.items[0].album.images[2].url }}
-          };
-          let newMarkdown = markdown;
-          for (const id in replacements) {
-            const regex = new RegExp(`(<img[^>]*id=["']${id}["'][^>]*src=["'])([^"']*)(["'][^>]*>)`, 'gi');
-            newMarkdown = newMarkdown.replace(regex, `$1${replacements[id]}$3`);
-          }
-          fs.writeFileSync(markdownPath, newMarkdown);
+          #!/bin/bash
+          ID_LIST="shortImg_1:${{ steps.top_tracks.outputs.items[0].album.images[2].url }} mediumImg_1:${{ steps.top_tracks.outputs.items[0].album.images[2].url }} longImg_1:${{ steps.top_tracks.outputs.items[0].album.images[2].url }}"
+          for ITEM in $ID_LIST
+          do
+            ID=$(echo $ITEM | cut -d ':' -f1)
+            NEW_SRC=$(echo $ITEM | cut -d ':' -f2)
+            sed -i "s/<img\s*id=\"$ID\"/<img id=\"$ID\" src=\"$NEW_SRC\"/g" README.md
+          done
         
       - name: GIT commit and push all changed files
         env: 

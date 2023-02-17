@@ -188,40 +188,20 @@ jobs:
       - name: Modify Markdown file
         run: |
           const fs = require('fs');
-          const filePath = 'README.md';
-
-          fs.readFile(filePath, 'utf8', (err, data) => {
-            if (err) {
-              console.error(err);
-              return;
-            }
-
-            // define the list of img tags with id and new src attributes
-            const imgTags = [
-              { id: 'shortImg_1', src: ${{ steps.top_tracks.outputs.items[0].album.images[2].url }} },
-              { id: 'mediumImg_1', src: ${{ steps.top_tracks.outputs.items[0].album.images[2].url }} },
-              { id: 'longImg_1', src: ${{ steps.top_tracks.outputs.items[0].album.images[2].url }} }
-            ];
-
-            // iterate over each img tag and replace the src attribute
-            let updatedData = data;
-            imgTags.forEach(({ id, src }) => {
-              const imgRegex = new RegExp(`<img[^>]*id="${id}"[^>]*>`, 'i');
-              const imgTag = updatedData.match(imgRegex)[0];
-              const updatedImgTag = imgTag.replace(/src="[^"]*"/i, `src="${src}"`);
-              updatedData = updatedData.replace(imgRegex, updatedImgTag);
-            });
-
-            // write the updated contents back to the file
-              fs.writeFile(filePath, updatedData, 'utf8', (err) => {
-                if (err) {
-                  console.error(err);
-                  return;
-                }
-
-                console.log('File updated successfully');
-              });
-            });
+          const path = require('path');
+          const markdownPath = path.join(process.env.GITHUB_WORKSPACE, 'example.md');
+          const markdown = fs.readFileSync(markdownPath, 'utf8');
+          const replacements = {
+            'shortImg_1': ${{ steps.top_tracks.outputs.items[0].album.images[2].url }},
+            'mediumImg_1': ${{ steps.top_tracks.outputs.items[0].album.images[2].url }},
+            'longImg_1': ${{ steps.top_tracks.outputs.items[0].album.images[2].url }}
+          };
+          let newMarkdown = markdown;
+          for (const id in replacements) {
+            const regex = new RegExp(`(<img[^>]*id=["']${id}["'][^>]*src=["'])([^"']*)(["'][^>]*>)`, 'gi');
+            newMarkdown = newMarkdown.replace(regex, `$1${replacements[id]}$3`);
+          }
+          fs.writeFileSync(markdownPath, newMarkdown);
         
       - name: GIT commit and push all changed files
         env: 

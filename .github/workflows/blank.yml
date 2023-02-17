@@ -180,43 +180,43 @@ jobs:
       - name: Echo README file
         run: echo "${{ steps.readmeFile.outputs.content }}"
         
-      - name: Setup Python environment
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install markdown beautifulsoup4 PyGithub
-
       - name: Modify Markdown file
         run: |
-          import markdown
-          from bs4 import BeautifulSoup
-          from github import Github, InputFileContent
+          const fs = require('fs');
+          const filePath = 'README.md';
 
-          # Read Markdown file
-          with open('README.md', 'r') as file:
-              md = file.read()
+          fs.readFile(filePath, 'utf8', (err, data) => {
+            if (err) {
+              console.error(err);
+              return;
+            }
 
-          # Parse Markdown to HTML
-          html = markdown.markdown(md)
+            // define the list of img tags with id and new src attributes
+            const imgTags = [
+              { id: 'shortImg_1', src: ${{ steps.top_tracks.outputs.items[0].album.images[2].url }} },
+              { id: 'mediumImg_1', src: ${{ steps.top_tracks.outputs.items[0].album.images[2].url }} },
+              { id: 'longImg_1', src: ${{ steps.top_tracks.outputs.items[0].album.images[2].url }} }
+            ];
 
-          # Extract <p> tag with desired id
-          soup = BeautifulSoup(html, 'html.parser')
-          img_tag = soup.find('img', id='shortImg_1')
+            // iterate over each img tag and replace the src attribute
+            let updatedData = data;
+            imgTags.forEach(({ id, src }) => {
+              const imgRegex = new RegExp(`<img[^>]*id="${id}"[^>]*>`, 'i');
+              const imgTag = updatedData.match(imgRegex)[0];
+              const updatedImgTag = imgTag.replace(/src="[^"]*"/i, `src="${src}"`);
+              updatedData = updatedData.replace(imgRegex, updatedImgTag);
+            });
 
-          # Modify content of <p> tag
-          img_tag.src = ${{ steps.top_tracks.outputs.items[0].album.images[2].url }}
+            // write the updated contents back to the file
+            fs.writeFile(filePath, updatedData, 'utf8', (err) => {
+              if (err) {
+                console.error(err);
+                return;
+              }
 
-          # Convert modified HTML back to Markdown
-          new_html = str(soup)
-          new_md = markdown.markdown(new_html, output_format='md')
-
-          # Write new Markdown to file
-          with open('README.md', 'w') as file:
-              file.write(new_md)
+              console.log('File updated successfully');
+            });
+          });
         
       - name: GIT commit and push all changed files
         env: 

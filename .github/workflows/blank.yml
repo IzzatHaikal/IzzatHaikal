@@ -175,7 +175,12 @@ jobs:
         with:
           # File path
           path: README.md
-        
+      
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      
       # Echo README file
       - name: Echo README file
         run: echo "${{ steps.readmeFile.outputs.content }}"

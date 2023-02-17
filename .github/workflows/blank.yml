@@ -68,7 +68,7 @@ jobs:
           echo "spotifyWebResAccessTokenRefreshed= $(jq -r '.access_token' resRefreshed.json)"
           
           echo "::add-mask::$spotifyWebResAccessTokenRefreshed"
-          echo spotifyWebResAccessTokenRefreshed=$spotifyWebResAccessTokenRefreshed >> $GITHUB_ENV
+          echo "spotifyWebResAccessTokenRefreshed=$spotifyWebResAccessTokenRefreshed" >> $GITHUB_ENV
           
           
 #       # Echo spotifyRes 

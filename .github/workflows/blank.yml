@@ -189,7 +189,7 @@ jobs:
         run: |
           const fs = require('fs');
           const path = require('path');
-          const markdownPath = path.join(process.env.GITHUB_WORKSPACE, 'example.md');
+          const markdownPath = path.join(process.env.GITHUB_WORKSPACE, 'README.md');
           const markdown = fs.readFileSync(markdownPath, 'utf8');
           const replacements = {
             'shortImg_1': ${{ steps.top_tracks.outputs.items[0].album.images[2].url }},

@@ -206,14 +206,14 @@ jobs:
           echo "shortImg_5=$shortImg_5" >> $GITHUB_ENV
         id: top_tracks
 
-      - name: Log User's Top Tracks
-        run: |
-          echo "Top Tracks:"
-          echo ${{ env.shortTrack_1 }}
-          echo ${{ env.shortTrack_2 }}
-          echo ${{ env.shortTrack_3 }}
-          echo ${{ env.shortTrack_4 }}
-          echo ${{ env.shortTrack_5 }}
+#       - name: Log User's Top Tracks
+#         run: |
+#           echo "Top Tracks:"
+#           echo ${{ env.shortTrack_1 }}
+#           echo ${{ env.shortTrack_2 }}
+#           echo ${{ env.shortTrack_3 }}
+#           echo ${{ env.shortTrack_4 }}
+#           echo ${{ env.shortTrack_5 }}
       
       # Read README file
       - name: Read file

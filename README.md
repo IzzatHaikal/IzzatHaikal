@@ -1,5 +1,8 @@
 # WorkflowTest
 
+<details></summary>Open by default</summary>
+
+
 <table>
 <tr><th style="text-align:center">~ 4 Weeks</th><th style="text-align:center">~ 6 Months</th><th style="text-align:center">~ Several Years</th></tr>
 <tr><td>
@@ -32,3 +35,5 @@
 | 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851b4fd0ba98f675df97c5748b1" width="64" height="64"><br/><b id="longTitle_4">Dingga</b><br/><i id="longArtist_4">MAMAMOO</i></p> | 
 | 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851a0168346b9143cdacfd1120d" width="64" height="64"><br/><b id="longTitle_5">ZUHUD</b><br/><i id="longArtist_5">Kmy Kmo</i></p> |
 </td></tr> </table>
+
+</details>

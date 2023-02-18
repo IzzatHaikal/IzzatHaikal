@@ -244,10 +244,10 @@ jobs:
           do
             IMG_ID=$(echo $ITEM | cut -d '~' -f1)
             NEW_IMG=$(echo $ITEM | cut -d '~' -f2 | sed 's/|/\\|/g')
-            TITLE_ID=$(echo $ITEM | cut -d '~' -f1)
-            NEW_TRACK=$(echo $ITEM | cut -d '~' -f2 | sed 's/|/\\|/g')
-            ARTIST_ID=$(echo $ITEM | cut -d '~' -f1)
-            NEW_ARTIST=$(echo $ITEM | cut -d '~' -f2 | sed 's/|/\\|/g')
+            TITLE_ID=$(echo $ITEM | cut -d '~' -f3)
+            NEW_TRACK=$(echo $ITEM | cut -d '~' -f4 | sed 's/|/\\|/g')
+            ARTIST_ID=$(echo $ITEM | cut -d '~' -f5)
+            NEW_ARTIST=$(echo $ITEM | cut -d '~' -f6 | sed 's/|/\\|/g')
             echo $IMG_ID
             echo $NEW_IMG
             echo $TITLE_ID

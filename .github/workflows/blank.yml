@@ -173,8 +173,9 @@ jobs:
 
       - name: Log User's Top Tracks
         run: |
+          NAME=$(cat topTracks.json | jq -r '.items[0].name')
           echo "Top Tracks:"
-          echo "${{ toJson(topTracks.json) }}"
+          echo $NAME
       
       # Read README file
       - name: Read file

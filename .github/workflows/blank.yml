@@ -272,7 +272,7 @@ jobs:
         run: |
           #!/bin/bash
           echo ${{ env.shortArtist_1 }}
-          ID_LIST="shortImg_1~${{ env.shortImg_1 }}~shortTitle_1~'${{ env.shortTrack_1 }}'~shortArtist_1~'${{ env.shortArtist_1 }}'~"
+          ID_LIST="shortImg_1~${{ env.shortImg_1 }}~shortTitle_1~${{ env.shortTrack_1 }}~shortArtist_1~${{ env.shortArtist_1 }}~"
           echo $ID_LIST
           for ITEM in $ID_LIST
           do

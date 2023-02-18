@@ -236,28 +236,62 @@ jobs:
         
       - name: Update Markdown File
         run: |
-          #!/bin/bash
-          echo ${{ env.shortArtist_1 }}
-          ID_LIST="shortImg_1~${{ env.shortImg_1 }}~shortTitle_1~${{ env.shortTrack_1 }}~shortArtist_1~${{ env.shortArtist_1 }}~"
-          echo $ID_LIST
-          for ITEM in $ID_LIST
-          do
-            IMG_ID=$(echo $ITEM | cut -d '~' -f1)
-            NEW_IMG=$(echo $ITEM | cut -d '~' -f2)
-            TITLE_ID=$(echo $ITEM | cut -d '~' -f3)
-            NEW_TRACK=$(echo $ITEM | cut -d '~' -f4)
-            ARTIST_ID=$(echo $ITEM | cut -d '~' -f5)
-            NEW_ARTIST=$(echo $ITEM | cut -d '~' -f6)
-            echo $IMG_ID
-            echo $NEW_IMG
-            echo $TITLE_ID
-            echo $NEW_TRACK
-            echo $ARTIST_ID
-            echo $NEW_ARTIST
-            sed -i "s|<img\s*id=\"$IMG_ID\"\s*src=\"[^\"]*\"|<img id=\"$IMG_ID\" src=\"$NEW_IMG\"|g" README.md
-            sed -i "s|<b\s*id=\"$TITLE_ID\">\s*[^<]*</b>|<b id=\"$TITLE_ID\">$NEW_TRACK</b>|g" README.md
-            sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*[^<]*</i>|<i id=\"$ARTIST_ID\">$NEW_ARTIST</i>|g" README.md
-          done
+          const fs = require('fs');
+
+          const mdFilePath = 'README.md';
+          const shortImg_1 = 'shortImg_1';
+          const newShortImg_1 = ${{ env.shortImg_1 }};
+          const shortTitle_1 = 'shortTitle_1';
+          const newShortTitle_1 = ${{ env.shortTrack_1 }};
+          const shortArtist_1 = 'shortArtist_1';
+          const newShortArtist_1 = ${{ env.shortArtist_1 }};
+
+          fs.readFile(mdFilePath, 'utf-8', (err, data) => {
+            if (err) throw err;
+
+            // Replace src of img with id 'img1'
+            data = data.replace(/<img[^>]*id="shortImg_1"[^>]*>/, (imgTag) => {
+              return imgTag.replace(/src="[^"]*"/, `src="${newShortImg_1}"`);
+            });
+            
+            // Replace content of <b> tag with id 'bold1'
+            data = data.replace(/<b[^>]*id="shortTitle_1"[^>]*>[^<]*<\/b>/, `<b id="shortTitle_1">${newShortTitle_1}</b>`);
+            
+            // Replace content of <i> tag with id 'bold1'
+            data = data.replace(/<i[^>]*id="shortArtist_1"[^>]*>[^<]*<\/b>/, `<b id="shortArtist_1">${newShortArtist_1}</b>`);
+
+            // Write the updated content back to the file
+            fs.writeFile(mdFilePath, data, 'utf-8', (err) => {
+              if (err) throw err;
+              console.log('Markdown file updated successfully');
+            });
+          });
+
+        
+#       - name: Update Markdown File
+#         run: |
+#           #!/bin/bash
+#           echo ${{ env.shortArtist_1 }}
+#           ID_LIST="shortImg_1~${{ env.shortImg_1 }}~shortTitle_1~${{ env.shortTrack_1 }}~shortArtist_1~${{ env.shortArtist_1 }}~"
+#           echo $ID_LIST
+#           for ITEM in $ID_LIST
+#           do
+#             IMG_ID=$(echo $ITEM | cut -d '~' -f1)
+#             NEW_IMG=$(echo $ITEM | cut -d '~' -f2)
+#             TITLE_ID=$(echo $ITEM | cut -d '~' -f3)
+#             NEW_TRACK=$(echo $ITEM | cut -d '~' -f4)
+#             ARTIST_ID=$(echo $ITEM | cut -d '~' -f5)
+#             NEW_ARTIST=$(echo $ITEM | cut -d '~' -f6)
+#             echo $IMG_ID
+#             echo $NEW_IMG
+#             echo $TITLE_ID
+#             echo $NEW_TRACK
+#             echo $ARTIST_ID
+#             echo $NEW_ARTIST
+#             sed -i "s|<img\s*id=\"$IMG_ID\"\s*src=\"[^\"]*\"|<img id=\"$IMG_ID\" src=\"$NEW_IMG\"|g" README.md
+#             sed -i "s|<b\s*id=\"$TITLE_ID\">\s*[^<]*</b>|<b id=\"$TITLE_ID\">$NEW_TRACK</b>|g" README.md
+#             sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*[^<]*</i>|<i id=\"$ARTIST_ID\">$NEW_ARTIST</i>|g" README.md
+#           done
         
 #       - name: Update Markdown File
 #         run: |

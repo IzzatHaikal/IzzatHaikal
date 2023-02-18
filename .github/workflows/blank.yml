@@ -163,7 +163,7 @@ jobs:
         run: |
           response=$(curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}")
           topTracksItems=$(echo $response | jq -r '.items')
-          echo "topTracksRes=$response" >> $GITHUB_ENV
+          echo "topTracksRes=$topTracksItems" >> $GITHUB_ENV
         id: top_tracks
 
       - name: Log User's Top Tracks

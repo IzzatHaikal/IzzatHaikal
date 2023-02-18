@@ -172,9 +172,9 @@ jobs:
           shortTrack_1=$(cat topTracks.json | jq -r '.items[0].name')
           shortArtist_1=$(cat topTracks.json | jq -r '.items[0].album.artists[0].name')
           shortImg_1=$(cat topTracks.json | jq -r '.items[0].album.images[2].url')
-          echo "shortTrack_1=$shortTrack_1" >> $GITHUB_ENV
-          echo "shortArtist_1=$shortArtist_1" >> $GITHUB_ENV
-          echo "shortImg_1=$shortImg_1" >> $GITHUB_ENV
+          echo "shortTrack_1='$shortTrack_1'" >> $GITHUB_ENV
+          echo "shortArtist_1='$shortArtist_1'" >> $GITHUB_ENV
+          echo "shortImg_1='$shortImg_1'" >> $GITHUB_ENV
           
           
           shortTrack_2=$(cat topTracks.json | jq -r '.items[1].name')
@@ -272,7 +272,7 @@ jobs:
         run: |
           #!/bin/bash
           echo ${{ env.shortArtist_1 }}
-          ID_LIST="shortImg_1~${{ env.shortImg_1 }}~shortTitle_1~'${{ env.shortTrack_1 }}'~shortArtist_1~'${{ env.shortArtist_1 }}'~"
+          ID_LIST="shortImg_1~${{ env.shortImg_1 }}~shortTitle_1~${{ env.shortTrack_1 }}~shortArtist_1~${{ env.shortArtist_1 }}~"
           echo $ID_LIST
           for ITEM in $ID_LIST
           do

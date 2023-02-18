@@ -237,7 +237,7 @@ jobs:
       - name: Update Markdown File
         run: |
           #!/bin/bash
-          ID_LIST="shortImg_1~ ${{ env.shortImg_1 }}~ mediumImg_1~ ${{ env.shortImg_1 }}~ longImg_1: ${{ env.shortImg_1 }}~"
+          ID_LIST="shortImg_1~${{ env.shortImg_1 }}~ mediumImg_1~${{ env.shortImg_1 }}~ longImg_1:${{ env.shortImg_1 }}~"
           echo $ID_LIST
           for ITEM in $ID_LIST
           do

@@ -178,7 +178,7 @@ jobs:
           
           
           shortTrack_2=$(cat topTracks.json | jq -r '.items[1].name')
-          shortArtist_2=$(cat topTracks.json | jq -r '.items[1].album.artists0].name')
+          shortArtist_2=$(cat topTracks.json | jq -r '.items[1].album.artists[0].name')
           shortImg_2=$(cat topTracks.json | jq -r '.items[1].album.images[2].url')
           echo "shortTrack_2=$shortTrack_2" >> $GITHUB_ENV
           echo "shortArtist_2=$shortArtist_2" >> $GITHUB_ENV

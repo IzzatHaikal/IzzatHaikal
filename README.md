@@ -6,18 +6,18 @@
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="shortImg_1" src="" src="https://i.scdn.co/image/ab67616d00004851580ac3ad7dfc81e509171120" width="64" height="64"><br/><b id="shortTitle_1">Hard to Love</b><br/><i id="shortArtist_1">Blackpink</i></p> |
+| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851580ac3ad7dfc81e509171120" width="64" height="64"><br/><b id="shortTitle_1">Hard to Love</b><br/><i id="shortArtist_1">Blackpink</i></p> |
 
 </td><td>
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="mediumImg_1" src="" src="https://i.scdn.co/image/ab67616d00004851580ac3ad7dfc81e509171120" width="64" height="64"><br/><b>Hard to Love</b><br/><i>Blackpink</i></p> |
+| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851580ac3ad7dfc81e509171120" width="64" height="64"><br/><b>Hard to Love</b><br/><i>Blackpink</i></p> |
 
 </td><td>
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="longImg_1" src="" src="https://i.scdn.co/image/ab67616d00004851580ac3ad7dfc81e509171120" width="64" height="64"><br/><b>Hard to Love</b><br/><i>Blackpink</i></p> |
+| 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851580ac3ad7dfc81e509171120" width="64" height="64"><br/><b>Hard to Love</b><br/><i>Blackpink</i></p> |
 
 </td></tr> </table>

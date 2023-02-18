@@ -247,7 +247,7 @@ jobs:
           const newShortArtist_1 = process.env.shortArtist_1;
 
           fs.readFile(mdFilePath, 'utf-8', (err, data) => {
-            if (err) throw err;
+            if (err) console.log(error);
 
             // Replace src of img with id 'img1'
             data = data.replace(/<img[^>]*id="shortImg_1"[^>]*>/, (imgTag) => {
@@ -262,7 +262,7 @@ jobs:
 
             // Write the updated content back to the file
             fs.writeFile(mdFilePath, data, 'utf-8', (err) => {
-              if (err) throw err;
+              if (err) console.log(error);
               console.log('Markdown file updated successfully');
             });
           });

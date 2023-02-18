@@ -6,7 +6,7 @@
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="shortTitle_1">Senorita</b><br/><i id="shortArtist_1">null</i></p> |
+| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d0000485145f6b424c7891849cf19057c" width="64" height="64"><br/><b id="shortTitle_1">GOOD</b><br/><i id="shortArtist_1">null</i></p> |
 
 </td><td>
 

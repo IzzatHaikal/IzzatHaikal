@@ -272,26 +272,25 @@ jobs:
         run: |
           #!/bin/bash
 
-          ID_LIST="shortImg_1~${{ env.shortImg_1 }}~shortTitle_1~'${{ env.shortTrack_1 }}'~shortArtist_1~'${{ env.shortArtist_1 }}'~shortImg_2~${{ env.shortImg_2 }}~shortTitle_2~'${{ env.shortTrack_2 }}'~shortArtist_2~'${{ env.shortArtist_2 }}'~shortImg_3~${{ env.shortImg_3 }}~shortTitle_3~'${{ env.shortTrack_3 }}'~shortArtist_3~'${{ env.shortArtist_3 }}'~shortImg_4~${{ env.shortImg_4 }}~shortTitle_4~'${{ env.shortTrack_4 }}'~shortArtist_4~'${{ env.shortArtist_4 }}'~shortImg_5~${{ env.shortImg_5 }}~shortTitle_5~'${{ env.shortTrack_5 }}'~shortArtist_5~'${{ env.shortArtist_5 }}'"
+          ID_LIST="shortImg_1~${{ env.shortImg_1 }}~shortTitle_1~\"${{ env.shortTrack_1 }}\"~shortArtist_1~\"${{ env.shortArtist_1 }}\"~
+          shortImg_2~${{ env.shortImg_2 }}~shortTitle_2~\"${{ env.shortTrack_2 }}\"~shortArtist_2~\"${{ env.shortArtist_2 }}\"~
+          shortImg_3~${{ env.shortImg_3 }}~shortTitle_3~\"${{ env.shortTrack_3 }}\"~shortArtist_3~\"${{ env.shortArtist_3 }}\"~
+          shortImg_4~${{ env.shortImg_4 }}~shortTitle_4~\"${{ env.shortTrack_4 }}\"~shortArtist_4~\"${{ env.shortArtist_4 }}\"~
+          shortImg_5~${{ env.shortImg_5 }}~shortTitle_5~\"${{ env.shortTrack_5 }}\"~shortArtist_5~\"${{ env.shortArtist_5 }}\"~"
 
-          echo $ID_LIST
-
-          while read -r ITEM; do
+          echo "$ID_LIST" | while IFS= read -r ITEM; do
             IMG_ID=$(echo "$ITEM" | cut -d '~' -f1)
             NEW_IMG=$(echo "$ITEM" | cut -d '~' -f2)
             TITLE_ID=$(echo "$ITEM" | cut -d '~' -f3)
             NEW_TRACK=$(echo "$ITEM" | cut -d '~' -f4 | sed "s/'//g" | sed 's/"//g')
             ARTIST_ID=$(echo "$ITEM" | cut -d '~' -f5)
             NEW_ARTIST=$(echo "$ITEM" | cut -d '~' -f6 | sed "s/'//g" | sed 's/"//g')
-
             echo "$NEW_TRACK"
             echo "$NEW_ARTIST"
-
             sed -i "s|<img\s*id=\"$IMG_ID\"\s*src=\"[^\"]*\"|<img id=\"$IMG_ID\" src=\"$NEW_IMG\"|g" README.md
             sed -i "s|<b\s*id=\"$TITLE_ID\">\s*[^<]*</b>|<b id=\"$TITLE_ID\">$NEW_TRACK</b>|g" README.md
             sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*[^<]*</i>|<i id=\"$ARTIST_ID\">$NEW_ARTIST</i>|g" README.md
-
-          done <<< "$(echo "$ID_LIST" | tr ' ' '\n')"
+          done
 
         
 #       - name: Update Markdown File

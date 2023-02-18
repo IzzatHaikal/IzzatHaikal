@@ -192,7 +192,7 @@ jobs:
         run: |
           #!/bin/bash
           ID_LIST="shortImg_1:${{ steps.top_tracks.outputs.items[0].album.images[2].url }} mediumImg_1:${{ steps.top_tracks.outputs.items[0].album.images[2].url }} longImg_1:${{ steps.top_tracks.outputs.items[0].album.images[2].url }}"
-          echo ID_LIST
+          echo $ID_LIST
           for ITEM in $ID_LIST
           do
             ID=$(echo $ITEM | cut -d ':' -f1)

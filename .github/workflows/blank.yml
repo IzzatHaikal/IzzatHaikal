@@ -205,6 +205,86 @@ jobs:
           echo "shortArtist_5='$shortArtist_5'" >> $GITHUB_ENV
           echo "shortImg_5=$shortImg_5" >> $GITHUB_ENV
         id: top_tracks
+        
+      - name: Get Users Top Tracks (Medium)
+        run: |
+          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=medium_term" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}" >> topTracks.json
+          mediumTrack_1=$(cat topTracks.json | jq -r '.items[0].name')
+          mediumArtist_1=$(cat topTracks.json | jq -r '.items[0].album.artists[0].name')
+          mediumImg_1=$(cat topTracks.json | jq -r '.items[0].album.images[2].url')
+          echo "mediumTrack_1='$mediumTrack_1'" >> $GITHUB_ENV
+          echo "mediumArtist_1='$mediumArtist_1'" >> $GITHUB_ENV
+          echo "mediumImg_1=$mediumImg_1" >> $GITHUB_ENV
+          
+          
+          mediumTrack_2=$(cat topTracks.json | jq -r '.items[1].name')
+          mediumArtist_2=$(cat topTracks.json | jq -r '.items[1].album.artists[0].name')
+          mediumImg_2=$(cat topTracks.json | jq -r '.items[1].album.images[2].url')
+          echo "mediumTrack_2='$mediumTrack_2'" >> $GITHUB_ENV
+          echo "mediumArtist_2='$mediumArtist_2'" >> $GITHUB_ENV
+          echo "mediumImg_2=$mediumImg_2" >> $GITHUB_ENV
+          
+          mediumTrack_3=$(cat topTracks.json | jq -r '.items[2].name')
+          mediumArtist_3=$(cat topTracks.json | jq -r '.items[2].album.artists[0].name')
+          mediumImg_3=$(cat topTracks.json | jq -r '.items[2].album.images[2].url')
+          echo "mediumTrack_3='$mediumTrack_3'" >> $GITHUB_ENV
+          echo "mediumArtist_3='$mediumArtist_3'" >> $GITHUB_ENV
+          echo "mediumImg_3=$mediumImg_3" >> $GITHUB_ENV
+          
+          mediumTrack_4=$(cat topTracks.json | jq -r '.items[3].name')
+          mediumArtist_4=$(cat topTracks.json | jq -r '.items[3].album.artists[0].name')
+          mediumImg_4=$(cat topTracks.json | jq -r '.items[3].album.images[2].url')
+          echo "mediumTrack_4='$mediumTrack_4'" >> $GITHUB_ENV
+          echo "mediumArtist_4='$mediumArtist_4'" >> $GITHUB_ENV
+          echo "mediumImg_4=$mediumImg_4" >> $GITHUB_ENV
+          
+          mediumTrack_5=$(cat topTracks.json | jq -r '.items[4].name')
+          mediumArtist_5=$(cat topTracks.json | jq -r '.items[4].album.artists[0].name')
+          mediumImg_5=$(cat topTracks.json | jq -r '.items[4].album.images[2].url')
+          echo "mediumTrack_5='$mediumTrack_5'" >> $GITHUB_ENV
+          echo "mediumArtist_5='$mediumArtist_5'" >> $GITHUB_ENV
+          echo "mediumImg_5=$mediumImg_5" >> $GITHUB_ENV
+        id: top_tracks_medium
+        
+      - name: Get Users Top Tracks (Long)
+        run: |
+          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=long_term" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}" >> topTracks.json
+          longTrack_1=$(cat topTracks.json | jq -r '.items[0].name')
+          longArtist_1=$(cat topTracks.json | jq -r '.items[0].album.artists[0].name')
+          longImg_1=$(cat topTracks.json | jq -r '.items[0].album.images[2].url')
+          echo "longTrack_1='$longTrack_1'" >> $GITHUB_ENV
+          echo "longArtist_1='$longArtist_1'" >> $GITHUB_ENV
+          echo "longImg_1=$longImg_1" >> $GITHUB_ENV
+          
+          
+          longTrack_2=$(cat topTracks.json | jq -r '.items[1].name')
+          longArtist_2=$(cat topTracks.json | jq -r '.items[1].album.artists[0].name')
+          longImg_2=$(cat topTracks.json | jq -r '.items[1].album.images[2].url')
+          echo "longTrack_2='$longTrack_2'" >> $GITHUB_ENV
+          echo "longArtist_2='$longArtist_2'" >> $GITHUB_ENV
+          echo "longImg_2=$longImg_2" >> $GITHUB_ENV
+          
+          longTrack_3=$(cat topTracks.json | jq -r '.items[2].name')
+          longArtist_3=$(cat topTracks.json | jq -r '.items[2].album.artists[0].name')
+          longImg_3=$(cat topTracks.json | jq -r '.items[2].album.images[2].url')
+          echo "longTrack_3='$longTrack_3'" >> $GITHUB_ENV
+          echo "longArtist_3='$longArtist_3'" >> $GITHUB_ENV
+          echo "longImg_3=$longImg_3" >> $GITHUB_ENV
+          
+          longTrack_4=$(cat topTracks.json | jq -r '.items[3].name')
+          longArtist_4=$(cat topTracks.json | jq -r '.items[3].album.artists[0].name')
+          longImg_4=$(cat topTracks.json | jq -r '.items[3].album.images[2].url')
+          echo "longTrack_4='$longTrack_4'" >> $GITHUB_ENV
+          echo "longArtist_4='$longArtist_4'" >> $GITHUB_ENV
+          echo "longImg_4=$longImg_4" >> $GITHUB_ENV
+          
+          longTrack_5=$(cat topTracks.json | jq -r '.items[4].name')
+          longArtist_5=$(cat topTracks.json | jq -r '.items[4].album.artists[0].name')
+          longImg_5=$(cat topTracks.json | jq -r '.items[4].album.images[2].url')
+          echo "longTrack_5='$longTrack_5'" >> $GITHUB_ENV
+          echo "longArtist_5='$longArtist_5'" >> $GITHUB_ENV
+          echo "longImg_5=$longImg_5" >> $GITHUB_ENV
+        id: top_tracks_long
 
 #       - name: Log User's Top Tracks
 #         run: |
@@ -268,7 +348,7 @@ jobs:
 #           });
 
         
-      - name: Update Markdown File
+      - name: Update Markdown File (Short)
         run: |
           #!/bin/bash
 
@@ -277,6 +357,54 @@ jobs:
           shortImg_3~${{ env.shortImg_3 }}~shortTitle_3~\"${{ env.shortTrack_3 }}\"~shortArtist_3~\"${{ env.shortArtist_3 }}\"~
           shortImg_4~${{ env.shortImg_4 }}~shortTitle_4~\"${{ env.shortTrack_4 }}\"~shortArtist_4~\"${{ env.shortArtist_4 }}\"~
           shortImg_5~${{ env.shortImg_5 }}~shortTitle_5~\"${{ env.shortTrack_5 }}\"~shortArtist_5~\"${{ env.shortArtist_5 }}\"~"
+
+          echo "$ID_LIST" | while IFS= read -r ITEM; do
+            IMG_ID=$(echo "$ITEM" | cut -d '~' -f1)
+            NEW_IMG=$(echo "$ITEM" | cut -d '~' -f2)
+            TITLE_ID=$(echo "$ITEM" | cut -d '~' -f3)
+            NEW_TRACK=$(echo "$ITEM" | cut -d '~' -f4 | sed "s/'//g" | sed 's/"//g')
+            ARTIST_ID=$(echo "$ITEM" | cut -d '~' -f5)
+            NEW_ARTIST=$(echo "$ITEM" | cut -d '~' -f6 | sed "s/'//g" | sed 's/"//g')
+            echo "$NEW_TRACK"
+            echo "$NEW_ARTIST"
+            sed -i "s|<img\s*id=\"$IMG_ID\"\s*src=\"[^\"]*\"|<img id=\"$IMG_ID\" src=\"$NEW_IMG\"|g" README.md
+            sed -i "s|<b\s*id=\"$TITLE_ID\">\s*[^<]*</b>|<b id=\"$TITLE_ID\">$NEW_TRACK</b>|g" README.md
+            sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*[^<]*</i>|<i id=\"$ARTIST_ID\">$NEW_ARTIST</i>|g" README.md
+          done
+          
+      - name: Update Markdown File (Medium)
+        run: |
+          #!/bin/bash
+
+          ID_LIST="mediumImg_1~${{ env.mediumImg_1 }}~mediumTitle_1~\"${{ env.mediumTrack_1 }}\"~mediumArtist_1~\"${{ env.mediumArtist_1 }}\"~
+          mediumImg_2~${{ env.mediumImg_2 }}~mediumTitle_2~\"${{ env.mediumTrack_2 }}\"~mediumArtist_2~\"${{ env.mediumArtist_2 }}\"~
+          mediumImg_3~${{ env.mediumImg_3 }}~mediumTitle_3~\"${{ env.mediumTrack_3 }}\"~mediumArtist_3~\"${{ env.mediumArtist_3 }}\"~
+          mediumImg_4~${{ env.mediumImg_4 }}~mediumTitle_4~\"${{ env.mediumTrack_4 }}\"~mediumArtist_4~\"${{ env.mediumArtist_4 }}\"~
+          mediumImg_5~${{ env.mediumImg_5 }}~mediumTitle_5~\"${{ env.mediumTrack_5 }}\"~mediumArtist_5~\"${{ env.mediumArtist_5 }}\"~"
+
+          echo "$ID_LIST" | while IFS= read -r ITEM; do
+            IMG_ID=$(echo "$ITEM" | cut -d '~' -f1)
+            NEW_IMG=$(echo "$ITEM" | cut -d '~' -f2)
+            TITLE_ID=$(echo "$ITEM" | cut -d '~' -f3)
+            NEW_TRACK=$(echo "$ITEM" | cut -d '~' -f4 | sed "s/'//g" | sed 's/"//g')
+            ARTIST_ID=$(echo "$ITEM" | cut -d '~' -f5)
+            NEW_ARTIST=$(echo "$ITEM" | cut -d '~' -f6 | sed "s/'//g" | sed 's/"//g')
+            echo "$NEW_TRACK"
+            echo "$NEW_ARTIST"
+            sed -i "s|<img\s*id=\"$IMG_ID\"\s*src=\"[^\"]*\"|<img id=\"$IMG_ID\" src=\"$NEW_IMG\"|g" README.md
+            sed -i "s|<b\s*id=\"$TITLE_ID\">\s*[^<]*</b>|<b id=\"$TITLE_ID\">$NEW_TRACK</b>|g" README.md
+            sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*[^<]*</i>|<i id=\"$ARTIST_ID\">$NEW_ARTIST</i>|g" README.md
+          done
+          
+      - name: Update Markdown File (Long)
+        run: |
+          #!/bin/bash
+
+          ID_LIST="longImg_1~${{ env.longImg_1 }}~longTitle_1~\"${{ env.longTrack_1 }}\"~longArtist_1~\"${{ env.longArtist_1 }}\"~
+          longImg_2~${{ env.longImg_2 }}~longTitle_2~\"${{ env.longTrack_2 }}\"~longArtist_2~\"${{ env.longArtist_2 }}\"~
+          longImg_3~${{ env.longImg_3 }}~longTitle_3~\"${{ env.longTrack_3 }}\"~longArtist_3~\"${{ env.longArtist_3 }}\"~
+          longImg_4~${{ env.longImg_4 }}~longTitle_4~\"${{ env.longTrack_4 }}\"~longArtist_4~\"${{ env.longArtist_4 }}\"~
+          longImg_5~${{ env.longImg_5 }}~longTitle_5~\"${{ env.longTrack_5 }}\"~longArtist_5~\"${{ env.longArtist_5 }}\"~"
 
           echo "$ID_LIST" | while IFS= read -r ITEM; do
             IMG_ID=$(echo "$ITEM" | cut -d '~' -f1)

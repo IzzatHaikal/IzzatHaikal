@@ -240,11 +240,11 @@ jobs:
 
           const mdFilePath = 'README.md';
           const shortImg_1 = 'shortImg_1';
-          const newShortImg_1 = ${{ env.shortImg_1 }};
+          const newShortImg_1 = process.env.shortImg_1;
           const shortTitle_1 = 'shortTitle_1';
-          const newShortTitle_1 = ${{ env.shortTrack_1 }};
+          const newShortTitle_1 = process.env.shortTrack_1;
           const shortArtist_1 = 'shortArtist_1';
-          const newShortArtist_1 = ${{ env.shortArtist_1 }};
+          const newShortArtist_1 = process.env.shortArtist_1;
 
           fs.readFile(mdFilePath, 'utf-8', (err, data) => {
             if (err) throw err;

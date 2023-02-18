@@ -489,7 +489,7 @@ jobs:
         run: |
           git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
           git config --global user.email "izzat7641@gmail.com"
-          if [[ -n $(git status --porcelain) ]]; then
+          if [[ -n $(git status --porcelain | grep '^ M\|^ D') ]]; then
             git add -u .
             git commit -m "${{ env.CI_COMMIT_MESSAGE }}" --no-verify
             git push

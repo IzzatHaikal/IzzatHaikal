@@ -196,7 +196,7 @@ jobs:
           do
             ID=$(echo $ITEM | cut -d ':' -f1)
             NEW_SRC=$(echo $ITEM | cut -d ':' -f2)
-            sed -i "s/<img\s*id=\"$ID\"/<img id=\"$ID\" src=\"$NEW_SRC\"/g" README.md
+            sed -i "s/<img\s*id=\"$ID\"\s*src=\"[^\"]*\"/<img id=\"$ID\" src=\"$NEW_SRC\"/g" README.md
           done
         
       - name: GIT commit and push all changed files

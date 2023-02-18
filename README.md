@@ -16,12 +16,19 @@
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b>Hard to Love</b><br/><i>Blackpink</i></p> |
+| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="mediumTitle_1">Hard to Love</b><br/><i id="mediumArtist_1">Blackpink</i></p> |
+| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="mediumTitle_2">Hard to Love</b><br/><i id="mediumArtist_2">Blackpink</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="mediumTitle_3">Hard to Love</b><br/><i id="mediumArtist_3">Blackpink</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="mediumTitle_4">Hard to Love</b><br/><i id="mediumArtist_4">Blackpink</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="mediumTitle_5">Hard to Love</b><br/><i id="mediumArtist_5">Blackpink</i></p> |
 
 </td><td>
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b>Hard to Love</b><br/><i>Blackpink</i></p> |
-
+| 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="longTitle_1">Hard to Love</b><br/><i id="longArtist_1">Blackpink</i></p> |
+| 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="longTitle_2">Hard to Love</b><br/><i id="longArtist_2">Blackpink</i></p> |
+| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="longTitle_3">Hard to Love</b><br/><i id="longArtist_3">Blackpink</i></p> |
+| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="longTitle_4">Hard to Love</b><br/><i id="longArtist_4">Blackpink</i></p> | 
+| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="longTitle_5">Hard to Love</b><br/><i id="longArtist_5">Blackpink</i></p> |
 </td></tr> </table>

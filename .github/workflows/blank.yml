@@ -237,12 +237,12 @@ jobs:
       - name: Update Markdown File
         run: |
           #!/bin/bash
-          ID_LIST="shortImg_1: ${{ env.shortImg_1 }} mediumImg_1: ${{ env.shortImg_1 }} longImg_1: ${{ env.shortImg_1 }}"
+          ID_LIST="shortImg_1~ ${{ env.shortImg_1 }}~ mediumImg_1~ ${{ env.shortImg_1 }}~ longImg_1: ${{ env.shortImg_1 }}~"
           echo $ID_LIST
           for ITEM in $ID_LIST
           do
-            ID=$(echo $ITEM | cut -d ':' -f1)
-            NEW_SRC=$(echo $ITEM | cut -d ':' -f2)
+            ID=$(echo $ITEM | cut -d '~' -f1)
+            NEW_SRC=$(echo $ITEM | cut -d '~' -f2)
             echo $ID
             echo $NEW_SRC
             sed -i "s/<img\s*id=\"$ID\"\s*src=\"[^\"]*\"/<img id=\"$ID\" src=\"$NEW_SRC\"/g" README.md

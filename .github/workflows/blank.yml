@@ -362,14 +362,14 @@ jobs:
             IMG_ID=$(echo "$ITEM" | cut -d '~' -f1)
             NEW_IMG=$(echo "$ITEM" | cut -d '~' -f2)
             TITLE_ID=$(echo "$ITEM" | cut -d '~' -f3)
-            NEW_TRACK=$(echo "$ITEM" | cut -d '~' -f4 | sed "s/'//g" | sed 's/"//g')
+            NEW_TRACK=$(echo "$ITEM" | cut -d '~' -f4 | sed "s/'//g" | sed 's/"//g' | sed 's/&/\\\&/g')
             ARTIST_ID=$(echo "$ITEM" | cut -d '~' -f5)
-            NEW_ARTIST=$(echo "$ITEM" | cut -d '~' -f6 | sed "s/'//g" | sed 's/"//g')
+            NEW_ARTIST=$(echo "$ITEM" | cut -d '~' -f6 | sed "s/'//g" | sed 's/"//g' | sed 's/&/\\\&/g')
             echo "$NEW_TRACK"
             echo "$NEW_ARTIST"
             sed -i "s|<img\s*id=\"$IMG_ID\"\s*src=\"[^\"]*\"|<img id=\"$IMG_ID\" src=\"$NEW_IMG\"|g" README.md
-            sed -i "s|<b\s*id=\"$TITLE_ID\">\s*.*</b>|<b id=\"$TITLE_ID\">$(echo "$NEW_TRACK" | sed 's/&/\\&amp;/g')</b>|g" README.md
-            sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*.*</i>|<i id=\"$ARTIST_ID\">$(echo "$NEW_ARTIST" | sed 's/&/\\&amp;/g')</i>" README.md
+            sed -i "s|<b\s*id=\"$TITLE_ID\">\s*.*</b>|<b id=\"$TITLE_ID\">$NEW_TRACK</b>|g" README.md
+            sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*.*</i>|<i id=\"$ARTIST_ID\">$NEW_ARTIST</i>|g" README.md
           done
           
       - name: Update Markdown File (Medium)
@@ -386,14 +386,14 @@ jobs:
             IMG_ID=$(echo "$ITEM" | cut -d '~' -f1)
             NEW_IMG=$(echo "$ITEM" | cut -d '~' -f2)
             TITLE_ID=$(echo "$ITEM" | cut -d '~' -f3)
-            NEW_TRACK=$(echo "$ITEM" | cut -d '~' -f4 | sed "s/'//g" | sed 's/"//g')
+            NEW_TRACK=$(echo "$ITEM" | cut -d '~' -f4 | sed "s/'//g" | sed 's/"//g' | sed 's/&/\\\&/g')
             ARTIST_ID=$(echo "$ITEM" | cut -d '~' -f5)
-            NEW_ARTIST=$(echo "$ITEM" | cut -d '~' -f6 | sed "s/'//g" | sed 's/"//g')
+            NEW_ARTIST=$(echo "$ITEM" | cut -d '~' -f6 | sed "s/'//g" | sed 's/"//g' | sed 's/&/\\\&/g')
             echo "$NEW_TRACK"
             echo "$NEW_ARTIST"
             sed -i "s|<img\s*id=\"$IMG_ID\"\s*src=\"[^\"]*\"|<img id=\"$IMG_ID\" src=\"$NEW_IMG\"|g" README.md
-            sed -i "s|<b\s*id=\"$TITLE_ID\">\s*.*</b>|<b id=\"$TITLE_ID\">$(echo "$NEW_TRACK" | sed 's/&/\\&amp;/g')</b>|g" README.md
-            sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*.*</i>|<i id=\"$ARTIST_ID\">$(echo "$NEW_ARTIST" | sed 's/&/\\&amp;/g')</i>" README.md
+            sed -i "s|<b\s*id=\"$TITLE_ID\">\s*.*</b>|<b id=\"$TITLE_ID\">$NEW_TRACK</b>|g" README.md
+            sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*.*</i>|<i id=\"$ARTIST_ID\">$NEW_ARTIST</i>|g" README.md
           done
           
       - name: Update Markdown File (Long)
@@ -410,14 +410,14 @@ jobs:
             IMG_ID=$(echo "$ITEM" | cut -d '~' -f1)
             NEW_IMG=$(echo "$ITEM" | cut -d '~' -f2)
             TITLE_ID=$(echo "$ITEM" | cut -d '~' -f3)
-            NEW_TRACK=$(echo "$ITEM" | cut -d '~' -f4 | sed "s/'//g" | sed 's/"//g')
+            NEW_TRACK=$(echo "$ITEM" | cut -d '~' -f4 | sed "s/'//g" | sed 's/"//g' | sed 's/&/\\\&/g')
             ARTIST_ID=$(echo "$ITEM" | cut -d '~' -f5)
-            NEW_ARTIST=$(echo "$ITEM" | cut -d '~' -f6 | sed "s/'//g" | sed 's/"//g')
+            NEW_ARTIST=$(echo "$ITEM" | cut -d '~' -f6 | sed "s/'//g" | sed 's/"//g' | sed 's/&/\\\&/g')
             echo "$NEW_TRACK"
             echo "$NEW_ARTIST"
             sed -i "s|<img\s*id=\"$IMG_ID\"\s*src=\"[^\"]*\"|<img id=\"$IMG_ID\" src=\"$NEW_IMG\"|g" README.md
-            sed -i "s|<b\s*id=\"$TITLE_ID\">\s*.*</b>|<b id=\"$TITLE_ID\">$(echo "$NEW_TRACK" | sed 's/&/\\&amp;/g')</b>|g" README.md
-            sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*.*</i>|<i id=\"$ARTIST_ID\">$(echo "$NEW_ARTIST" | sed 's/&/\\&amp;/g')</i>" README.md
+            sed -i "s|<b\s*id=\"$TITLE_ID\">\s*.*</b>|<b id=\"$TITLE_ID\">$NEW_TRACK</b>|g" README.md
+            sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*.*</i>|<i id=\"$ARTIST_ID\">$NEW_ARTIST</i>|g" README.md
           done
 
         
@@ -489,6 +489,10 @@ jobs:
         run: |
           git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
           git config --global user.email "izzat7641@gmail.com"
-          git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
-          git push
+          if [[ -n $(git status --porcelain) ]]; then
+            git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
+            git push
+          else
+            echo "No changes to commit"
+          fi
   

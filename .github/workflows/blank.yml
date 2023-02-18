@@ -208,39 +208,39 @@ jobs:
         
       - name: Get Users Top Tracks (Medium)
         run: |
-          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=medium_term" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}" >> topTracks.json
-          mediumTrack_1=$(cat topTracks.json | jq -r '.items[0].name')
-          mediumArtist_1=$(cat topTracks.json | jq -r '.items[0].album.artists[0].name')
-          mediumImg_1=$(cat topTracks.json | jq -r '.items[0].album.images[2].url')
+          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=medium_term" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}" >> topTracksMedium.json
+          mediumTrack_1=$(cat topTracksMedium.json | jq -r '.items[0].name')
+          mediumArtist_1=$(cat topTracksMedium.json | jq -r '.items[0].album.artists[0].name')
+          mediumImg_1=$(cat topTracksMedium.json | jq -r '.items[0].album.images[2].url')
           echo "mediumTrack_1='$mediumTrack_1'" >> $GITHUB_ENV
           echo "mediumArtist_1='$mediumArtist_1'" >> $GITHUB_ENV
           echo "mediumImg_1=$mediumImg_1" >> $GITHUB_ENV
           
           
-          mediumTrack_2=$(cat topTracks.json | jq -r '.items[1].name')
-          mediumArtist_2=$(cat topTracks.json | jq -r '.items[1].album.artists[0].name')
-          mediumImg_2=$(cat topTracks.json | jq -r '.items[1].album.images[2].url')
+          mediumTrack_2=$(cat topTracksMedium.json | jq -r '.items[1].name')
+          mediumArtist_2=$(cat topTracksMedium.json | jq -r '.items[1].album.artists[0].name')
+          mediumImg_2=$(cat topTracksMedium.json | jq -r '.items[1].album.images[2].url')
           echo "mediumTrack_2='$mediumTrack_2'" >> $GITHUB_ENV
           echo "mediumArtist_2='$mediumArtist_2'" >> $GITHUB_ENV
           echo "mediumImg_2=$mediumImg_2" >> $GITHUB_ENV
           
-          mediumTrack_3=$(cat topTracks.json | jq -r '.items[2].name')
-          mediumArtist_3=$(cat topTracks.json | jq -r '.items[2].album.artists[0].name')
-          mediumImg_3=$(cat topTracks.json | jq -r '.items[2].album.images[2].url')
+          mediumTrack_3=$(cat topTracksMedium.json | jq -r '.items[2].name')
+          mediumArtist_3=$(cat topTracksMedium.json | jq -r '.items[2].album.artists[0].name')
+          mediumImg_3=$(cat topTracksMedium.json | jq -r '.items[2].album.images[2].url')
           echo "mediumTrack_3='$mediumTrack_3'" >> $GITHUB_ENV
           echo "mediumArtist_3='$mediumArtist_3'" >> $GITHUB_ENV
           echo "mediumImg_3=$mediumImg_3" >> $GITHUB_ENV
           
-          mediumTrack_4=$(cat topTracks.json | jq -r '.items[3].name')
-          mediumArtist_4=$(cat topTracks.json | jq -r '.items[3].album.artists[0].name')
-          mediumImg_4=$(cat topTracks.json | jq -r '.items[3].album.images[2].url')
+          mediumTrack_4=$(cat topTracksMedium.json | jq -r '.items[3].name')
+          mediumArtist_4=$(cat topTracksMedium.json | jq -r '.items[3].album.artists[0].name')
+          mediumImg_4=$(cat topTracksMedium.json | jq -r '.items[3].album.images[2].url')
           echo "mediumTrack_4='$mediumTrack_4'" >> $GITHUB_ENV
           echo "mediumArtist_4='$mediumArtist_4'" >> $GITHUB_ENV
           echo "mediumImg_4=$mediumImg_4" >> $GITHUB_ENV
           
-          mediumTrack_5=$(cat topTracks.json | jq -r '.items[4].name')
-          mediumArtist_5=$(cat topTracks.json | jq -r '.items[4].album.artists[0].name')
-          mediumImg_5=$(cat topTracks.json | jq -r '.items[4].album.images[2].url')
+          mediumTrack_5=$(cat topTracksMedium.json | jq -r '.items[4].name')
+          mediumArtist_5=$(cat topTracksMedium.json | jq -r '.items[4].album.artists[0].name')
+          mediumImg_5=$(cat topTracksMedium.json | jq -r '.items[4].album.images[2].url')
           echo "mediumTrack_5='$mediumTrack_5'" >> $GITHUB_ENV
           echo "mediumArtist_5='$mediumArtist_5'" >> $GITHUB_ENV
           echo "mediumImg_5=$mediumImg_5" >> $GITHUB_ENV
@@ -248,39 +248,39 @@ jobs:
         
       - name: Get Users Top Tracks (Long)
         run: |
-          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=long_term" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}" >> topTracks.json
-          longTrack_1=$(cat topTracks.json | jq -r '.items[0].name')
-          longArtist_1=$(cat topTracks.json | jq -r '.items[0].album.artists[0].name')
-          longImg_1=$(cat topTracks.json | jq -r '.items[0].album.images[2].url')
+          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=long_term" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}" >> topTracksLong.json
+          longTrack_1=$(cat topTracksLong.json | jq -r '.items[0].name')
+          longArtist_1=$(cat topTracksLong.json | jq -r '.items[0].album.artists[0].name')
+          longImg_1=$(cat topTracksLong.json | jq -r '.items[0].album.images[2].url')
           echo "longTrack_1='$longTrack_1'" >> $GITHUB_ENV
           echo "longArtist_1='$longArtist_1'" >> $GITHUB_ENV
           echo "longImg_1=$longImg_1" >> $GITHUB_ENV
           
           
-          longTrack_2=$(cat topTracks.json | jq -r '.items[1].name')
-          longArtist_2=$(cat topTracks.json | jq -r '.items[1].album.artists[0].name')
-          longImg_2=$(cat topTracks.json | jq -r '.items[1].album.images[2].url')
+          longTrack_2=$(cat topTracksLong.json | jq -r '.items[1].name')
+          longArtist_2=$(cat topTracksLong.json | jq -r '.items[1].album.artists[0].name')
+          longImg_2=$(cat topTracksLong.json | jq -r '.items[1].album.images[2].url')
           echo "longTrack_2='$longTrack_2'" >> $GITHUB_ENV
           echo "longArtist_2='$longArtist_2'" >> $GITHUB_ENV
           echo "longImg_2=$longImg_2" >> $GITHUB_ENV
           
-          longTrack_3=$(cat topTracks.json | jq -r '.items[2].name')
-          longArtist_3=$(cat topTracks.json | jq -r '.items[2].album.artists[0].name')
-          longImg_3=$(cat topTracks.json | jq -r '.items[2].album.images[2].url')
+          longTrack_3=$(cat topTracksLong.json | jq -r '.items[2].name')
+          longArtist_3=$(cat topTracksLong.json | jq -r '.items[2].album.artists[0].name')
+          longImg_3=$(cat topTracksLong.json | jq -r '.items[2].album.images[2].url')
           echo "longTrack_3='$longTrack_3'" >> $GITHUB_ENV
           echo "longArtist_3='$longArtist_3'" >> $GITHUB_ENV
           echo "longImg_3=$longImg_3" >> $GITHUB_ENV
           
-          longTrack_4=$(cat topTracks.json | jq -r '.items[3].name')
-          longArtist_4=$(cat topTracks.json | jq -r '.items[3].album.artists[0].name')
-          longImg_4=$(cat topTracks.json | jq -r '.items[3].album.images[2].url')
+          longTrack_4=$(cat topTracksLong.json | jq -r '.items[3].name')
+          longArtist_4=$(cat topTracksLong.json | jq -r '.items[3].album.artists[0].name')
+          longImg_4=$(cat topTracksLong.json | jq -r '.items[3].album.images[2].url')
           echo "longTrack_4='$longTrack_4'" >> $GITHUB_ENV
           echo "longArtist_4='$longArtist_4'" >> $GITHUB_ENV
           echo "longImg_4=$longImg_4" >> $GITHUB_ENV
           
-          longTrack_5=$(cat topTracks.json | jq -r '.items[4].name')
-          longArtist_5=$(cat topTracks.json | jq -r '.items[4].album.artists[0].name')
-          longImg_5=$(cat topTracks.json | jq -r '.items[4].album.images[2].url')
+          longTrack_5=$(cat topTracksLong.json | jq -r '.items[4].name')
+          longArtist_5=$(cat topTracksLong.json | jq -r '.items[4].album.artists[0].name')
+          longImg_5=$(cat topTracksLong.json | jq -r '.items[4].album.images[2].url')
           echo "longTrack_5='$longTrack_5'" >> $GITHUB_ENV
           echo "longArtist_5='$longArtist_5'" >> $GITHUB_ENV
           echo "longImg_5=$longImg_5" >> $GITHUB_ENV

@@ -161,13 +161,14 @@ jobs:
       
       - name: Get Users Top Tracks
         run: |
-          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}"
+          response=$(curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}")
+          echo "topTracksRes=$response" >> $GITHUB_OUTPUT
         id: top_tracks
 
       - name: Log User's Top Tracks
         run: |
           echo "Top Tracks:"
-          echo "${{ toJson(steps.top_tracks.outputs.items[0]) }}"
+          echo "${{ toJson(steps.top_tracks.topTracksRes.items[0]) }}"
       
       # Read README file
       - name: Read file

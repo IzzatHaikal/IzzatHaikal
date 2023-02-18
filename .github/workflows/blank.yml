@@ -177,7 +177,7 @@ jobs:
       - name: Log User's Top Tracks
         run: |
           echo "Top Tracks:"
-          echo "${{ toJson(env.topTracksRes }}"
+          echo "${{ toJson(env.response }}"
       
       # Read README file
       - name: Read file

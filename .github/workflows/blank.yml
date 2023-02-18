@@ -168,7 +168,7 @@ jobs:
 
       - name: Get Users Top Tracks (Short)
         run: |
-          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=long_term" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}" >> topTracks.json
+          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=short_term" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}" >> topTracks.json
           shortTrack_1=$(cat topTracks.json | jq -r '.items[0].name')
           shortArtist_1=$(cat topTracks.json | jq -r '.items[0].album.artists[0].name')
           shortImg_1=$(cat topTracks.json | jq -r '.items[0].album.images[2].url')

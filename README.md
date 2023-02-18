@@ -6,7 +6,7 @@
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="shortTitle_1">'Senorita'</b><br/><i id="shortArtist_1">'(G)I-DLE'</i></p> |
+| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="shortTitle_1">Senorita</b><br/><i id="shortArtist_1">(G)I-DLE</i></p> |
 
 </td><td>
 

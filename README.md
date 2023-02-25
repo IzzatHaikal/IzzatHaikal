@@ -62,8 +62,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851580ac3ad7dfc81e509171120" width="64" height="64"><br/><b id="mediumTitle_1">Hard to Love</b><br/><i id="mediumArtist_1">BLACKPINK</i></p> |
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="mediumTitle_2">MY BAG</b><br/><i id="mediumArtist_2">(G)I-DLE</i></p> |
-| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048517ff1c1d0d05e123f895635fe" width="64" height="64"><br/><b id="mediumTitle_3">DUMB DUMB</b><br/><i id="mediumArtist_3">JEON SOMI</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="mediumTitle_4">Never Stop Me</b><br/><i id="mediumArtist_4">(G)I-DLE</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="mediumTitle_3">Never Stop Me</b><br/><i id="mediumArtist_3">(G)I-DLE</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048517ff1c1d0d05e123f895635fe" width="64" height="64"><br/><b id="mediumTitle_4">DUMB DUMB</b><br/><i id="mediumArtist_4">JEON SOMI</i></p> |
 | 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851ccfac346e4d795a78368e900" width="64" height="64"><br/><b id="mediumTitle_5">Satu Malam Di Temasek</b><br/><i id="mediumArtist_5">Joe Flizzow</i></p> |
 
 </td><td>

@@ -52,9 +52,9 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="shortTitle_1">Never Stop Me</b><br/><i id="shortArtist_1">(G)I-DLE</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="shortTitle_2">Senorita</b><br/><i id="shortArtist_2">(G)I-DLE</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851ef6b9310f4cef9d603fa8873" width="64" height="64"><br/><b id="shortTitle_3">Trouble Maker</b><br/><i id="shortArtist_3">Trouble Maker</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851f8f78670dcb7eb6f7a4405d4" width="64" height="64"><br/><b id="shortTitle_4">LATATA</b><br/><i id="shortArtist_4">(G)I-DLE</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048519d28fd01859073a3ae6ea209" width="64" height="64"><br/><b id="shortTitle_5">Hype Boy</b><br/><i id="shortArtist_5">NewJeans</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851f8f78670dcb7eb6f7a4405d4" width="64" height="64"><br/><b id="shortTitle_3">LATATA</b><br/><i id="shortArtist_3">(G)I-DLE</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048519d28fd01859073a3ae6ea209" width="64" height="64"><br/><b id="shortTitle_4">Hype Boy</b><br/><i id="shortArtist_4">NewJeans</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851ef6b9310f4cef9d603fa8873" width="64" height="64"><br/><b id="shortTitle_5">Trouble Maker</b><br/><i id="shortArtist_5">Trouble Maker</i></p> |
 
 </td><td>
 

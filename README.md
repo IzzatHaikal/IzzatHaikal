@@ -50,11 +50,11 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048519d28fd01859073a3ae6ea209" width="64" height="64"><br/><b id="shortTitle_1">Hype Boy</b><br/><i id="shortArtist_1">NewJeans</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d0000485105a52cac688b36ee66666866" width="64" height="64"><br/><b id="shortTitle_2">LOVE ME LOVE ME</b><br/><i id="shortArtist_2">WINNER</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485117dbf65a2fef5de53258be6b" width="64" height="64"><br/><b id="shortTitle_3">Hasrat (OST Imaginur)</b><br/><i id="shortArtist_3">Amir Jahari</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048517ff1c1d0d05e123f895635fe" width="64" height="64"><br/><b id="shortTitle_4">DUMB DUMB</b><br/><i id="shortArtist_4">JEON SOMI</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="shortTitle_5">Never Stop Me</b><br/><i id="shortArtist_5">(G)I-DLE</i></p> |
+| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d0000485105a52cac688b36ee66666866" width="64" height="64"><br/><b id="shortTitle_1">LOVE ME LOVE ME</b><br/><i id="shortArtist_1">WINNER</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d0000485117dbf65a2fef5de53258be6b" width="64" height="64"><br/><b id="shortTitle_2">Hasrat (OST Imaginur)</b><br/><i id="shortArtist_2">Amir Jahari</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048517ff1c1d0d05e123f895635fe" width="64" height="64"><br/><b id="shortTitle_3">DUMB DUMB</b><br/><i id="shortArtist_3">JEON SOMI</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="shortTitle_4">Never Stop Me</b><br/><i id="shortArtist_4">(G)I-DLE</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851f8f78670dcb7eb6f7a4405d4" width="64" height="64"><br/><b id="shortTitle_5">LATATA</b><br/><i id="shortArtist_5">(G)I-DLE</i></p> |
 
 </td><td>
 

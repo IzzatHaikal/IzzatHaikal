@@ -64,7 +64,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="mediumTitle_2">Never Stop Me</b><br/><i id="mediumArtist_2">(G)I-DLE</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048517ff1c1d0d05e123f895635fe" width="64" height="64"><br/><b id="mediumTitle_3">DUMB DUMB</b><br/><i id="mediumArtist_3">JEON SOMI</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="mediumTitle_4">Senorita</b><br/><i id="mediumArtist_4">(G)I-DLE</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851ef6b9310f4cef9d603fa8873" width="64" height="64"><br/><b id="mediumTitle_5">Trouble Maker</b><br/><i id="mediumArtist_5">Trouble Maker</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="mediumTitle_5">ANTIFRAGILE</b><br/><i id="mediumArtist_5">LE SSERAFIM</i></p> |
 
 </td><td>
 

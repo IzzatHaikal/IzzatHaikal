@@ -51,18 +51,18 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="shortTitle_1">Rover</b><br/><i id="shortArtist_1">KAI</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="shortTitle_2">Fire in the belly</b><br/><i id="shortArtist_2">LE SSERAFIM</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485138e4867491f7b9aafef34d21" width="64" height="64"><br/><b id="shortTitle_3">Black Widow</b><br/><i id="shortArtist_3">Iggy Azalea</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="shortTitle_4">UNFORGIVEN (feat. Nile Rodgers)</b><br/><i id="shortArtist_4">LE SSERAFIM</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485182dd2427e6d302711b1b9616" width="64" height="64"><br/><b id="shortTitle_5">Queencard</b><br/><i id="shortArtist_5">(G)I-DLE</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d0000485138e4867491f7b9aafef34d21" width="64" height="64"><br/><b id="shortTitle_2">Black Widow</b><br/><i id="shortArtist_2">Iggy Azalea</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="shortTitle_3">Fire in the belly</b><br/><i id="shortArtist_3">LE SSERAFIM</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485182dd2427e6d302711b1b9616" width="64" height="64"><br/><b id="shortTitle_4">Queencard</b><br/><i id="shortArtist_4">(G)I-DLE</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485182dd2427e6d302711b1b9616" width="64" height="64"><br/><b id="shortTitle_5">Allergy</b><br/><i id="shortArtist_5">(G)I-DLE</i></p> |
 
 </td><td>
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="mediumTitle_1">MY BAG</b><br/><i id="mediumArtist_1">(G)I-DLE</i></p> |
-| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="mediumTitle_2">Never Stop Me</b><br/><i id="mediumArtist_2">(G)I-DLE</i></p> |
-| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048517ff1c1d0d05e123f895635fe" width="64" height="64"><br/><b id="mediumTitle_3">DUMB DUMB</b><br/><i id="mediumArtist_3">JEON SOMI</i></p> |
+| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="mediumTitle_1">Never Stop Me</b><br/><i id="mediumArtist_1">(G)I-DLE</i></p> |
+| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d000048517ff1c1d0d05e123f895635fe" width="64" height="64"><br/><b id="mediumTitle_2">DUMB DUMB</b><br/><i id="mediumArtist_2">JEON SOMI</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="mediumTitle_3">MY BAG</b><br/><i id="mediumArtist_3">(G)I-DLE</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="mediumTitle_4">ANTIFRAGILE</b><br/><i id="mediumArtist_4">LE SSERAFIM</i></p> |
 | 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="mediumTitle_5">Senorita</b><br/><i id="mediumArtist_5">(G)I-DLE</i></p> |
 

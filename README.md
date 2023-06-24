@@ -52,9 +52,9 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="shortTitle_1">Rover</b><br/><i id="shortArtist_1">KAI</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d0000485138e4867491f7b9aafef34d21" width="64" height="64"><br/><b id="shortTitle_2">Black Widow</b><br/><i id="shortArtist_2">Iggy Azalea</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485182dd2427e6d302711b1b9616" width="64" height="64"><br/><b id="shortTitle_3">Queencard</b><br/><i id="shortArtist_3">(G)I-DLE</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="shortTitle_4">Fire in the belly</b><br/><i id="shortArtist_4">LE SSERAFIM</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485182dd2427e6d302711b1b9616" width="64" height="64"><br/><b id="shortTitle_5">Allergy</b><br/><i id="shortArtist_5">(G)I-DLE</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="shortTitle_3">Fire in the belly</b><br/><i id="shortArtist_3">LE SSERAFIM</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485182dd2427e6d302711b1b9616" width="64" height="64"><br/><b id="shortTitle_4">Queencard</b><br/><i id="shortArtist_4">(G)I-DLE</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485185b44ac6d4a8383ed7e88285" width="64" height="64"><br/><b id="shortTitle_5">Up & Down</b><br/><i id="shortArtist_5">EXID</i></p> |
 
 </td><td>
 

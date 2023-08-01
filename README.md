@@ -52,8 +52,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="shortTitle_1">Rover</b><br/><i id="shortArtist_1">KAI</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048517bc2c6af7c58992239920313" width="64" height="64"><br/><b id="shortTitle_2">BIBI Vengeance</b><br/><i id="shortArtist_2">BIBI</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485125ef3cec1eceefd4db2f91c8" width="64" height="64"><br/><b id="shortTitle_3">I AM</b><br/><i id="shortArtist_3">IVE</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851af2fda9fb591d43c355c2ac3" width="64" height="64"><br/><b id="shortTitle_4">ASAP</b><br/><i id="shortArtist_4">STAYC</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851af2fda9fb591d43c355c2ac3" width="64" height="64"><br/><b id="shortTitle_3">ASAP</b><br/><i id="shortArtist_3">STAYC</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485125ef3cec1eceefd4db2f91c8" width="64" height="64"><br/><b id="shortTitle_4">I AM</b><br/><i id="shortArtist_4">IVE</i></p> |
 | 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485182dd2427e6d302711b1b9616" width="64" height="64"><br/><b id="shortTitle_5">Lucid</b><br/><i id="shortArtist_5">(G)I-DLE</i></p> |
 
 </td><td>

@@ -61,10 +61,10 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="mediumTitle_1">ANTIFRAGILE</b><br/><i id="mediumArtist_1">LE SSERAFIM</i></p> |
-| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="mediumTitle_2">Never Stop Me</b><br/><i id="mediumArtist_2">(G)I-DLE</i></p> |
-| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="mediumTitle_3">Rover</b><br/><i id="mediumArtist_3">KAI</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="mediumTitle_4">Fire in the belly</b><br/><i id="mediumArtist_4">LE SSERAFIM</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048515a42123d217f8c248ec1a92d" width="64" height="64"><br/><b id="mediumTitle_5">FLOWER</b><br/><i id="mediumArtist_5">JISOO</i></p> |
+| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="mediumTitle_2">Rover</b><br/><i id="mediumArtist_2">KAI</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="mediumTitle_3">Fire in the belly</b><br/><i id="mediumArtist_3">LE SSERAFIM</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048515a42123d217f8c248ec1a92d" width="64" height="64"><br/><b id="mediumTitle_4">FLOWER</b><br/><i id="mediumArtist_4">JISOO</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048512963187314262831fa2baa49" width="64" height="64"><br/><b id="mediumTitle_5">WA DA DA</b><br/><i id="mediumArtist_5">Kep1er</i></p> |
 
 </td><td>
 

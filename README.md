@@ -52,8 +52,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048516adf6b9ff59d4b0a568a3896" width="64" height="64"><br/><b id="shortTitle_1">Fast Forward</b><br/><i id="shortArtist_1">JEON SOMI</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851af2fda9fb591d43c355c2ac3" width="64" height="64"><br/><b id="shortTitle_2">ASAP</b><br/><i id="shortArtist_2">STAYC</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048517bc2c6af7c58992239920313" width="64" height="64"><br/><b id="shortTitle_3">BIBI Vengeance</b><br/><i id="shortArtist_3">BIBI</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851d894e16b750b7ade58c1977f" width="64" height="64"><br/><b id="shortTitle_4">KNOCK</b><br/><i id="shortArtist_4">LEE CHAE YEON</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851d894e16b750b7ade58c1977f" width="64" height="64"><br/><b id="shortTitle_3">KNOCK</b><br/><i id="shortArtist_3">LEE CHAE YEON</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048517bc2c6af7c58992239920313" width="64" height="64"><br/><b id="shortTitle_4">BIBI Vengeance</b><br/><i id="shortArtist_4">BIBI</i></p> |
 | 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485125ef3cec1eceefd4db2f91c8" width="64" height="64"><br/><b id="shortTitle_5">I AM</b><br/><i id="shortArtist_5">IVE</i></p> |
 
 </td><td>

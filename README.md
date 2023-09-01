@@ -51,10 +51,10 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048516adf6b9ff59d4b0a568a3896" width="64" height="64"><br/><b id="shortTitle_1">Fast Forward</b><br/><i id="shortArtist_1">JEON SOMI</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851d894e16b750b7ade58c1977f" width="64" height="64"><br/><b id="shortTitle_2">KNOCK</b><br/><i id="shortArtist_2">LEE CHAE YEON</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851af2fda9fb591d43c355c2ac3" width="64" height="64"><br/><b id="shortTitle_3">ASAP</b><br/><i id="shortArtist_3">STAYC</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="shortTitle_2">ETA</b><br/><i id="shortArtist_2">NewJeans</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851d894e16b750b7ade58c1977f" width="64" height="64"><br/><b id="shortTitle_3">KNOCK</b><br/><i id="shortArtist_3">LEE CHAE YEON</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048517bc2c6af7c58992239920313" width="64" height="64"><br/><b id="shortTitle_4">BIBI Vengeance</b><br/><i id="shortArtist_4">BIBI</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485182dd2427e6d302711b1b9616" width="64" height="64"><br/><b id="shortTitle_5">Lucid</b><br/><i id="shortArtist_5">(G)I-DLE</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851af2fda9fb591d43c355c2ac3" width="64" height="64"><br/><b id="shortTitle_5">ASAP</b><br/><i id="shortArtist_5">STAYC</i></p> |
 
 </td><td>
 

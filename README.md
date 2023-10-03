@@ -54,7 +54,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_2">ANTIFRAGILE</b><br/><i id="shortArtist_2">LE SSERAFIM</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485185b44ac6d4a8383ed7e88285" width="64" height="64"><br/><b id="shortTitle_3">Up & Down</b><br/><i id="shortArtist_3">EXID</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048519d28fd01859073a3ae6ea209" width="64" height="64"><br/><b id="shortTitle_4">Attention</b><br/><i id="shortArtist_4">NewJeans</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851d70036292d54f29e8b68ec01" width="64" height="64"><br/><b id="shortTitle_5">OMG</b><br/><i id="shortArtist_5">NewJeans</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485186ca91e718866f411c01db5e" width="64" height="64"><br/><b id="shortTitle_5">O.O</b><br/><i id="shortArtist_5">NMIXX</i></p> |
 
 </td><td>
 

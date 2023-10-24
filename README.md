@@ -54,7 +54,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="shortTitle_2">ETA</b><br/><i id="shortArtist_2">NewJeans</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851d70036292d54f29e8b68ec01" width="64" height="64"><br/><b id="shortTitle_3">Ditto</b><br/><i id="shortArtist_3">NewJeans</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851d70036292d54f29e8b68ec01" width="64" height="64"><br/><b id="shortTitle_4">OMG</b><br/><i id="shortArtist_4">NewJeans</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851af2fda9fb591d43c355c2ac3" width="64" height="64"><br/><b id="shortTitle_5">ASAP</b><br/><i id="shortArtist_5">STAYC</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048519d28fd01859073a3ae6ea209" width="64" height="64"><br/><b id="shortTitle_5">Attention</b><br/><i id="shortArtist_5">NewJeans</i></p> |
 
 </td><td>
 
@@ -63,8 +63,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="mediumTitle_1">Rover</b><br/><i id="mediumArtist_1">KAI</i></p> |
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="mediumTitle_2">Fire in the belly</b><br/><i id="mediumArtist_2">LE SSERAFIM</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="mediumTitle_3">ETA</b><br/><i id="mediumArtist_3">NewJeans</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="mediumTitle_4">ANTIFRAGILE</b><br/><i id="mediumArtist_4">LE SSERAFIM</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="mediumTitle_5">UNFORGIVEN (feat. Nile Rodgers)</b><br/><i id="mediumArtist_5">LE SSERAFIM</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="mediumTitle_4">UNFORGIVEN (feat. Nile Rodgers)</b><br/><i id="mediumArtist_4">LE SSERAFIM</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="mediumTitle_5">ANTIFRAGILE</b><br/><i id="mediumArtist_5">LE SSERAFIM</i></p> |
 
 </td><td>
 

@@ -64,7 +64,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="mediumTitle_2">Fire in the belly</b><br/><i id="mediumArtist_2">LE SSERAFIM</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="mediumTitle_3">ETA</b><br/><i id="mediumArtist_3">NewJeans</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="mediumTitle_4">UNFORGIVEN (feat. Nile Rodgers)</b><br/><i id="mediumArtist_4">LE SSERAFIM</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="mediumTitle_5">ANTIFRAGILE</b><br/><i id="mediumArtist_5">LE SSERAFIM</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048512963187314262831fa2baa49" width="64" height="64"><br/><b id="mediumTitle_5">WA DA DA</b><br/><i id="mediumArtist_5">Kep1er</i></p> |
 
 </td><td>
 

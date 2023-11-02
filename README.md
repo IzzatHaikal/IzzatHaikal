@@ -63,8 +63,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="mediumTitle_1">Rover</b><br/><i id="mediumArtist_1">KAI</i></p> |
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="mediumTitle_2">Fire in the belly</b><br/><i id="mediumArtist_2">LE SSERAFIM</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="mediumTitle_3">ETA</b><br/><i id="mediumArtist_3">NewJeans</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="mediumTitle_4">UNFORGIVEN (feat. Nile Rodgers)</b><br/><i id="mediumArtist_4">LE SSERAFIM</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048517bc2c6af7c58992239920313" width="64" height="64"><br/><b id="mediumTitle_5">BIBI Vengeance</b><br/><i id="mediumArtist_5">BIBI</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048517bc2c6af7c58992239920313" width="64" height="64"><br/><b id="mediumTitle_4">BIBI Vengeance</b><br/><i id="mediumArtist_4">BIBI</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048516adf6b9ff59d4b0a568a3896" width="64" height="64"><br/><b id="mediumTitle_5">Fast Forward</b><br/><i id="mediumArtist_5">JEON SOMI</i></p> |
 
 </td><td>
 

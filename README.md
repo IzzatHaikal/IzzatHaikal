@@ -50,8 +50,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048515e352f6eccf8cb96d0b247cc" width="64" height="64"><br/><b id="shortTitle_1">Perfect Night</b><br/><i id="shortArtist_1">LE SSERAFIM</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048513f159ae07dd556323f39f47b" width="64" height="64"><br/><b id="shortTitle_2">Thunderclouds (feat. Sia, Diplo, and Labrinth)</b><br/><i id="shortArtist_2">Sia</i></p> |
+| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048513f159ae07dd556323f39f47b" width="64" height="64"><br/><b id="shortTitle_1">Thunderclouds (feat. Sia, Diplo, and Labrinth)</b><br/><i id="shortArtist_1">Sia</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048515e352f6eccf8cb96d0b247cc" width="64" height="64"><br/><b id="shortTitle_2">Perfect Night</b><br/><i id="shortArtist_2">LE SSERAFIM</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="shortTitle_3">ANTIFRAGILE</b><br/><i id="shortArtist_3">LE SSERAFIM</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="shortTitle_4">UNFORGIVEN (feat. Nile Rodgers)</b><br/><i id="shortArtist_4">LE SSERAFIM</i></p> |
 | 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851d70036292d54f29e8b68ec01" width="64" height="64"><br/><b id="shortTitle_5">OMG</b><br/><i id="shortArtist_5">NewJeans</i></p> |
@@ -60,8 +60,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="mediumTitle_1">Rover</b><br/><i id="mediumArtist_1">KAI</i></p> |
-| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="mediumTitle_2">ETA</b><br/><i id="mediumArtist_2">NewJeans</i></p> |
+| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="mediumTitle_1">ETA</b><br/><i id="mediumArtist_1">NewJeans</i></p> |
+| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="mediumTitle_2">Rover</b><br/><i id="mediumArtist_2">KAI</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048517bc2c6af7c58992239920313" width="64" height="64"><br/><b id="mediumTitle_3">BIBI Vengeance</b><br/><i id="mediumArtist_3">BIBI</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048516adf6b9ff59d4b0a568a3896" width="64" height="64"><br/><b id="mediumTitle_4">Fast Forward</b><br/><i id="mediumArtist_4">JEON SOMI</i></p> |
 | 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851af2fda9fb591d43c355c2ac3" width="64" height="64"><br/><b id="mediumTitle_5">ASAP</b><br/><i id="mediumArtist_5">STAYC</i></p> |

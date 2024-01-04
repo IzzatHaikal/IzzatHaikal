@@ -63,8 +63,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="mediumTitle_1">ETA</b><br/><i id="mediumArtist_1">NewJeans</i></p> |
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d000048517bc2c6af7c58992239920313" width="64" height="64"><br/><b id="mediumTitle_2">BIBI Vengeance</b><br/><i id="mediumArtist_2">BIBI</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048516adf6b9ff59d4b0a568a3896" width="64" height="64"><br/><b id="mediumTitle_3">Fast Forward</b><br/><i id="mediumArtist_3">JEON SOMI</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="mediumTitle_4">Rover</b><br/><i id="mediumArtist_4">KAI</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851af2fda9fb591d43c355c2ac3" width="64" height="64"><br/><b id="mediumTitle_5">ASAP</b><br/><i id="mediumArtist_5">STAYC</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851af2fda9fb591d43c355c2ac3" width="64" height="64"><br/><b id="mediumTitle_4">ASAP</b><br/><i id="mediumArtist_4">STAYC</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="mediumTitle_5">Rover</b><br/><i id="mediumArtist_5">KAI</i></p> |
 
 </td><td>
 

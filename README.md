@@ -54,7 +54,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048513f159ae07dd556323f39f47b" width="64" height="64"><br/><b id="shortTitle_2">Thunderclouds (feat. Sia, Diplo, and Labrinth)</b><br/><i id="shortArtist_2">Sia</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485125f49ab23f0ec6332efef432" width="64" height="64"><br/><b id="shortTitle_3">Bring Me To Life</b><br/><i id="shortArtist_3">Evanescence</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851ccfac346e4d795a78368e900" width="64" height="64"><br/><b id="shortTitle_4">Satu Malam Di Temasek</b><br/><i id="shortArtist_4">Joe Flizzow</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485194c5fc602eb199841e8c3a6e" width="64" height="64"><br/><b id="shortTitle_5">Sampai Jadi (feat. ALYPH)</b><br/><i id="shortArtist_5">Joe Flizzow</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485186ca91e718866f411c01db5e" width="64" height="64"><br/><b id="shortTitle_5">O.O</b><br/><i id="shortArtist_5">NMIXX</i></p> |
 
 </td><td>
 
@@ -72,8 +72,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851fd0d9a33127c1d3f58ba3504" width="64" height="64"><br/><b id="longTitle_1">BANG BANG BANG</b><br/><i id="longArtist_1">BIGBANG</i></p> |
 | 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d00004851580ac3ad7dfc81e509171120" width="64" height="64"><br/><b id="longTitle_2">Hard to Love</b><br/><i id="longArtist_2">BLACKPINK</i></p> |
-| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d0000485145f6b424c7891849cf19057c" width="64" height="64"><br/><b id="longTitle_3">GOOD BOY</b><br/><i id="longArtist_3">GD X TAEYANG</i></p> |
-| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851b4fd0ba98f675df97c5748b1" width="64" height="64"><br/><b id="longTitle_4">Dingga</b><br/><i id="longArtist_4">MAMAMOO</i></p> | 
+| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d00004851b4fd0ba98f675df97c5748b1" width="64" height="64"><br/><b id="longTitle_3">Dingga</b><br/><i id="longArtist_3">MAMAMOO</i></p> |
+| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d0000485145f6b424c7891849cf19057c" width="64" height="64"><br/><b id="longTitle_4">GOOD BOY</b><br/><i id="longArtist_4">GD X TAEYANG</i></p> | 
 | 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="longTitle_5">MY BAG</b><br/><i id="longArtist_5">(G)I-DLE</i></p> |
 </td></tr> </table>
 

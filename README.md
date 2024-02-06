@@ -62,9 +62,9 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="mediumTitle_1">ETA</b><br/><i id="mediumArtist_1">NewJeans</i></p> |
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="mediumTitle_2">SUNYI</b><br/><i id="mediumArtist_2">Joe Flizzow</i></p> |
-| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048516adf6b9ff59d4b0a568a3896" width="64" height="64"><br/><b id="mediumTitle_3">Fast Forward</b><br/><i id="mediumArtist_3">JEON SOMI</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="mediumTitle_4">ANTIFRAGILE</b><br/><i id="mediumArtist_4">LE SSERAFIM</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d0000485186ca91e718866f411c01db5e" width="64" height="64"><br/><b id="mediumTitle_5">O.O</b><br/><i id="mediumArtist_5">NMIXX</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="mediumTitle_3">ANTIFRAGILE</b><br/><i id="mediumArtist_3">LE SSERAFIM</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d0000485186ca91e718866f411c01db5e" width="64" height="64"><br/><b id="mediumTitle_4">O.O</b><br/><i id="mediumArtist_4">NMIXX</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851d70036292d54f29e8b68ec01" width="64" height="64"><br/><b id="mediumTitle_5">OMG</b><br/><i id="mediumArtist_5">NewJeans</i></p> |
 
 </td><td>
 

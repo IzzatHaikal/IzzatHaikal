@@ -51,10 +51,10 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5" width="64" height="64"><br/><b id="shortTitle_1">24K Magic</b><br/><i id="shortArtist_1">Bruno Mars</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d0000485147e522adf030a78615cdea06" width="64" height="64"><br/><b id="shortTitle_2">Finesse - Remix; feat. Cardi B</b><br/><i id="shortArtist_2">Bruno Mars</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="shortTitle_3">SUNYI</b><br/><i id="shortArtist_3">Joe Flizzow</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048513f159ae07dd556323f39f47b" width="64" height="64"><br/><b id="shortTitle_4">Thunderclouds (feat. Sia, Diplo, and Labrinth)</b><br/><i id="shortArtist_4">Sia</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485186ca91e718866f411c01db5e" width="64" height="64"><br/><b id="shortTitle_5">O.O</b><br/><i id="shortArtist_5">NMIXX</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851110f5426b8c149e80804912a" width="64" height="64"><br/><b id="shortTitle_2">EASY</b><br/><i id="shortArtist_2">LE SSERAFIM</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485147e522adf030a78615cdea06" width="64" height="64"><br/><b id="shortTitle_3">Finesse - Remix; feat. Cardi B</b><br/><i id="shortArtist_3">Bruno Mars</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="shortTitle_4">SUNYI</b><br/><i id="shortArtist_4">Joe Flizzow</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048513f159ae07dd556323f39f47b" width="64" height="64"><br/><b id="shortTitle_5">Thunderclouds (feat. Sia, Diplo, and Labrinth)</b><br/><i id="shortArtist_5">Sia</i></p> |
 
 </td><td>
 
@@ -73,8 +73,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851580ac3ad7dfc81e509171120" width="64" height="64"><br/><b id="longTitle_1">Hard to Love</b><br/><i id="longArtist_1">BLACKPINK</i></p> |
 | 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d00004851b4fd0ba98f675df97c5748b1" width="64" height="64"><br/><b id="longTitle_2">Dingga</b><br/><i id="longArtist_2">MAMAMOO</i></p> |
 | 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="longTitle_3">MY BAG</b><br/><i id="longArtist_3">(G)I-DLE</i></p> |
-| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851fd0d9a33127c1d3f58ba3504" width="64" height="64"><br/><b id="longTitle_4">SOBER</b><br/><i id="longArtist_4">BIGBANG</i></p> | 
-| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d0000485186e407289831b784b58d4c5f" width="64" height="64"><br/><b id="longTitle_5">WANNABE</b><br/><i id="longArtist_5">ITZY</i></p> |
+| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d0000485186e407289831b784b58d4c5f" width="64" height="64"><br/><b id="longTitle_4">WANNABE</b><br/><i id="longArtist_4">ITZY</i></p> | 
+| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851fd0d9a33127c1d3f58ba3504" width="64" height="64"><br/><b id="longTitle_5">SOBER</b><br/><i id="longArtist_5">BIGBANG</i></p> |
 </td></tr> </table>
 
 </details>

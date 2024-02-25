@@ -64,7 +64,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="mediumTitle_2">SUNYI</b><br/><i id="mediumArtist_2">Joe Flizzow</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d0000485186ca91e718866f411c01db5e" width="64" height="64"><br/><b id="mediumTitle_3">O.O</b><br/><i id="mediumArtist_3">NMIXX</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="mediumTitle_4">ANTIFRAGILE</b><br/><i id="mediumArtist_4">LE SSERAFIM</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851d70036292d54f29e8b68ec01" width="64" height="64"><br/><b id="mediumTitle_5">OMG</b><br/><i id="mediumArtist_5">NewJeans</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5" width="64" height="64"><br/><b id="mediumTitle_5">24K Magic</b><br/><i id="mediumArtist_5">Bruno Mars</i></p> |
 
 </td><td>
 
@@ -74,7 +74,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d00004851b4fd0ba98f675df97c5748b1" width="64" height="64"><br/><b id="longTitle_2">Dingga</b><br/><i id="longArtist_2">MAMAMOO</i></p> |
 | 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="longTitle_3">MY BAG</b><br/><i id="longArtist_3">(G)I-DLE</i></p> |
 | 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d0000485186e407289831b784b58d4c5f" width="64" height="64"><br/><b id="longTitle_4">WANNABE</b><br/><i id="longArtist_4">ITZY</i></p> | 
-| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851fd0d9a33127c1d3f58ba3504" width="64" height="64"><br/><b id="longTitle_5">SOBER</b><br/><i id="longArtist_5">BIGBANG</i></p> |
+| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="longTitle_5">Never Stop Me</b><br/><i id="longArtist_5">(G)I-DLE</i></p> |
 </td></tr> </table>
 
 </details>

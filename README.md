@@ -64,7 +64,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d0000485186ca91e718866f411c01db5e" width="64" height="64"><br/><b id="mediumTitle_2">O.O</b><br/><i id="mediumArtist_2">NMIXX</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5" width="64" height="64"><br/><b id="mediumTitle_3">24K Magic</b><br/><i id="mediumArtist_3">Bruno Mars</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d0000485147e522adf030a78615cdea06" width="64" height="64"><br/><b id="mediumTitle_4">Finesse - Remix; feat. Cardi B</b><br/><i id="mediumArtist_4">Bruno Mars</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="mediumTitle_5">ETA</b><br/><i id="mediumArtist_5">NewJeans</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048513f159ae07dd556323f39f47b" width="64" height="64"><br/><b id="mediumTitle_5">Thunderclouds (feat. Sia, Diplo, and Labrinth)</b><br/><i id="mediumArtist_5">Sia</i></p> |
 
 </td><td>
 

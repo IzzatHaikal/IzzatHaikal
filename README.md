@@ -50,11 +50,11 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_1">The Hydra</b><br/><i id="shortArtist_1">LE SSERAFIM</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_2">ANTIFRAGILE</b><br/><i id="shortArtist_2">LE SSERAFIM</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_3">Good Parts (when the quality is bad but I am)</b><br/><i id="shortArtist_3">LE SSERAFIM</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_4">No Celestial</b><br/><i id="shortArtist_4">LE SSERAFIM</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_5">Impurities</b><br/><i id="shortArtist_5">LE SSERAFIM</i></p> |
+| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048519e1683774b22648f4f178ed3" width="64" height="64"><br/><b id="shortTitle_1">Lush Life</b><br/><i id="shortArtist_1">Zara Larsson</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_2">The Hydra</b><br/><i id="shortArtist_2">LE SSERAFIM</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_3">ANTIFRAGILE</b><br/><i id="shortArtist_3">LE SSERAFIM</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_4">Good Parts (when the quality is bad but I am)</b><br/><i id="shortArtist_4">LE SSERAFIM</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_5">No Celestial</b><br/><i id="shortArtist_5">LE SSERAFIM</i></p> |
 
 </td><td>
 

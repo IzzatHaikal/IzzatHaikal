@@ -51,8 +51,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048519e1683774b22648f4f178ed3" width="64" height="64"><br/><b id="shortTitle_1">Lush Life</b><br/><i id="shortArtist_1">Zara Larsson</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_2">The Hydra</b><br/><i id="shortArtist_2">LE SSERAFIM</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_3">ANTIFRAGILE</b><br/><i id="shortArtist_3">LE SSERAFIM</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_2">ANTIFRAGILE</b><br/><i id="shortArtist_2">LE SSERAFIM</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_3">The Hydra</b><br/><i id="shortArtist_3">LE SSERAFIM</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_4">Good Parts (when the quality is bad but I am)</b><br/><i id="shortArtist_4">LE SSERAFIM</i></p> |
 | 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="shortTitle_5">No Celestial</b><br/><i id="shortArtist_5">LE SSERAFIM</i></p> |
 
@@ -61,8 +61,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="mediumTitle_1">SUNYI</b><br/><i id="mediumArtist_1">Joe Flizzow</i></p> |
-| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d0000485186ca91e718866f411c01db5e" width="64" height="64"><br/><b id="mediumTitle_2">O.O</b><br/><i id="mediumArtist_2">NMIXX</i></p> |
-| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5" width="64" height="64"><br/><b id="mediumTitle_3">24K Magic</b><br/><i id="mediumArtist_3">Bruno Mars</i></p> |
+| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5" width="64" height="64"><br/><b id="mediumTitle_2">24K Magic</b><br/><i id="mediumArtist_2">Bruno Mars</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d0000485186ca91e718866f411c01db5e" width="64" height="64"><br/><b id="mediumTitle_3">O.O</b><br/><i id="mediumArtist_3">NMIXX</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d0000485147e522adf030a78615cdea06" width="64" height="64"><br/><b id="mediumTitle_4">Finesse - Remix; feat. Cardi B</b><br/><i id="mediumArtist_4">Bruno Mars</i></p> |
 | 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048513f159ae07dd556323f39f47b" width="64" height="64"><br/><b id="mediumTitle_5">Thunderclouds (feat. Sia, Diplo, and Labrinth)</b><br/><i id="mediumArtist_5">Sia</i></p> |
 

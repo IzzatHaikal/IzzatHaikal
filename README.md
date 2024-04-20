@@ -52,8 +52,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048519e1683774b22648f4f178ed3" width="64" height="64"><br/><b id="shortTitle_1">Lush Life</b><br/><i id="shortArtist_1">Zara Larsson</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d0000485142281601a5a3f882ea77741e" width="64" height="64"><br/><b id="shortTitle_2">Super Lady</b><br/><i id="shortArtist_2">(G)I-DLE</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851926f43e7cce571e62720fd46" width="64" height="64"><br/><b id="shortTitle_3">Locked out of Heaven</b><br/><i id="shortArtist_3">Bruno Mars</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5" width="64" height="64"><br/><b id="shortTitle_4">24K Magic</b><br/><i id="shortArtist_4">Bruno Mars</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5" width="64" height="64"><br/><b id="shortTitle_3">24K Magic</b><br/><i id="shortArtist_3">Bruno Mars</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851926f43e7cce571e62720fd46" width="64" height="64"><br/><b id="shortTitle_4">Locked out of Heaven</b><br/><i id="shortArtist_4">Bruno Mars</i></p> |
 | 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851110f5426b8c149e80804912a" width="64" height="64"><br/><b id="shortTitle_5">EASY</b><br/><i id="shortArtist_5">LE SSERAFIM</i></p> |
 
 </td><td>

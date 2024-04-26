@@ -51,8 +51,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="shortTitle_1">DASH</b><br/><i id="shortArtist_1">NMIXX</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048519e1683774b22648f4f178ed3" width="64" height="64"><br/><b id="shortTitle_2">Lush Life</b><br/><i id="shortArtist_2">Zara Larsson</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485142281601a5a3f882ea77741e" width="64" height="64"><br/><b id="shortTitle_3">Super Lady</b><br/><i id="shortArtist_3">(G)I-DLE</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d0000485142281601a5a3f882ea77741e" width="64" height="64"><br/><b id="shortTitle_2">Super Lady</b><br/><i id="shortArtist_2">(G)I-DLE</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048519e1683774b22648f4f178ed3" width="64" height="64"><br/><b id="shortTitle_3">Lush Life</b><br/><i id="shortArtist_3">Zara Larsson</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048514b32002f8a5e4ee2a5db5ace" width="64" height="64"><br/><b id="shortTitle_4">Love Me Like This</b><br/><i id="shortArtist_4">NMIXX</i></p> |
 | 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485142281601a5a3f882ea77741e" width="64" height="64"><br/><b id="shortTitle_5">Wife</b><br/><i id="shortArtist_5">(G)I-DLE</i></p> |
 
@@ -73,8 +73,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="longTitle_1">Rover</b><br/><i id="longArtist_1">KAI</i></p> |
 | 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="longTitle_2">ETA</b><br/><i id="longArtist_2">NewJeans</i></p> |
 | 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="longTitle_3">Fire in the belly</b><br/><i id="longArtist_3">LE SSERAFIM</i></p> |
-| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="longTitle_4">ANTIFRAGILE</b><br/><i id="longArtist_4">LE SSERAFIM</i></p> | 
-| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="longTitle_5">SUNYI</b><br/><i id="longArtist_5">Joe Flizzow</i></p> |
+| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="longTitle_4">SUNYI</b><br/><i id="longArtist_4">Joe Flizzow</i></p> | 
+| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="longTitle_5">ANTIFRAGILE</b><br/><i id="longArtist_5">LE SSERAFIM</i></p> |
 </td></tr> </table>
 
 </details>

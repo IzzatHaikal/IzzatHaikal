@@ -53,8 +53,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="shortTitle_1">Run For Roses</b><br/><i id="shortArtist_1">NMIXX</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="shortTitle_2">DASH</b><br/><i id="shortArtist_2">NMIXX</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048514b32002f8a5e4ee2a5db5ace" width="64" height="64"><br/><b id="shortTitle_3">Love Me Like This</b><br/><i id="shortArtist_3">NMIXX</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485142281601a5a3f882ea77741e" width="64" height="64"><br/><b id="shortTitle_4">Super Lady</b><br/><i id="shortArtist_4">(G)I-DLE</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851eb1b1bb1651e8cca563f3967" width="64" height="64"><br/><b id="shortTitle_5">DICE</b><br/><i id="shortArtist_5">NMIXX</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851eb1b1bb1651e8cca563f3967" width="64" height="64"><br/><b id="shortTitle_4">DICE</b><br/><i id="shortArtist_4">NMIXX</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485142281601a5a3f882ea77741e" width="64" height="64"><br/><b id="shortTitle_5">Wife</b><br/><i id="shortArtist_5">(G)I-DLE</i></p> |
 
 </td><td>
 

@@ -60,8 +60,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="mediumTitle_1">SUNYI</b><br/><i id="mediumArtist_1">Joe Flizzow</i></p> |
-| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="mediumTitle_2">Run For Roses</b><br/><i id="mediumArtist_2">NMIXX</i></p> |
+| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="mediumTitle_1">Run For Roses</b><br/><i id="mediumArtist_1">NMIXX</i></p> |
+| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="mediumTitle_2">SUNYI</b><br/><i id="mediumArtist_2">Joe Flizzow</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="mediumTitle_3">DASH</b><br/><i id="mediumArtist_3">NMIXX</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5" width="64" height="64"><br/><b id="mediumTitle_4">24K Magic</b><br/><i id="mediumArtist_4">Bruno Mars</i></p> |
 | 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d0000485147e522adf030a78615cdea06" width="64" height="64"><br/><b id="mediumTitle_5">Finesse - Remix; feat. Cardi B</b><br/><i id="mediumArtist_5">Bruno Mars</i></p> |

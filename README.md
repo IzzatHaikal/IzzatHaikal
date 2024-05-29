@@ -63,16 +63,16 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="mediumTitle_1">Run For Roses</b><br/><i id="mediumArtist_1">NMIXX</i></p> |
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="mediumTitle_2">SUNYI</b><br/><i id="mediumArtist_2">Joe Flizzow</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="mediumTitle_3">DASH</b><br/><i id="mediumArtist_3">NMIXX</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5" width="64" height="64"><br/><b id="mediumTitle_4">24K Magic</b><br/><i id="mediumArtist_4">Bruno Mars</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048514b32002f8a5e4ee2a5db5ace" width="64" height="64"><br/><b id="mediumTitle_5">Love Me Like This</b><br/><i id="mediumArtist_5">NMIXX</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048514b32002f8a5e4ee2a5db5ace" width="64" height="64"><br/><b id="mediumTitle_4">Love Me Like This</b><br/><i id="mediumArtist_4">NMIXX</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5" width="64" height="64"><br/><b id="mediumTitle_5">24K Magic</b><br/><i id="mediumArtist_5">Bruno Mars</i></p> |
 
 </td><td>
 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="longTitle_1">Rover</b><br/><i id="longArtist_1">KAI</i></p> |
-| 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="longTitle_2">ETA</b><br/><i id="longArtist_2">NewJeans</i></p> |
-| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_3">Run For Roses</b><br/><i id="longArtist_3">NMIXX</i></p> |
+| 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_2">Run For Roses</b><br/><i id="longArtist_2">NMIXX</i></p> |
+| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="longTitle_3">ETA</b><br/><i id="longArtist_3">NewJeans</i></p> |
 | 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="longTitle_4">SUNYI</b><br/><i id="longArtist_4">Joe Flizzow</i></p> | 
 | 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d000048516adf6b9ff59d4b0a568a3896" width="64" height="64"><br/><b id="longTitle_5">Fast Forward</b><br/><i id="longArtist_5">JEON SOMI</i></p> |
 </td></tr> </table>

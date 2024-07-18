@@ -53,8 +53,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d0000485118d0ed4f969b376893f9a38f" width="64" height="64"><br/><b id="shortTitle_1">Boy With Luv (feat. Halsey)</b><br/><i id="shortArtist_1">BTS</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851deec12a28d1e336c5052e9aa" width="64" height="64"><br/><b id="shortTitle_2">Break Free</b><br/><i id="shortArtist_2">Ariana Grande</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851fc36b265066a58e205ecbd5c" width="64" height="64"><br/><b id="shortTitle_3">Cheap Thrills (feat. Sean Paul)</b><br/><i id="shortArtist_3">Sia</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851d1961ecb307c9e05ec8f7e82" width="64" height="64"><br/><b id="shortTitle_4">The Feels</b><br/><i id="shortArtist_4">TWICE</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048518bc18703825b6448dc06338c" width="64" height="64"><br/><b id="shortTitle_5">Smoke (Prod. Dynamicduo, Padi) - Remix</b><br/><i id="shortArtist_5">Various Artists</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851eb1b1bb1651e8cca563f3967" width="64" height="64"><br/><b id="shortTitle_4">DICE</b><br/><i id="shortArtist_4">NMIXX</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851f6b55ca93bd33211227b502b" width="64" height="64"><br/><b id="shortTitle_5">The Lazy Song</b><br/><i id="shortArtist_5">Bruno Mars</i></p> |
 
 </td><td>
 
@@ -63,8 +63,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="mediumTitle_1">Run For Roses</b><br/><i id="mediumArtist_1">NMIXX</i></p> |
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="mediumTitle_2">DASH</b><br/><i id="mediumArtist_2">NMIXX</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048514b32002f8a5e4ee2a5db5ace" width="64" height="64"><br/><b id="mediumTitle_3">Love Me Like This</b><br/><i id="mediumArtist_3">NMIXX</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="mediumTitle_4">SUNYI</b><br/><i id="mediumArtist_4">Joe Flizzow</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5" width="64" height="64"><br/><b id="mediumTitle_5">24K Magic</b><br/><i id="mediumArtist_5">Bruno Mars</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5" width="64" height="64"><br/><b id="mediumTitle_4">24K Magic</b><br/><i id="mediumArtist_4">Bruno Mars</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851eb1b1bb1651e8cca563f3967" width="64" height="64"><br/><b id="mediumTitle_5">DICE</b><br/><i id="mediumArtist_5">NMIXX</i></p> |
 
 </td><td>
 

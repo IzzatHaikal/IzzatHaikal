@@ -52,8 +52,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d0000485118d0ed4f969b376893f9a38f" width="64" height="64"><br/><b id="shortTitle_1">Boy With Luv (feat. Halsey)</b><br/><i id="shortArtist_1">BTS</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851deec12a28d1e336c5052e9aa" width="64" height="64"><br/><b id="shortTitle_2">Break Free</b><br/><i id="shortArtist_2">Ariana Grande</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851fc36b265066a58e205ecbd5c" width="64" height="64"><br/><b id="shortTitle_3">Cheap Thrills (feat. Sean Paul)</b><br/><i id="shortArtist_3">Sia</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048518ac5768205ad97df3f4f4c0e" width="64" height="64"><br/><b id="shortTitle_4">Somebody That I Used To Know</b><br/><i id="shortArtist_4">Gotye</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048518ac5768205ad97df3f4f4c0e" width="64" height="64"><br/><b id="shortTitle_3">Somebody That I Used To Know</b><br/><i id="shortArtist_3">Gotye</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851fc36b265066a58e205ecbd5c" width="64" height="64"><br/><b id="shortTitle_4">Cheap Thrills (feat. Sean Paul)</b><br/><i id="shortArtist_4">Sia</i></p> |
 | 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851f6b55ca93bd33211227b502b" width="64" height="64"><br/><b id="shortTitle_5">The Lazy Song</b><br/><i id="shortArtist_5">Bruno Mars</i></p> |
 
 </td><td>
@@ -74,7 +74,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="longTitle_2">ETA</b><br/><i id="longArtist_2">NewJeans</i></p> |
 | 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="longTitle_3">SUNYI</b><br/><i id="longArtist_3">Joe Flizzow</i></p> |
 | 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d000048516adf6b9ff59d4b0a568a3896" width="64" height="64"><br/><b id="longTitle_4">Fast Forward</b><br/><i id="longArtist_4">JEON SOMI</i></p> | 
-| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d000048517bc2c6af7c58992239920313" width="64" height="64"><br/><b id="longTitle_5">BIBI Vengeance</b><br/><i id="longArtist_5">BIBI</i></p> |
+| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_5">DASH</b><br/><i id="longArtist_5">NMIXX</i></p> |
 </td></tr> </table>
 
 </details>

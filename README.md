@@ -51,10 +51,10 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357" width="64" height="64"><br/><b id="shortTitle_1">Chandelier</b><br/><i id="shortArtist_1">Sia</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d0000485118d0ed4f969b376893f9a38f" width="64" height="64"><br/><b id="shortTitle_2">Boy With Luv (feat. Halsey)</b><br/><i id="shortArtist_2">BTS</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851f6b55ca93bd33211227b502b" width="64" height="64"><br/><b id="shortTitle_3">The Lazy Song</b><br/><i id="shortArtist_3">Bruno Mars</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851f6b55ca93bd33211227b502b" width="64" height="64"><br/><b id="shortTitle_2">The Lazy Song</b><br/><i id="shortArtist_2">Bruno Mars</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485118d0ed4f969b376893f9a38f" width="64" height="64"><br/><b id="shortTitle_3">Boy With Luv (feat. Halsey)</b><br/><i id="shortArtist_3">BTS</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048518ac5768205ad97df3f4f4c0e" width="64" height="64"><br/><b id="shortTitle_4">Somebody That I Used To Know</b><br/><i id="shortArtist_4">Gotye</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485154d075797911e02360beb3e7" width="64" height="64"><br/><b id="shortTitle_5">SG (with Ozuna, Megan Thee Stallion & LISA of BLACKPINK)</b><br/><i id="shortArtist_5">DJ Snake</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851fc36b265066a58e205ecbd5c" width="64" height="64"><br/><b id="shortTitle_5">Cheap Thrills (feat. Sean Paul)</b><br/><i id="shortArtist_5">Sia</i></p> |
 
 </td><td>
 

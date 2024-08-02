@@ -54,7 +54,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851f6b55ca93bd33211227b502b" width="64" height="64"><br/><b id="shortTitle_2">The Lazy Song</b><br/><i id="shortArtist_2">Bruno Mars</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357" width="64" height="64"><br/><b id="shortTitle_3">Chandelier</b><br/><i id="shortArtist_3">Sia</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485118d0ed4f969b376893f9a38f" width="64" height="64"><br/><b id="shortTitle_4">Boy With Luv (feat. Halsey)</b><br/><i id="shortArtist_4">BTS</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851c07d5d2fdc02ae252fcd07e5" width="64" height="64"><br/><b id="shortTitle_5">Dynamite</b><br/><i id="shortArtist_5">BTS</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851eb1b1bb1651e8cca563f3967" width="64" height="64"><br/><b id="shortTitle_5">DICE</b><br/><i id="shortArtist_5">NMIXX</i></p> |
 
 </td><td>
 
@@ -63,8 +63,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="mediumTitle_1">Run For Roses</b><br/><i id="mediumArtist_1">NMIXX</i></p> |
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="mediumTitle_2">DASH</b><br/><i id="mediumArtist_2">NMIXX</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048514b32002f8a5e4ee2a5db5ace" width="64" height="64"><br/><b id="mediumTitle_3">Love Me Like This</b><br/><i id="mediumArtist_3">NMIXX</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5" width="64" height="64"><br/><b id="mediumTitle_4">24K Magic</b><br/><i id="mediumArtist_4">Bruno Mars</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851eb1b1bb1651e8cca563f3967" width="64" height="64"><br/><b id="mediumTitle_5">DICE</b><br/><i id="mediumArtist_5">NMIXX</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851eb1b1bb1651e8cca563f3967" width="64" height="64"><br/><b id="mediumTitle_4">DICE</b><br/><i id="mediumArtist_4">NMIXX</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851de5d7fcc7c044c9813e99b33" width="64" height="64"><br/><b id="mediumTitle_5">Roller Coaster</b><br/><i id="mediumArtist_5">NMIXX</i></p> |
 
 </td><td>
 

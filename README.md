@@ -54,7 +54,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851c6dbc63cf145b4ff6bee3322" width="64" height="64"><br/><b id="shortTitle_2">Burning Up (Fire)</b><br/><i id="shortArtist_2">BTS</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851c07d5d2fdc02ae252fcd07e5" width="64" height="64"><br/><b id="shortTitle_3">Dynamite</b><br/><i id="shortArtist_3">BTS</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851de5d7fcc7c044c9813e99b33" width="64" height="64"><br/><b id="shortTitle_4">Roller Coaster</b><br/><i id="shortArtist_4">NMIXX</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851caf82abb2338880577e472be" width="64" height="64"><br/><b id="shortTitle_5">Taki Taki (feat. Selena Gomez, Ozuna & Cardi B)</b><br/><i id="shortArtist_5">DJ Snake</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048513825e6d4d02e4b4c0cec7e1d" width="64" height="64"><br/><b id="shortTitle_5">IDOL</b><br/><i id="shortArtist_5">BTS</i></p> |
 
 </td><td>
 
@@ -70,11 +70,11 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_1">Run For Roses</b><br/><i id="longArtist_1">NMIXX</i></p> |
-| 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="longTitle_2">ETA</b><br/><i id="longArtist_2">NewJeans</i></p> |
-| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="longTitle_3">SUNYI</b><br/><i id="longArtist_3">Joe Flizzow</i></p> |
-| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_4">DASH</b><br/><i id="longArtist_4">NMIXX</i></p> | 
-| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d000048514b32002f8a5e4ee2a5db5ace" width="64" height="64"><br/><b id="longTitle_5">Love Me Like This</b><br/><i id="longArtist_5">NMIXX</i></p> |
+| 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851580ac3ad7dfc81e509171120" width="64" height="64"><br/><b id="longTitle_1">Hard to Love</b><br/><i id="longArtist_1">BLACKPINK</i></p> |
+| 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="longTitle_2">MY BAG</b><br/><i id="longArtist_2">(G)I-DLE</i></p> |
+| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="longTitle_3">Never Stop Me</b><br/><i id="longArtist_3">(G)I-DLE</i></p> |
+| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="longTitle_4">ANTIFRAGILE</b><br/><i id="longArtist_4">LE SSERAFIM</i></p> | 
+| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d000048517ff1c1d0d05e123f895635fe" width="64" height="64"><br/><b id="longTitle_5">DUMB DUMB</b><br/><i id="longArtist_5">JEON SOMI</i></p> |
 </td></tr> </table>
 
 </details>

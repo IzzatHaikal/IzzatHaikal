@@ -62,9 +62,9 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851f8c8297efc6022534f1357e1" width="64" height="64"><br/><b id="mediumTitle_1">APT.</b><br/><i id="mediumArtist_1">ROSÉ</i></p> |
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851de5d7fcc7c044c9813e99b33" width="64" height="64"><br/><b id="mediumTitle_2">Roller Coaster</b><br/><i id="mediumArtist_2">NMIXX</i></p> |
-| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="mediumTitle_3">Run For Roses</b><br/><i id="mediumArtist_3">NMIXX</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048510fc598038040859794c600e2" width="64" height="64"><br/><b id="mediumTitle_4">Supernova</b><br/><i id="mediumArtist_4">aespa</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851eb1b1bb1651e8cca563f3967" width="64" height="64"><br/><b id="mediumTitle_5">DICE</b><br/><i id="mediumArtist_5">NMIXX</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048510fc598038040859794c600e2" width="64" height="64"><br/><b id="mediumTitle_3">Supernova</b><br/><i id="mediumArtist_3">aespa</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="mediumTitle_4">Run For Roses</b><br/><i id="mediumArtist_4">NMIXX</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048511869a85947a5ea00df8c936f" width="64" height="64"><br/><b id="mediumTitle_5">Fighting (Feat. Lee Young Ji)</b><br/><i id="mediumArtist_5">BSS</i></p> |
 
 </td><td>
 

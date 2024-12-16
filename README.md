@@ -70,10 +70,10 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="longTitle_1">MY BAG</b><br/><i id="longArtist_1">(G)I-DLE</i></p> |
-| 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="longTitle_2">Never Stop Me</b><br/><i id="longArtist_2">(G)I-DLE</i></p> |
-| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="longTitle_3">ANTIFRAGILE</b><br/><i id="longArtist_3">LE SSERAFIM</i></p> |
-| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d000048517ff1c1d0d05e123f895635fe" width="64" height="64"><br/><b id="longTitle_4">DUMB DUMB</b><br/><i id="longArtist_4">JEON SOMI</i></p> | 
+| 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="longTitle_1">Never Stop Me</b><br/><i id="longArtist_1">(G)I-DLE</i></p> |
+| 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="longTitle_2">ANTIFRAGILE</b><br/><i id="longArtist_2">LE SSERAFIM</i></p> |
+| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d000048517ff1c1d0d05e123f895635fe" width="64" height="64"><br/><b id="longTitle_3">DUMB DUMB</b><br/><i id="longArtist_3">JEON SOMI</i></p> |
+| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="longTitle_4">MY BAG</b><br/><i id="longArtist_4">(G)I-DLE</i></p> | 
 | 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_5">Run For Roses</b><br/><i id="longArtist_5">NMIXX</i></p> |
 </td></tr> </table>
 

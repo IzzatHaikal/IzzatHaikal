@@ -53,8 +53,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048511869a85947a5ea00df8c936f" width="64" height="64"><br/><b id="shortTitle_1">Fighting (Feat. Lee Young Ji)</b><br/><i id="shortArtist_1">BSS</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d0000485136032cb4acd9df050bc2e197" width="64" height="64"><br/><b id="shortTitle_2">APT.</b><br/><i id="shortArtist_2">ROSÉ</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048510fc598038040859794c600e2" width="64" height="64"><br/><b id="shortTitle_3">Supernova</b><br/><i id="shortArtist_3">aespa</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851de5d7fcc7c044c9813e99b33" width="64" height="64"><br/><b id="shortTitle_4">Roller Coaster</b><br/><i id="shortArtist_4">NMIXX</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="shortTitle_5">Run For Roses</b><br/><i id="shortArtist_5">NMIXX</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="shortTitle_4">Run For Roses</b><br/><i id="shortArtist_4">NMIXX</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851de5d7fcc7c044c9813e99b33" width="64" height="64"><br/><b id="shortTitle_5">Roller Coaster</b><br/><i id="shortArtist_5">NMIXX</i></p> |
 
 </td><td>
 
@@ -73,8 +73,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="longTitle_1">Never Stop Me</b><br/><i id="longArtist_1">(G)I-DLE</i></p> |
 | 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="longTitle_2">ANTIFRAGILE</b><br/><i id="longArtist_2">LE SSERAFIM</i></p> |
 | 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d000048517ff1c1d0d05e123f895635fe" width="64" height="64"><br/><b id="longTitle_3">DUMB DUMB</b><br/><i id="longArtist_3">JEON SOMI</i></p> |
-| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851c7b6b2976e38a802eebff046" width="64" height="64"><br/><b id="longTitle_4">MY BAG</b><br/><i id="longArtist_4">(G)I-DLE</i></p> | 
-| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_5">Run For Roses</b><br/><i id="longArtist_5">NMIXX</i></p> |
+| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_4">Run For Roses</b><br/><i id="longArtist_4">NMIXX</i></p> | 
+| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="longTitle_5">Senorita</b><br/><i id="longArtist_5">(G)I-DLE</i></p> |
 </td></tr> </table>
 
 </details>

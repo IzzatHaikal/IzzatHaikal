@@ -54,7 +54,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851e467a8e8d7b0aa92d354aa75" width="64" height="64"><br/><b id="shortTitle_2">Whiplash</b><br/><i id="shortArtist_2">aespa</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048510fc598038040859794c600e2" width="64" height="64"><br/><b id="shortTitle_3">Supernova</b><br/><i id="shortArtist_3">aespa</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048514b32002f8a5e4ee2a5db5ace" width="64" height="64"><br/><b id="shortTitle_4">Love Me Like This</b><br/><i id="shortArtist_4">NMIXX</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851253096eda3b7826c11c7fab8" width="64" height="64"><br/><b id="shortTitle_5">UP - KARINA Solo</b><br/><i id="shortArtist_5">aespa</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048511869a85947a5ea00df8c936f" width="64" height="64"><br/><b id="shortTitle_5">Fighting (Feat. Lee Young Ji)</b><br/><i id="shortArtist_5">BSS</i></p> |
 
 </td><td>
 
@@ -74,7 +74,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="longTitle_2">ANTIFRAGILE</b><br/><i id="longArtist_2">LE SSERAFIM</i></p> |
 | 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_3">Run For Roses</b><br/><i id="longArtist_3">NMIXX</i></p> |
 | 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="longTitle_4">Senorita</b><br/><i id="longArtist_4">(G)I-DLE</i></p> | 
-| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851ef6b9310f4cef9d603fa8873" width="64" height="64"><br/><b id="longTitle_5">Trouble Maker</b><br/><i id="longArtist_5">Trouble Maker</i></p> |
+| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="longTitle_5">Rover</b><br/><i id="longArtist_5">KAI</i></p> |
 </td></tr> </table>
 
 </details>

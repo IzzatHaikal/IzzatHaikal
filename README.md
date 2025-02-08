@@ -74,7 +74,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="longTitle_2">ANTIFRAGILE</b><br/><i id="longArtist_2">LE SSERAFIM</i></p> |
 | 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_3">Run For Roses</b><br/><i id="longArtist_3">NMIXX</i></p> |
 | 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851e0673f1aa086b283c865817e" width="64" height="64"><br/><b id="longTitle_4">Senorita</b><br/><i id="longArtist_4">(G)I-DLE</i></p> | 
-| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="longTitle_5">Rover</b><br/><i id="longArtist_5">KAI</i></p> |
+| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d0000485136032cb4acd9df050bc2e197" width="64" height="64"><br/><b id="longTitle_5">APT.</b><br/><i id="longArtist_5">ROSÉ</i></p> |
 </td></tr> </table>
 
 </details>

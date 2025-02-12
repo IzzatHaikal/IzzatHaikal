@@ -51,20 +51,20 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="shortTitle_1">Love Is Lonely</b><br/><i id="shortArtist_1">NMIXX</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851e467a8e8d7b0aa92d354aa75" width="64" height="64"><br/><b id="shortTitle_2">Whiplash</b><br/><i id="shortArtist_2">aespa</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485136032cb4acd9df050bc2e197" width="64" height="64"><br/><b id="shortTitle_3">APT.</b><br/><i id="shortArtist_3">ROSÉ</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048510fc598038040859794c600e2" width="64" height="64"><br/><b id="shortTitle_4">Supernova</b><br/><i id="shortArtist_4">aespa</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048511869a85947a5ea00df8c936f" width="64" height="64"><br/><b id="shortTitle_5">Fighting (Feat. Lee Young Ji)</b><br/><i id="shortArtist_5">BSS</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851f0f92e8441e7fa0c60e00fb3" width="64" height="64"><br/><b id="shortTitle_2">Whiplash</b><br/><i id="shortArtist_2">aespa</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048515074bd0894cb1340b8d8a678" width="64" height="64"><br/><b id="shortTitle_3">APT.</b><br/><i id="shortArtist_3">ROSÉ</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048511869a85947a5ea00df8c936f" width="64" height="64"><br/><b id="shortTitle_4">Fighting (Feat. Lee Young Ji)</b><br/><i id="shortArtist_4">BSS</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048511a956dd1b4e37445ce947f0c" width="64" height="64"><br/><b id="shortTitle_5">Supernova</b><br/><i id="shortArtist_5">aespa</i></p> |
 
 </td><td>
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d0000485136032cb4acd9df050bc2e197" width="64" height="64"><br/><b id="mediumTitle_1">APT.</b><br/><i id="mediumArtist_1">ROSÉ</i></p> |
+| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d000048515074bd0894cb1340b8d8a678" width="64" height="64"><br/><b id="mediumTitle_1">APT.</b><br/><i id="mediumArtist_1">ROSÉ</i></p> |
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="mediumTitle_2">Love Is Lonely</b><br/><i id="mediumArtist_2">NMIXX</i></p> |
-| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851e467a8e8d7b0aa92d354aa75" width="64" height="64"><br/><b id="mediumTitle_3">Whiplash</b><br/><i id="mediumArtist_3">aespa</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851f0f92e8441e7fa0c60e00fb3" width="64" height="64"><br/><b id="mediumTitle_3">Whiplash</b><br/><i id="mediumArtist_3">aespa</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048511869a85947a5ea00df8c936f" width="64" height="64"><br/><b id="mediumTitle_4">Fighting (Feat. Lee Young Ji)</b><br/><i id="mediumArtist_4">BSS</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048510fc598038040859794c600e2" width="64" height="64"><br/><b id="mediumTitle_5">Supernova</b><br/><i id="mediumArtist_5">aespa</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048511a956dd1b4e37445ce947f0c" width="64" height="64"><br/><b id="mediumTitle_5">Supernova</b><br/><i id="mediumArtist_5">aespa</i></p> |
 
 </td><td>
 

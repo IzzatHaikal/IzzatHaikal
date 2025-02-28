@@ -53,8 +53,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="shortTitle_1">Love Is Lonely</b><br/><i id="shortArtist_1">NMIXX</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048515074bd0894cb1340b8d8a678" width="64" height="64"><br/><b id="shortTitle_2">APT.</b><br/><i id="shortArtist_2">ROSÉ</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851f0f92e8441e7fa0c60e00fb3" width="64" height="64"><br/><b id="shortTitle_3">Whiplash</b><br/><i id="shortArtist_3">aespa</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048511869a85947a5ea00df8c936f" width="64" height="64"><br/><b id="shortTitle_4">Fighting (Feat. Lee Young Ji)</b><br/><i id="shortArtist_4">BSS</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="shortTitle_5">Skyfall</b><br/><i id="shortArtist_5">Adele</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="shortTitle_4">Skyfall</b><br/><i id="shortArtist_4">Adele</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048511869a85947a5ea00df8c936f" width="64" height="64"><br/><b id="shortTitle_5">Fighting (Feat. Lee Young Ji)</b><br/><i id="shortArtist_5">BSS</i></p> |
 
 </td><td>
 
@@ -73,8 +73,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="longTitle_1">ANTIFRAGILE</b><br/><i id="longArtist_1">LE SSERAFIM</i></p> |
 | 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_2">Run For Roses</b><br/><i id="longArtist_2">NMIXX</i></p> |
 | 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d0000485136032cb4acd9df050bc2e197" width="64" height="64"><br/><b id="longTitle_3">APT.</b><br/><i id="longArtist_3">ROSÉ</i></p> |
-| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="longTitle_4">Rover</b><br/><i id="longArtist_4">KAI</i></p> | 
-| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="longTitle_5">Love Is Lonely</b><br/><i id="longArtist_5">NMIXX</i></p> |
+| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="longTitle_4">Love Is Lonely</b><br/><i id="longArtist_4">NMIXX</i></p> | 
+| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="longTitle_5">Rover</b><br/><i id="longArtist_5">KAI</i></p> |
 </td></tr> </table>
 
 </details>

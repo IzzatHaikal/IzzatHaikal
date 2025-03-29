@@ -52,9 +52,9 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="shortTitle_1">Skyfall</b><br/><i id="shortArtist_1">Adele</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="shortTitle_2">Love Is Lonely</b><br/><i id="shortArtist_2">NMIXX</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851f0f92e8441e7fa0c60e00fb3" width="64" height="64"><br/><b id="shortTitle_3">Whiplash</b><br/><i id="shortArtist_3">aespa</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048511a956dd1b4e37445ce947f0c" width="64" height="64"><br/><b id="shortTitle_4">Supernova</b><br/><i id="shortArtist_4">aespa</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048515074bd0894cb1340b8d8a678" width="64" height="64"><br/><b id="shortTitle_5">APT.</b><br/><i id="shortArtist_5">ROSÉ</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485189eb0434891ac969895cbba8" width="64" height="64"><br/><b id="shortTitle_3">Roller Coaster</b><br/><i id="shortArtist_3">NMIXX</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048515074bd0894cb1340b8d8a678" width="64" height="64"><br/><b id="shortTitle_4">APT.</b><br/><i id="shortArtist_4">ROSÉ</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851df738f0f699dc72745e937fc" width="64" height="64"><br/><b id="shortTitle_5">Di Matamu</b><br/><i id="shortArtist_5">Sufian Suhaimi</i></p> |
 
 </td><td>
 
@@ -64,7 +64,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="mediumTitle_2">Love Is Lonely</b><br/><i id="mediumArtist_2">NMIXX</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851f0f92e8441e7fa0c60e00fb3" width="64" height="64"><br/><b id="mediumTitle_3">Whiplash</b><br/><i id="mediumArtist_3">aespa</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048511869a85947a5ea00df8c936f" width="64" height="64"><br/><b id="mediumTitle_4">Fighting (Feat. Lee Young Ji)</b><br/><i id="mediumArtist_4">BSS</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048511a956dd1b4e37445ce947f0c" width="64" height="64"><br/><b id="mediumTitle_5">Supernova</b><br/><i id="mediumArtist_5">aespa</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="mediumTitle_5">Skyfall</b><br/><i id="mediumArtist_5">Adele</i></p> |
 
 </td><td>
 

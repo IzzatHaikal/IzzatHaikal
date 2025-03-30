@@ -70,8 +70,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="longTitle_1">ANTIFRAGILE</b><br/><i id="longArtist_1">LE SSERAFIM</i></p> |
-| 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_2">Run For Roses</b><br/><i id="longArtist_2">NMIXX</i></p> |
+| 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_1">Run For Roses</b><br/><i id="longArtist_1">NMIXX</i></p> |
+| 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="longTitle_2">ANTIFRAGILE</b><br/><i id="longArtist_2">LE SSERAFIM</i></p> |
 | 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d0000485136032cb4acd9df050bc2e197" width="64" height="64"><br/><b id="longTitle_3">APT.</b><br/><i id="longArtist_3">ROSÉ</i></p> |
 | 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="longTitle_4">Love Is Lonely</b><br/><i id="longArtist_4">NMIXX</i></p> | 
 | 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="longTitle_5">Rover</b><br/><i id="longArtist_5">KAI</i></p> |

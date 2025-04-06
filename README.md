@@ -51,10 +51,10 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="shortTitle_1">Skyfall</b><br/><i id="shortArtist_1">Adele</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851ae4f1868ec32b657aa68b0ca" width="64" height="64"><br/><b id="shortTitle_2">Bawaku Pergi</b><br/><i id="shortArtist_2">Zizan Razak</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="shortTitle_3">Love Is Lonely</b><br/><i id="shortArtist_3">NMIXX</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048512c8ce0c839b026200ed61d0c" width="64" height="64"><br/><b id="shortTitle_4">Noktah Cinta</b><br/><i id="shortArtist_4">Hafiz Suip</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048512c8ce0c839b026200ed61d0c" width="64" height="64"><br/><b id="shortTitle_5">Bahagiamu Deritaku</b><br/><i id="shortArtist_5">Hafiz Suip</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851dae5a73c2be78ee446a16194" width="64" height="64"><br/><b id="shortTitle_2">Situasi</b><br/><i id="shortArtist_2">Bunkface</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485189eb0434891ac969895cbba8" width="64" height="64"><br/><b id="shortTitle_3">Roller Coaster</b><br/><i id="shortArtist_3">NMIXX</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048515891eed13908d88ba2b1808b" width="64" height="64"><br/><b id="shortTitle_4">Mimpi (feat. Alif)</b><br/><i id="shortArtist_4">K-Clique</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048511a956dd1b4e37445ce947f0c" width="64" height="64"><br/><b id="shortTitle_5">Supernova</b><br/><i id="shortArtist_5">aespa</i></p> |
 
 </td><td>
 
@@ -72,8 +72,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_1">Run For Roses</b><br/><i id="longArtist_1">NMIXX</i></p> |
 | 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d0000485136032cb4acd9df050bc2e197" width="64" height="64"><br/><b id="longTitle_2">APT.</b><br/><i id="longArtist_2">ROSÉ</i></p> |
-| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="longTitle_3">ANTIFRAGILE</b><br/><i id="longArtist_3">LE SSERAFIM</i></p> |
-| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="longTitle_4">Love Is Lonely</b><br/><i id="longArtist_4">NMIXX</i></p> | 
+| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="longTitle_3">Love Is Lonely</b><br/><i id="longArtist_3">NMIXX</i></p> |
+| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851a991995542d50a691b9ae5be" width="64" height="64"><br/><b id="longTitle_4">ANTIFRAGILE</b><br/><i id="longArtist_4">LE SSERAFIM</i></p> | 
 | 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851ca0bf7a337ed7a8bcc34948e" width="64" height="64"><br/><b id="longTitle_5">Rover</b><br/><i id="longArtist_5">KAI</i></p> |
 </td></tr> </table>
 

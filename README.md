@@ -52,9 +52,9 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="shortTitle_1">Skyfall</b><br/><i id="shortArtist_1">Adele</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="shortTitle_2">Love Is Lonely</b><br/><i id="shortArtist_2">NMIXX</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851dae5a73c2be78ee446a16194" width="64" height="64"><br/><b id="shortTitle_3">Situasi</b><br/><i id="shortArtist_3">Bunkface</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851863a175ed906280e46605142" width="64" height="64"><br/><b id="shortTitle_4">Hanya Aku</b><br/><i id="shortArtist_4">Hyper Act</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851f0f92e8441e7fa0c60e00fb3" width="64" height="64"><br/><b id="shortTitle_5">Whiplash</b><br/><i id="shortArtist_5">aespa</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d0000485189eb0434891ac969895cbba8" width="64" height="64"><br/><b id="shortTitle_3">Roller Coaster</b><br/><i id="shortArtist_3">NMIXX</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851f0f92e8441e7fa0c60e00fb3" width="64" height="64"><br/><b id="shortTitle_4">Whiplash</b><br/><i id="shortArtist_4">aespa</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048515074bd0894cb1340b8d8a678" width="64" height="64"><br/><b id="shortTitle_5">APT.</b><br/><i id="shortArtist_5">ROSÉ</i></p> |
 
 </td><td>
 

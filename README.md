@@ -50,8 +50,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851fafb4022c8ca1c4498e10b19" width="64" height="64"><br/><b id="shortTitle_1">La La La</b><br/><i id="shortArtist_1">Naughty Boy</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="shortTitle_2">Missing You (Feat. Kim Yuna)</b><br/><i id="shortArtist_2">G-DRAGON</i></p> |
+| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="shortTitle_1">Missing You (Feat. Kim Yuna)</b><br/><i id="shortArtist_1">G-DRAGON</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851fafb4022c8ca1c4498e10b19" width="64" height="64"><br/><b id="shortTitle_2">La La La</b><br/><i id="shortArtist_2">Naughty Boy</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048518c22c6d1dba584d35206a9f6" width="64" height="64"><br/><b id="shortTitle_3">IF YOU - KR Ver.</b><br/><i id="shortArtist_3">BIGBANG</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048518c22c6d1dba584d35206a9f6" width="64" height="64"><br/><b id="shortTitle_4">BANG BANG BANG - KR Ver.</b><br/><i id="shortArtist_4">BIGBANG</i></p> |
 | 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048518c22c6d1dba584d35206a9f6" width="64" height="64"><br/><b id="shortTitle_5">SOBER - KR Ver.</b><br/><i id="shortArtist_5">BIGBANG</i></p> |

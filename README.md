@@ -51,8 +51,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="shortTitle_1">Missing You (Feat. Kim Yuna)</b><br/><i id="shortArtist_1">G-DRAGON</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851fafb4022c8ca1c4498e10b19" width="64" height="64"><br/><b id="shortTitle_2">La La La</b><br/><i id="shortArtist_2">Naughty Boy</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048518c22c6d1dba584d35206a9f6" width="64" height="64"><br/><b id="shortTitle_3">IF YOU - KR Ver.</b><br/><i id="shortArtist_3">BIGBANG</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048518c22c6d1dba584d35206a9f6" width="64" height="64"><br/><b id="shortTitle_2">IF YOU - KR Ver.</b><br/><i id="shortArtist_2">BIGBANG</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_3">LOSER - Live</b><br/><i id="shortArtist_3">BIGBANG</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048518c22c6d1dba584d35206a9f6" width="64" height="64"><br/><b id="shortTitle_4">BANG BANG BANG - KR Ver.</b><br/><i id="shortArtist_4">BIGBANG</i></p> |
 | 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048518c22c6d1dba584d35206a9f6" width="64" height="64"><br/><b id="shortTitle_5">SOBER - KR Ver.</b><br/><i id="shortArtist_5">BIGBANG</i></p> |
 
@@ -61,8 +61,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="mediumTitle_1">Love Is Lonely</b><br/><i id="mediumArtist_1">NMIXX</i></p> |
-| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="mediumTitle_2">Skyfall</b><br/><i id="mediumArtist_2">Adele</i></p> |
-| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="mediumTitle_3">Missing You (Feat. Kim Yuna)</b><br/><i id="mediumArtist_3">G-DRAGON</i></p> |
+| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="mediumTitle_2">Missing You (Feat. Kim Yuna)</b><br/><i id="mediumArtist_2">G-DRAGON</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="mediumTitle_3">Skyfall</b><br/><i id="mediumArtist_3">Adele</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851f0f92e8441e7fa0c60e00fb3" width="64" height="64"><br/><b id="mediumTitle_4">Whiplash</b><br/><i id="mediumArtist_4">aespa</i></p> |
 | 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048515074bd0894cb1340b8d8a678" width="64" height="64"><br/><b id="mediumTitle_5">APT.</b><br/><i id="mediumArtist_5">ROSÉ</i></p> |
 

@@ -61,10 +61,10 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="mediumTitle_1">Missing You (Feat. Kim Yuna)</b><br/><i id="mediumArtist_1">G-DRAGON</i></p> |
-| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="mediumTitle_2">Love Is Lonely</b><br/><i id="mediumArtist_2">NMIXX</i></p> |
-| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="mediumTitle_3">Skyfall</b><br/><i id="mediumArtist_3">Adele</i></p> |
+| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="mediumTitle_2">Skyfall</b><br/><i id="mediumArtist_2">Adele</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="mediumTitle_3">Love Is Lonely</b><br/><i id="mediumArtist_3">NMIXX</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048510bd44f5ff9ecc99f7770acc5" width="64" height="64"><br/><b id="mediumTitle_4">Meet Me Halfway</b><br/><i id="mediumArtist_4">Black Eyed Peas</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048515074bd0894cb1340b8d8a678" width="64" height="64"><br/><b id="mediumTitle_5">APT.</b><br/><i id="mediumArtist_5">ROSÉ</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851fafb4022c8ca1c4498e10b19" width="64" height="64"><br/><b id="mediumTitle_5">La La La</b><br/><i id="mediumArtist_5">Naughty Boy</i></p> |
 
 </td><td>
 

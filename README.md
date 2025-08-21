@@ -52,9 +52,9 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="shortTitle_1">Missing You (Feat. Kim Yuna)</b><br/><i id="shortArtist_1">G-DRAGON</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_2">LOSER - Live</b><br/><i id="shortArtist_2">BIGBANG</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_3">BANG BANG BANG - Live</b><br/><i id="shortArtist_3">BIGBANG</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="shortTitle_4">Skyfall</b><br/><i id="shortArtist_4">Adele</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_5">FANTASTIC BABY - Live</b><br/><i id="shortArtist_5">BIGBANG</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="shortTitle_3">Skyfall</b><br/><i id="shortArtist_3">Adele</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048511a956dd1b4e37445ce947f0c" width="64" height="64"><br/><b id="shortTitle_4">Supernova</b><br/><i id="shortArtist_4">aespa</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851c6dbc63cf145b4ff6bee3322" width="64" height="64"><br/><b id="shortTitle_5">Burning Up (Fire)</b><br/><i id="shortArtist_5">BTS</i></p> |
 
 </td><td>
 

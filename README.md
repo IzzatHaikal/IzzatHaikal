@@ -51,10 +51,10 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="shortTitle_1">Missing You (Feat. Kim Yuna)</b><br/><i id="shortArtist_1">G-DRAGON</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="shortTitle_2">Skyfall</b><br/><i id="shortArtist_2">Adele</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_3">LOSER - Live</b><br/><i id="shortArtist_3">BIGBANG</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048511a956dd1b4e37445ce947f0c" width="64" height="64"><br/><b id="shortTitle_4">Supernova</b><br/><i id="shortArtist_4">aespa</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851c6dbc63cf145b4ff6bee3322" width="64" height="64"><br/><b id="shortTitle_5">Burning Up (Fire)</b><br/><i id="shortArtist_5">BTS</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851c6dbc63cf145b4ff6bee3322" width="64" height="64"><br/><b id="shortTitle_2">Burning Up (Fire)</b><br/><i id="shortArtist_2">BTS</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851b4366694590f7164fad21fc7" width="64" height="64"><br/><b id="shortTitle_3">We Own It (Fast & Furious)</b><br/><i id="shortArtist_3">2 Chainz</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485194c5fc602eb199841e8c3a6e" width="64" height="64"><br/><b id="shortTitle_4">Sampai Jadi (feat. ALYPH)</b><br/><i id="shortArtist_4">Joe Flizzow</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048519d28fd01859073a3ae6ea209" width="64" height="64"><br/><b id="shortTitle_5">Hype Boy</b><br/><i id="shortArtist_5">NewJeans</i></p> |
 
 </td><td>
 

@@ -50,11 +50,11 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048511ef01a45a88f8dfc00f62011" width="64" height="64"><br/><b id="shortTitle_1">Standing In The Eyes Of The World</b><br/><i id="shortArtist_1">Ella</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048517ef8cc65f82218452d8d7a92" width="64" height="64"><br/><b id="shortTitle_2">CLOSER</b><br/><i id="shortArtist_2">JEON SOMI</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851092c3001ef2d0a4f81372078" width="64" height="64"><br/><b id="shortTitle_3">Chk Chk Boom</b><br/><i id="shortArtist_3">Stray Kids</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851b4366694590f7164fad21fc7" width="64" height="64"><br/><b id="shortTitle_4">We Own It (Fast & Furious)</b><br/><i id="shortArtist_4">2 Chainz</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="shortTitle_5">Fire in the belly</b><br/><i id="shortArtist_5">LE SSERAFIM</i></p> |
+| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="shortTitle_1">Missing You (Feat. Kim Yuna)</b><br/><i id="shortArtist_1">G-DRAGON</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="shortTitle_2">Fire in the belly</b><br/><i id="shortArtist_2">LE SSERAFIM</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048511869a85947a5ea00df8c936f" width="64" height="64"><br/><b id="shortTitle_3">Fighting (Feat. Lee Young Ji)</b><br/><i id="shortArtist_3">BSS</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048511ef01a45a88f8dfc00f62011" width="64" height="64"><br/><b id="shortTitle_4">Standing In The Eyes Of The World</b><br/><i id="shortArtist_4">Ella</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048517ef8cc65f82218452d8d7a92" width="64" height="64"><br/><b id="shortTitle_5">CLOSER</b><br/><i id="shortArtist_5">JEON SOMI</i></p> |
 
 </td><td>
 

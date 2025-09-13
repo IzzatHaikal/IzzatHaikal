@@ -52,9 +52,9 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851d71fd77b89d08bc1bda219c7" width="64" height="64"><br/><b id="shortTitle_1">Fire in the belly</b><br/><i id="shortArtist_1">LE SSERAFIM</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="shortTitle_2">Missing You (Feat. Kim Yuna)</b><br/><i id="shortArtist_2">G-DRAGON</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048511ef01a45a88f8dfc00f62011" width="64" height="64"><br/><b id="shortTitle_3">Standing In The Eyes Of The World</b><br/><i id="shortArtist_3">Ella</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851dbe4205a5d8ec07f1a52f7f2" width="64" height="64"><br/><b id="shortTitle_4">Hasrat (OST Imaginur)</b><br/><i id="shortArtist_4">Amir Jahari</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851ccfac346e4d795a78368e900" width="64" height="64"><br/><b id="shortTitle_5">Satu Malam Di Temasek</b><br/><i id="shortArtist_5">Joe Flizzow</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048517ef8cc65f82218452d8d7a92" width="64" height="64"><br/><b id="shortTitle_3">CLOSER</b><br/><i id="shortArtist_3">JEON SOMI</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048511ef01a45a88f8dfc00f62011" width="64" height="64"><br/><b id="shortTitle_4">Standing In The Eyes Of The World</b><br/><i id="shortArtist_4">Ella</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851dbe4205a5d8ec07f1a52f7f2" width="64" height="64"><br/><b id="shortTitle_5">Hasrat (OST Imaginur)</b><br/><i id="shortArtist_5">Amir Jahari</i></p> |
 
 </td><td>
 

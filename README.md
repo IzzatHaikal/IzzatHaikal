@@ -51,10 +51,10 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851e1b8e368ceafe1117e846859" width="64" height="64"><br/><b id="shortTitle_1">HOME SWEET HOME (feat. TAEYANG & DAESUNG)</b><br/><i id="shortArtist_1">G-DRAGON</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="shortTitle_2">Missing You (Feat. Kim Yuna)</b><br/><i id="shortArtist_2">G-DRAGON</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851e1bb8a1ad0a48eb7f53a448e" width="64" height="64"><br/><b id="shortTitle_2">CEREMONY</b><br/><i id="shortArtist_2">Stray Kids</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851092c3001ef2d0a4f81372078" width="64" height="64"><br/><b id="shortTitle_3">Chk Chk Boom</b><br/><i id="shortArtist_3">Stray Kids</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="shortTitle_4">Love Is Lonely</b><br/><i id="shortArtist_4">NMIXX</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="shortTitle_5">Skyfall</b><br/><i id="shortArtist_5">Adele</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851e1bb8a1ad0a48eb7f53a448e" width="64" height="64"><br/><b id="shortTitle_4">BLEEP</b><br/><i id="shortArtist_4">Stray Kids</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="shortTitle_5">Missing You (Feat. Kim Yuna)</b><br/><i id="shortArtist_5">G-DRAGON</i></p> |
 
 </td><td>
 

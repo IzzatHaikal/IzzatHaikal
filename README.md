@@ -54,7 +54,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_2">FXXK IT - Live</b><br/><i id="shortArtist_2">BIGBANG</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_3">BANG BANG BANG - Live</b><br/><i id="shortArtist_3">BIGBANG</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_4">FANTASTIC BABY - Live</b><br/><i id="shortArtist_4">BIGBANG</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_5">SOBER - Live</b><br/><i id="shortArtist_5">BIGBANG</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_5">BAE BAE - Live</b><br/><i id="shortArtist_5">BIGBANG</i></p> |
 
 </td><td>
 
@@ -64,7 +64,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851e1b8e368ceafe1117e846859" width="64" height="64"><br/><b id="mediumTitle_2">HOME SWEET HOME (feat. TAEYANG & DAESUNG)</b><br/><i id="mediumArtist_2">G-DRAGON</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048510bd44f5ff9ecc99f7770acc5" width="64" height="64"><br/><b id="mediumTitle_3">Meet Me Halfway</b><br/><i id="mediumArtist_3">Black Eyed Peas</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851fafb4022c8ca1c4498e10b19" width="64" height="64"><br/><b id="mediumTitle_4">La La La</b><br/><i id="mediumArtist_4">Naughty Boy</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048512737be35cc5245eef495be90" width="64" height="64"><br/><b id="mediumTitle_5">Skyfall</b><br/><i id="mediumArtist_5">Adele</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="mediumTitle_5">LOSER - Live</b><br/><i id="mediumArtist_5">BIGBANG</i></p> |
 
 </td><td>
 

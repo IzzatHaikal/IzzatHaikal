@@ -50,11 +50,11 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_1">LOSER - Live</b><br/><i id="shortArtist_1">BIGBANG</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_2">FXXK IT - Live</b><br/><i id="shortArtist_2">BIGBANG</i></p> |
+| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_1">FXXK IT - Live</b><br/><i id="shortArtist_1">BIGBANG</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_2">LOSER - Live</b><br/><i id="shortArtist_2">BIGBANG</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_3">BANG BANG BANG - Live</b><br/><i id="shortArtist_3">BIGBANG</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_4">FANTASTIC BABY - Live</b><br/><i id="shortArtist_4">BIGBANG</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485162e221c26b9649970b567e05" width="64" height="64"><br/><b id="shortTitle_5">Tepi Sikit (feat. Joe Flizzow)</b><br/><i id="shortArtist_5">SleeQ</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485162e221c26b9649970b567e05" width="64" height="64"><br/><b id="shortTitle_4">Tepi Sikit (feat. Joe Flizzow)</b><br/><i id="shortArtist_4">SleeQ</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851cdeac10253b85cda391ad9b6" width="64" height="64"><br/><b id="shortTitle_5">FANTASTIC BABY - Live</b><br/><i id="shortArtist_5">BIGBANG</i></p> |
 
 </td><td>
 

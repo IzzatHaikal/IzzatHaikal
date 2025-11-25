@@ -53,8 +53,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851767b2e91b1a0a20a873afdeb" width="64" height="64"><br/><b id="shortTitle_1">Senyum - Remastered 2017</b><br/><i id="shortArtist_1">Malique</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851e1bb8a1ad0a48eb7f53a448e" width="64" height="64"><br/><b id="shortTitle_2">CEREMONY</b><br/><i id="shortArtist_2">Stray Kids</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048517a1aa242f066437d552c6a40" width="64" height="64"><br/><b id="shortTitle_3">LALALALA</b><br/><i id="shortArtist_3">Stray Kids</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048512efb8773efbbf0dfe5028452" width="64" height="64"><br/><b id="shortTitle_4">Berlian</b><br/><i id="shortArtist_4">Joe Flizzow</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485148eefbb034760e932f571790" width="64" height="64"><br/><b id="shortTitle_5">MANIAC</b><br/><i id="shortArtist_5">Stray Kids</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485148eefbb034760e932f571790" width="64" height="64"><br/><b id="shortTitle_4">MANIAC</b><br/><i id="shortArtist_4">Stray Kids</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048512efb8773efbbf0dfe5028452" width="64" height="64"><br/><b id="shortTitle_5">Berlian</b><br/><i id="shortArtist_5">Joe Flizzow</i></p> |
 
 </td><td>
 
@@ -62,8 +62,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="mediumTitle_1">Missing You (Feat. Kim Yuna)</b><br/><i id="mediumArtist_1">G-DRAGON</i></p> |
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851e1b8e368ceafe1117e846859" width="64" height="64"><br/><b id="mediumTitle_2">HOME SWEET HOME (feat. TAEYANG & DAESUNG)</b><br/><i id="mediumArtist_2">G-DRAGON</i></p> |
-| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048510bd44f5ff9ecc99f7770acc5" width="64" height="64"><br/><b id="mediumTitle_3">Meet Me Halfway</b><br/><i id="mediumArtist_3">Black Eyed Peas</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851fafb4022c8ca1c4498e10b19" width="64" height="64"><br/><b id="mediumTitle_4">La La La</b><br/><i id="mediumArtist_4">Naughty Boy</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851fafb4022c8ca1c4498e10b19" width="64" height="64"><br/><b id="mediumTitle_3">La La La</b><br/><i id="mediumArtist_3">Naughty Boy</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048510bd44f5ff9ecc99f7770acc5" width="64" height="64"><br/><b id="mediumTitle_4">Meet Me Halfway</b><br/><i id="mediumArtist_4">Black Eyed Peas</i></p> |
 | 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851e1bb8a1ad0a48eb7f53a448e" width="64" height="64"><br/><b id="mediumTitle_5">CEREMONY</b><br/><i id="mediumArtist_5">Stray Kids</i></p> |
 
 </td><td>

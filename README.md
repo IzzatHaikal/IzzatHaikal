@@ -53,8 +53,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851767b2e91b1a0a20a873afdeb" width="64" height="64"><br/><b id="shortTitle_1">Senyum - Remastered 2017</b><br/><i id="shortArtist_1">Malique</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851e1bb8a1ad0a48eb7f53a448e" width="64" height="64"><br/><b id="shortTitle_2">CEREMONY</b><br/><i id="shortArtist_2">Stray Kids</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048517a1aa242f066437d552c6a40" width="64" height="64"><br/><b id="shortTitle_3">LALALALA</b><br/><i id="shortArtist_3">Stray Kids</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048512efb8773efbbf0dfe5028452" width="64" height="64"><br/><b id="shortTitle_4">Berlian</b><br/><i id="shortArtist_4">Joe Flizzow</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851092c3001ef2d0a4f81372078" width="64" height="64"><br/><b id="shortTitle_5">Chk Chk Boom</b><br/><i id="shortArtist_5">Stray Kids</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851092c3001ef2d0a4f81372078" width="64" height="64"><br/><b id="shortTitle_4">Chk Chk Boom</b><br/><i id="shortArtist_4">Stray Kids</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048519f97ae875270dc606971e7af" width="64" height="64"><br/><b id="shortTitle_5">Gods Menu</b><br/><i id="shortArtist_5">Stray Kids</i></p> |
 
 </td><td>
 

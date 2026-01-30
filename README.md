@@ -50,11 +50,11 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851fac762ba9a8a1445385c515a" width="64" height="64"><br/><b id="shortTitle_1">Pop Ye Ye</b><br/><i id="shortArtist_1">V.E.</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851580138376093ef226d2e59bf" width="64" height="64"><br/><b id="shortTitle_2">501</b><br/><i id="shortArtist_2">Joe Flizzow</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048516ffcc2b63a0073a8298fc323" width="64" height="64"><br/><b id="shortTitle_3">Sampai Jadi (feat. ALYPH)</b><br/><i id="shortArtist_3">Joe Flizzow</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851ccfac346e4d795a78368e900" width="64" height="64"><br/><b id="shortTitle_4">Satu Malam Di Temasek</b><br/><i id="shortArtist_4">Joe Flizzow</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851c03b95871cbe18eb14288535" width="64" height="64"><br/><b id="shortTitle_5">CIAO</b><br/><i id="shortArtist_5">Joe Flizzow</i></p> |
+| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851580138376093ef226d2e59bf" width="64" height="64"><br/><b id="shortTitle_1">501</b><br/><i id="shortArtist_1">Joe Flizzow</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851ccfac346e4d795a78368e900" width="64" height="64"><br/><b id="shortTitle_2">Satu Malam Di Temasek</b><br/><i id="shortArtist_2">Joe Flizzow</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b" width="64" height="64"><br/><b id="shortTitle_3">THINGS YOU DO</b><br/><i id="shortArtist_3">Justin Bieber</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851ccea782613ea39e2903fe8a8" width="64" height="64"><br/><b id="shortTitle_4">17 (feat. Joshua and DK of SEVENTEEN)</b><br/><i id="shortArtist_4">Pink Sweat$</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851316e987210a1186c95eff23e" width="64" height="64"><br/><b id="shortTitle_5">Saturday Nights</b><br/><i id="shortArtist_5">Khalid</i></p> |
 
 </td><td>
 
@@ -62,9 +62,9 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851e1b8e368ceafe1117e846859" width="64" height="64"><br/><b id="mediumTitle_1">HOME SWEET HOME (feat. TAEYANG & DAESUNG)</b><br/><i id="mediumArtist_1">G-DRAGON</i></p> |
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851580138376093ef226d2e59bf" width="64" height="64"><br/><b id="mediumTitle_2">501</b><br/><i id="mediumArtist_2">Joe Flizzow</i></p> |
-| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="mediumTitle_3">Missing You (Feat. Kim Yuna)</b><br/><i id="mediumArtist_3">G-DRAGON</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d00004851fac762ba9a8a1445385c515a" width="64" height="64"><br/><b id="mediumTitle_4">Pop Ye Ye</b><br/><i id="mediumArtist_4">V.E.</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048516ffcc2b63a0073a8298fc323" width="64" height="64"><br/><b id="mediumTitle_5">Sampai Jadi (feat. ALYPH)</b><br/><i id="mediumArtist_5">Joe Flizzow</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851fac762ba9a8a1445385c515a" width="64" height="64"><br/><b id="mediumTitle_3">Pop Ye Ye</b><br/><i id="mediumArtist_3">V.E.</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048516ffcc2b63a0073a8298fc323" width="64" height="64"><br/><b id="mediumTitle_4">Sampai Jadi (feat. ALYPH)</b><br/><i id="mediumArtist_4">Joe Flizzow</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851e1bb8a1ad0a48eb7f53a448e" width="64" height="64"><br/><b id="mediumTitle_5">CEREMONY</b><br/><i id="mediumArtist_5">Stray Kids</i></p> |
 
 </td><td>
 

@@ -52,9 +52,9 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851580138376093ef226d2e59bf" width="64" height="64"><br/><b id="shortTitle_1">501</b><br/><i id="shortArtist_1">Joe Flizzow</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851ccfac346e4d795a78368e900" width="64" height="64"><br/><b id="shortTitle_2">Satu Malam Di Temasek</b><br/><i id="shortArtist_2">Joe Flizzow</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b" width="64" height="64"><br/><b id="shortTitle_3">THINGS YOU DO</b><br/><i id="shortArtist_3">Justin Bieber</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851ccea782613ea39e2903fe8a8" width="64" height="64"><br/><b id="shortTitle_4">17 (feat. Joshua and DK of SEVENTEEN)</b><br/><i id="shortArtist_4">Pink Sweat$</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851316e987210a1186c95eff23e" width="64" height="64"><br/><b id="shortTitle_5">Saturday Nights</b><br/><i id="shortArtist_5">Khalid</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851c03b95871cbe18eb14288535" width="64" height="64"><br/><b id="shortTitle_3">CIAO</b><br/><i id="shortArtist_3">Joe Flizzow</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048515891eed13908d88ba2b1808b" width="64" height="64"><br/><b id="shortTitle_4">Mimpi (feat. Alif)</b><br/><i id="shortArtist_4">K-Clique</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485178ef8fa2f28ad2ba65baed5f" width="64" height="64"><br/><b id="shortTitle_5">SUNYI</b><br/><i id="shortArtist_5">Joe Flizzow</i></p> |
 
 </td><td>
 

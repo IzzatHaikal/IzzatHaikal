@@ -6,7 +6,7 @@
 
 
 
-🧑🏻‍🎓 <i>Final Year Software Engineering Student at Universiti Malaya</i>
+<i>Software Engineer</i>
 
 #
 

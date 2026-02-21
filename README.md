@@ -53,8 +53,8 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048514c0f17fbae890e66fe861b29" width="64" height="64"><br/><b id="shortTitle_1">Smoke (Prod. Dynamicduo, Padi)</b><br/><i id="shortArtist_1">Various Artists</i></p> |
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048518bc18703825b6448dc06338c" width="64" height="64"><br/><b id="shortTitle_2">Smoke (Prod. Dynamicduo, Padi) - Remix</b><br/><i id="shortArtist_2">Various Artists</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048516224d1236b0e0a0e1586efbb" width="64" height="64"><br/><b id="shortTitle_3">JUMP</b><br/><i id="shortArtist_3">BLACKPINK</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048516cfc57e5358c5e39e79bccbd" width="64" height="64"><br/><b id="shortTitle_4">Gangnam Style (강남스타일)</b><br/><i id="shortArtist_4">PSY</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485170101f436cad812b9606e52b" width="64" height="64"><br/><b id="shortTitle_5">CASE 143</b><br/><i id="shortArtist_5">Stray Kids</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485108afa023781dc4841319f3fc" width="64" height="64"><br/><b id="shortTitle_4">ANTIFRAGILE</b><br/><i id="shortArtist_4">LE SSERAFIM</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048516cfc57e5358c5e39e79bccbd" width="64" height="64"><br/><b id="shortTitle_5">Gangnam Style (강남스타일)</b><br/><i id="shortArtist_5">PSY</i></p> |
 
 </td><td>
 

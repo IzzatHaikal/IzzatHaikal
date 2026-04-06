@@ -51,10 +51,10 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d0000485189d0ff2366a208016b6e9c6e" width="64" height="64"><br/><b id="shortTitle_1">Make You Feel My Love</b><br/><i id="shortArtist_1">Adele</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851707fc0a8015c9905ba2b41fc" width="64" height="64"><br/><b id="shortTitle_2">ADUH</b><br/><i id="shortArtist_2">Douglas Lim</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851ccfac346e4d795a78368e900" width="64" height="64"><br/><b id="shortTitle_3">Satu Malam Di Temasek</b><br/><i id="shortArtist_3">Joe Flizzow</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851b3055cb6b5486c7e1405f79d" width="64" height="64"><br/><b id="shortTitle_4">Pulang</b><br/><i id="shortArtist_4">K-Clique</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048510a1d20ec09cab4bb17a36aab" width="64" height="64"><br/><b id="shortTitle_5">Look At Me Now (feat. Lil Wayne & Busta Rhymes)</b><br/><i id="shortArtist_5">Chris Brown</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048519ee8510ca4bd3be2a949c376" width="64" height="64"><br/><b id="shortTitle_2">Bermuara</b><br/><i id="shortArtist_2">Rizky Febian</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048510b04da4f224b51ff86e0a481" width="64" height="64"><br/><b id="shortTitle_3">Sparks Fly (Taylor’s Version)</b><br/><i id="shortArtist_3">Taylor Swift</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048510b04da4f224b51ff86e0a481" width="64" height="64"><br/><b id="shortTitle_4">Superman (Taylor’s Version)</b><br/><i id="shortArtist_4">Taylor Swift</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851707fc0a8015c9905ba2b41fc" width="64" height="64"><br/><b id="shortTitle_5">ADUH</b><br/><i id="shortArtist_5">Douglas Lim</i></p> |
 
 </td><td>
 

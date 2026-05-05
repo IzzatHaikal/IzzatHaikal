@@ -51,10 +51,10 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d0000485189d0ff2366a208016b6e9c6e" width="64" height="64"><br/><b id="shortTitle_1">Make You Feel My Love</b><br/><i id="shortArtist_1">Adele</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048510b04da4f224b51ff86e0a481" width="64" height="64"><br/><b id="shortTitle_2">Sparks Fly (Taylor’s Version)</b><br/><i id="shortArtist_2">Taylor Swift</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048510b04da4f224b51ff86e0a481" width="64" height="64"><br/><b id="shortTitle_3">Superman (Taylor’s Version)</b><br/><i id="shortArtist_3">Taylor Swift</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485155b900ba2ad811b67d979c4f" width="64" height="64"><br/><b id="shortTitle_4">Hapipi Birthday (Papa Pipi)</b><br/><i id="shortArtist_4">Ieesya Isandra</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048511e9a057052d59004caf47e22" width="64" height="64"><br/><b id="shortTitle_5">Birthday</b><br/><i id="shortArtist_5">Katy Perry</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d0000485155b900ba2ad811b67d979c4f" width="64" height="64"><br/><b id="shortTitle_2">Hapipi Birthday (Papa Pipi)</b><br/><i id="shortArtist_2">Ieesya Isandra</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048511e9a057052d59004caf47e22" width="64" height="64"><br/><b id="shortTitle_3">Birthday</b><br/><i id="shortArtist_3">Katy Perry</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048514dea4c1cdf30c359dbaec318" width="64" height="64"><br/><b id="shortTitle_4">Eenie Meenie</b><br/><i id="shortArtist_4">Sean Kingston</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851d70036292d54f29e8b68ec01" width="64" height="64"><br/><b id="shortTitle_5">OMG</b><br/><i id="shortArtist_5">NewJeans</i></p> |
 
 </td><td>
 
@@ -70,9 +70,9 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_1">Run For Roses</b><br/><i id="longArtist_1">NMIXX</i></p> |
-| 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="longTitle_2">Love Is Lonely</b><br/><i id="longArtist_2">NMIXX</i></p> |
-| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d0000485146085aa1855bd888abc51a5a" width="64" height="64"><br/><b id="longTitle_3">APT.</b><br/><i id="longArtist_3">ROSÉ</i></p> |
+| 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="longTitle_1">Love Is Lonely</b><br/><i id="longArtist_1">NMIXX</i></p> |
+| 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d0000485146085aa1855bd888abc51a5a" width="64" height="64"><br/><b id="longTitle_2">APT.</b><br/><i id="longArtist_2">ROSÉ</i></p> |
+| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d0000485181d97a31253b898bc4149195" width="64" height="64"><br/><b id="longTitle_3">Run For Roses</b><br/><i id="longArtist_3">NMIXX</i></p> |
 | 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="longTitle_4">Missing You (Feat. Kim Yuna)</b><br/><i id="longArtist_4">G-DRAGON</i></p> | 
 | 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851e1b8e368ceafe1117e846859" width="64" height="64"><br/><b id="longTitle_5">HOME SWEET HOME (feat. TAEYANG & DAESUNG)</b><br/><i id="longArtist_5">G-DRAGON</i></p> |
 </td></tr> </table>

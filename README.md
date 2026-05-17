@@ -51,10 +51,10 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d0000485189d0ff2366a208016b6e9c6e" width="64" height="64"><br/><b id="shortTitle_1">Make You Feel My Love</b><br/><i id="shortArtist_1">Adele</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d0000485155b900ba2ad811b67d979c4f" width="64" height="64"><br/><b id="shortTitle_2">Hapipi Birthday (Papa Pipi)</b><br/><i id="shortArtist_2">Ieesya Isandra</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048511e9a057052d59004caf47e22" width="64" height="64"><br/><b id="shortTitle_3">Birthday</b><br/><i id="shortArtist_3">Katy Perry</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048510bd44f5ff9ecc99f7770acc5" width="64" height="64"><br/><b id="shortTitle_4">I Gotta Feeling</b><br/><i id="shortArtist_4">Black Eyed Peas</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851c9af8979e5cb3fe7ecc5e230" width="64" height="64"><br/><b id="shortTitle_5">Perfect Night</b><br/><i id="shortArtist_5">LE SSERAFIM</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851bbecb95942f283598af3bc40" width="64" height="64"><br/><b id="shortTitle_2">LOUD</b><br/><i id="shortArtist_2">NMIXX</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048516480c0deb6b34a60a04fc63f" width="64" height="64"><br/><b id="shortTitle_3">Blue Valentine</b><br/><i id="shortArtist_3">NMIXX</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851bbecb95942f283598af3bc40" width="64" height="64"><br/><b id="shortTitle_4">Heavy Serenade</b><br/><i id="shortArtist_4">NMIXX</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851bbecb95942f283598af3bc40" width="64" height="64"><br/><b id="shortTitle_5">Crescendo</b><br/><i id="shortArtist_5">NMIXX</i></p> |
 
 </td><td>
 

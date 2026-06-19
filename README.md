@@ -50,21 +50,21 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="shortTitle_1">Rapunzel Theme (from Barbie as Rapunzel)</b><br/><i id="shortArtist_1">Minnz Piano</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="shortTitle_2">Constant As the Stars Above (from Barbie as Rapunzel)</b><br/><i id="shortArtist_2">Minnz Piano</i></p> |
+| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="shortTitle_1">Constant As the Stars Above (from Barbie as Rapunzel)</b><br/><i id="shortArtist_1">Minnz Piano</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="shortTitle_2">Rapunzel Theme (from Barbie as Rapunzel)</b><br/><i id="shortArtist_2">Minnz Piano</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="shortTitle_3">Written in Your Heart (from Barbie as the Princess and the Pauper)</b><br/><i id="shortArtist_3">Minnz Piano</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851ed19652374a9317db6bcaa49" width="64" height="64"><br/><b id="shortTitle_4">Laskar Pelangi</b><br/><i id="shortArtist_4">TRUST Orchestra</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d0000485190a98780fb70dde769f9e61a" width="64" height="64"><br/><b id="shortTitle_5">Every day, Every Moment - Instrumental</b><br/><i id="shortArtist_5">Paul Kim</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048513eb8dc748f7efb1470f74395" width="64" height="64"><br/><b id="shortTitle_4">Risk It All</b><br/><i id="shortArtist_4">Bruno Mars</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851b67d75fb7ecb5a91900d4f68" width="64" height="64"><br/><b id="shortTitle_5">Panas</b><br/><i id="shortArtist_5">De Fam</i></p> |
 
 </td><td>
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851fac762ba9a8a1445385c515a" width="64" height="64"><br/><b id="mediumTitle_1">Pop Ye Ye</b><br/><i id="mediumArtist_1">V.E.</i></p> |
-| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d0000485189d0ff2366a208016b6e9c6e" width="64" height="64"><br/><b id="mediumTitle_2">Make You Feel My Love</b><br/><i id="mediumArtist_2">Adele</i></p> |
-| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851580138376093ef226d2e59bf" width="64" height="64"><br/><b id="mediumTitle_3">501</b><br/><i id="mediumArtist_3">Joe Flizzow</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="mediumTitle_4">Rapunzel Theme (from Barbie as Rapunzel)</b><br/><i id="mediumArtist_4">Minnz Piano</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851ccfac346e4d795a78368e900" width="64" height="64"><br/><b id="mediumTitle_5">Satu Malam Di Temasek</b><br/><i id="mediumArtist_5">Joe Flizzow</i></p> |
+| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d0000485189d0ff2366a208016b6e9c6e" width="64" height="64"><br/><b id="mediumTitle_1">Make You Feel My Love</b><br/><i id="mediumArtist_1">Adele</i></p> |
+| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="mediumTitle_2">Rapunzel Theme (from Barbie as Rapunzel)</b><br/><i id="mediumArtist_2">Minnz Piano</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d00004851ccfac346e4d795a78368e900" width="64" height="64"><br/><b id="mediumTitle_3">Satu Malam Di Temasek</b><br/><i id="mediumArtist_3">Joe Flizzow</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="mediumTitle_4">Written in Your Heart (from Barbie as the Princess and the Pauper)</b><br/><i id="mediumArtist_4">Minnz Piano</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="mediumTitle_5">Constant As the Stars Above (from Barbie as Rapunzel)</b><br/><i id="mediumArtist_5">Minnz Piano</i></p> |
 
 </td><td>
 

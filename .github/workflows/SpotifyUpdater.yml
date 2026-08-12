@@ -3,7 +3,7 @@ name: Spotify Updater
 # Controls when the workflow will run
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs everyday at midnight UTC
+    - cron: '0 0 * * *' # Runs every day at midnight UTC
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -14,170 +14,442 @@ env:
   SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
 
 permissions:
-  contents: write # Permission for workflow to update repo
+  contents: write
 
 jobs:
   update:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-      
-      # Spotify access token
+      # Checks-out your repository under $GITHUB_WORKSPACE
+      - uses: actions/checkout@v4
+
+      # ------------------------------------------------------------
+      # Generate Spotify Access Token
+      # ------------------------------------------------------------
       - name: Generate Refreshed Access Token
-        id: spotifyWebResRefreshed
+        id: spotify_token
+        shell: bash
         run: |
-          response=$(curl -X POST "https://accounts.spotify.com/api/token" \
-          -H "Content-Type: application/x-www-form-urlencoded" \
-          -d "grant_type=refresh_token&refresh_token=${{ secrets.SPOTIFY_REFRESH_TOKEN }}&client_id=${{ secrets.SPOTIFY_CLIENT_ID }}&client_secret=${{ secrets.SPOTIFY_CLIENT_SECRET }}")
-          spotifyWebResAccessTokenRefreshed=$(echo $response | jq -r '.access_token')
-          echo "::add-mask::$spotifyWebResAccessTokenRefreshed"
-          echo "spotifyWebResAccessTokenRefreshed=$spotifyWebResAccessTokenRefreshed" >> $GITHUB_ENV
-      
-      # Update Access Token Secret
-      - name: Update GitHub Secret (SPOTIFY_ACCESS_TOKEN Refreshed)
-        uses: atomlong/gh-update-secret@master
-        with:
-          name: SPOTIFY_ACCESS_TOKEN
-          value: ${{ env.spotifyWebResAccessTokenRefreshed }}
-          pa_token: ${{ secrets.WT_PERSONAL_TOKEN }}
+          set -euo pipefail
 
-      # Get top tracks for short term
+          echo "Refreshing Spotify access token..."
+
+          response=$(curl -sS \
+            -X POST "https://accounts.spotify.com/api/token" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            --data-urlencode "grant_type=refresh_token" \
+            --data-urlencode "refresh_token=${SPOTIFY_REFRESH_TOKEN}" \
+            --data-urlencode "client_id=${SPOTIFY_CLIENT_ID}" \
+            --data-urlencode "client_secret=${SPOTIFY_CLIENT_SECRET}")
+
+          # Do not print the full response because it may contain
+          # sensitive information in some API responses.
+          error=$(echo "$response" | jq -r '.error // empty')
+          error_description=$(echo "$response" | jq -r '.error_description // empty')
+
+          if [[ -n "$error" ]]; then
+            echo "Spotify token refresh failed."
+            echo "Error: $error"
+
+            if [[ -n "$error_description" ]]; then
+              echo "Description: $error_description"
+            fi
+
+            echo ""
+            echo "If the error is 'invalid_grant', your Spotify refresh token"
+            echo "is invalid or has expired and needs to be regenerated."
+
+            exit 1
+          fi
+
+          spotify_access_token=$(echo "$response" | jq -r '.access_token // empty')
+
+          if [[ -z "$spotify_access_token" ]]; then
+            echo "Spotify did not return an access token."
+            echo "Unexpected response from Spotify token endpoint."
+            exit 1
+          fi
+
+          echo "::add-mask::$spotify_access_token"
+
+          echo "spotify_access_token=$spotify_access_token" >> "$GITHUB_ENV"
+
+          echo "Spotify access token refreshed successfully."
+
+
+      # ------------------------------------------------------------
+      # Validate Spotify Access Token
+      # ------------------------------------------------------------
+      - name: Validate Spotify Access Token
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "Validating Spotify access token..."
+
+          http_code=$(curl -sS \
+            -o spotify_profile.json \
+            -w "%{http_code}" \
+            -X GET "https://api.spotify.com/v1/me" \
+            -H "Authorization: Bearer ${spotify_access_token}")
+
+          if [[ "$http_code" != "200" ]]; then
+            echo "Spotify access token validation failed."
+            echo "HTTP status: $http_code"
+
+            error=$(jq -r '.error.status // empty' spotify_profile.json)
+            message=$(jq -r '.error.message // empty' spotify_profile.json)
+
+            if [[ -n "$error" ]]; then
+              echo "Spotify error: $error"
+            fi
+
+            if [[ -n "$message" ]]; then
+              echo "Spotify message: $message"
+            fi
+
+            exit 1
+          fi
+
+          echo "Spotify access token is valid."
+
+
+      # ------------------------------------------------------------
+      # Get Top Tracks - Short Term
+      # ------------------------------------------------------------
       - name: Get Users Top Tracks (Short)
-        run: |
-          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=short_term" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}" >> topTracksShort.json
-          shortTrack_1=$(cat topTracksShort.json | jq -r '.items[0].name')
-          shortArtist_1=$(cat topTracksShort.json | jq -r '.items[0].album.artists[0].name')
-          shortImg_1=$(cat topTracksShort.json | jq -r '.items[0].album.images[2].url')
-          echo "shortTrack_1='$shortTrack_1'" >> $GITHUB_ENV
-          echo "shortArtist_1='$shortArtist_1'" >> $GITHUB_ENV
-          echo "shortImg_1=$shortImg_1" >> $GITHUB_ENV
-          
-          
-          shortTrack_2=$(cat topTracksShort.json | jq -r '.items[1].name')
-          shortArtist_2=$(cat topTracksShort.json | jq -r '.items[1].album.artists[0].name')
-          shortImg_2=$(cat topTracksShort.json | jq -r '.items[1].album.images[2].url')
-          echo "shortTrack_2='$shortTrack_2'" >> $GITHUB_ENV
-          echo "shortArtist_2='$shortArtist_2'" >> $GITHUB_ENV
-          echo "shortImg_2=$shortImg_2" >> $GITHUB_ENV
-          
-          shortTrack_3=$(cat topTracksShort.json | jq -r '.items[2].name')
-          shortArtist_3=$(cat topTracksShort.json | jq -r '.items[2].album.artists[0].name')
-          shortImg_3=$(cat topTracksShort.json | jq -r '.items[2].album.images[2].url')
-          echo "shortTrack_3='$shortTrack_3'" >> $GITHUB_ENV
-          echo "shortArtist_3='$shortArtist_3'" >> $GITHUB_ENV
-          echo "shortImg_3=$shortImg_3" >> $GITHUB_ENV
-          
-          shortTrack_4=$(cat topTracksShort.json | jq -r '.items[3].name')
-          shortArtist_4=$(cat topTracksShort.json | jq -r '.items[3].album.artists[0].name')
-          shortImg_4=$(cat topTracksShort.json | jq -r '.items[3].album.images[2].url')
-          echo "shortTrack_4='$shortTrack_4'" >> $GITHUB_ENV
-          echo "shortArtist_4='$shortArtist_4'" >> $GITHUB_ENV
-          echo "shortImg_4=$shortImg_4" >> $GITHUB_ENV
-          
-          shortTrack_5=$(cat topTracksShort.json | jq -r '.items[4].name')
-          shortArtist_5=$(cat topTracksShort.json | jq -r '.items[4].album.artists[0].name')
-          shortImg_5=$(cat topTracksShort.json | jq -r '.items[4].album.images[2].url')
-          echo "shortTrack_5='$shortTrack_5'" >> $GITHUB_ENV
-          echo "shortArtist_5='$shortArtist_5'" >> $GITHUB_ENV
-          echo "shortImg_5=$shortImg_5" >> $GITHUB_ENV
         id: top_tracks
+        shell: bash
+        run: |
+          set -euo pipefail
 
-      # Get top tracks for medium term  
+          echo "Getting short-term top tracks..."
+
+          http_code=$(curl -sS \
+            -o topTracksShort.json \
+            -w "%{http_code}" \
+            -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=short_term" \
+            -H "Authorization: Bearer ${spotify_access_token}")
+
+          if [[ "$http_code" != "200" ]]; then
+            echo "Failed to get short-term top tracks."
+            echo "HTTP status: $http_code"
+
+            cat topTracksShort.json
+
+            exit 1
+          fi
+
+          # Make sure Spotify actually returned an items array
+          if ! jq -e '.items and (.items | type == "array")' topTracksShort.json > /dev/null; then
+            echo "Spotify returned an unexpected response:"
+            cat topTracksShort.json
+            exit 1
+          fi
+
+          shortTrack_1=$(jq -r '.items[0].name // empty' topTracksShort.json)
+          shortArtist_1=$(jq -r '.items[0].album.artists[0].name // empty' topTracksShort.json)
+          shortImg_1=$(jq -r '.items[0].album.images[2].url // .items[0].album.images[0].url // empty' topTracksShort.json)
+
+          shortTrack_2=$(jq -r '.items[1].name // empty' topTracksShort.json)
+          shortArtist_2=$(jq -r '.items[1].album.artists[0].name // empty' topTracksShort.json)
+          shortImg_2=$(jq -r '.items[1].album.images[2].url // .items[1].album.images[0].url // empty' topTracksShort.json)
+
+          shortTrack_3=$(jq -r '.items[2].name // empty' topTracksShort.json)
+          shortArtist_3=$(jq -r '.items[2].album.artists[0].name // empty' topTracksShort.json)
+          shortImg_3=$(jq -r '.items[2].album.images[2].url // .items[2].album.images[0].url // empty' topTracksShort.json)
+
+          shortTrack_4=$(jq -r '.items[3].name // empty' topTracksShort.json)
+          shortArtist_4=$(jq -r '.items[3].album.artists[0].name // empty' topTracksShort.json)
+          shortImg_4=$(jq -r '.items[3].album.images[2].url // .items[3].album.images[0].url // empty' topTracksShort.json)
+
+          shortTrack_5=$(jq -r '.items[4].name // empty' topTracksShort.json)
+          shortArtist_5=$(jq -r '.items[4].album.artists[0].name // empty' topTracksShort.json)
+          shortImg_5=$(jq -r '.items[4].album.images[2].url // .items[4].album.images[0].url // empty' topTracksShort.json)
+
+          {
+            echo "shortTrack_1<<EOF"
+            echo "$shortTrack_1"
+            echo "EOF"
+
+            echo "shortArtist_1<<EOF"
+            echo "$shortArtist_1"
+            echo "EOF"
+
+            echo "shortImg_1=$shortImg_1"
+
+            echo "shortTrack_2<<EOF"
+            echo "$shortTrack_2"
+            echo "EOF"
+
+            echo "shortArtist_2<<EOF"
+            echo "$shortArtist_2"
+            echo "EOF"
+
+            echo "shortImg_2=$shortImg_2"
+
+            echo "shortTrack_3<<EOF"
+            echo "$shortTrack_3"
+            echo "EOF"
+
+            echo "shortArtist_3<<EOF"
+            echo "$shortArtist_3"
+            echo "EOF"
+
+            echo "shortImg_3=$shortImg_3"
+
+            echo "shortTrack_4<<EOF"
+            echo "$shortTrack_4"
+            echo "EOF"
+
+            echo "shortArtist_4<<EOF"
+            echo "$shortArtist_4"
+            echo "EOF"
+
+            echo "shortImg_4=$shortImg_4"
+
+            echo "shortTrack_5<<EOF"
+            echo "$shortTrack_5"
+            echo "EOF"
+
+            echo "shortArtist_5<<EOF"
+            echo "$shortArtist_5"
+            echo "EOF"
+
+            echo "shortImg_5=$shortImg_5"
+          } >> "$GITHUB_ENV"
+
+          echo "Short-term tracks retrieved successfully."
+
+
+      # ------------------------------------------------------------
+      # Get Top Tracks - Medium Term
+      # ------------------------------------------------------------
       - name: Get Users Top Tracks (Medium)
-        run: |
-          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=medium_term" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}" >> topTracksMedium.json
-          mediumTrack_1=$(cat topTracksMedium.json | jq -r '.items[0].name')
-          mediumArtist_1=$(cat topTracksMedium.json | jq -r '.items[0].album.artists[0].name')
-          mediumImg_1=$(cat topTracksMedium.json | jq -r '.items[0].album.images[2].url')
-          echo "mediumTrack_1='$mediumTrack_1'" >> $GITHUB_ENV
-          echo "mediumArtist_1='$mediumArtist_1'" >> $GITHUB_ENV
-          echo "mediumImg_1=$mediumImg_1" >> $GITHUB_ENV
-          
-          
-          mediumTrack_2=$(cat topTracksMedium.json | jq -r '.items[1].name')
-          mediumArtist_2=$(cat topTracksMedium.json | jq -r '.items[1].album.artists[0].name')
-          mediumImg_2=$(cat topTracksMedium.json | jq -r '.items[1].album.images[2].url')
-          echo "mediumTrack_2='$mediumTrack_2'" >> $GITHUB_ENV
-          echo "mediumArtist_2='$mediumArtist_2'" >> $GITHUB_ENV
-          echo "mediumImg_2=$mediumImg_2" >> $GITHUB_ENV
-          
-          mediumTrack_3=$(cat topTracksMedium.json | jq -r '.items[2].name')
-          mediumArtist_3=$(cat topTracksMedium.json | jq -r '.items[2].album.artists[0].name')
-          mediumImg_3=$(cat topTracksMedium.json | jq -r '.items[2].album.images[2].url')
-          echo "mediumTrack_3='$mediumTrack_3'" >> $GITHUB_ENV
-          echo "mediumArtist_3='$mediumArtist_3'" >> $GITHUB_ENV
-          echo "mediumImg_3=$mediumImg_3" >> $GITHUB_ENV
-          
-          mediumTrack_4=$(cat topTracksMedium.json | jq -r '.items[3].name')
-          mediumArtist_4=$(cat topTracksMedium.json | jq -r '.items[3].album.artists[0].name')
-          mediumImg_4=$(cat topTracksMedium.json | jq -r '.items[3].album.images[2].url')
-          echo "mediumTrack_4='$mediumTrack_4'" >> $GITHUB_ENV
-          echo "mediumArtist_4='$mediumArtist_4'" >> $GITHUB_ENV
-          echo "mediumImg_4=$mediumImg_4" >> $GITHUB_ENV
-          
-          mediumTrack_5=$(cat topTracksMedium.json | jq -r '.items[4].name')
-          mediumArtist_5=$(cat topTracksMedium.json | jq -r '.items[4].album.artists[0].name')
-          mediumImg_5=$(cat topTracksMedium.json | jq -r '.items[4].album.images[2].url')
-          echo "mediumTrack_5='$mediumTrack_5'" >> $GITHUB_ENV
-          echo "mediumArtist_5='$mediumArtist_5'" >> $GITHUB_ENV
-          echo "mediumImg_5=$mediumImg_5" >> $GITHUB_ENV
         id: top_tracks_medium
-        
-      # Get top tracks for long term  
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "Getting medium-term top tracks..."
+
+          http_code=$(curl -sS \
+            -o topTracksMedium.json \
+            -w "%{http_code}" \
+            -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=medium_term" \
+            -H "Authorization: Bearer ${spotify_access_token}")
+
+          if [[ "$http_code" != "200" ]]; then
+            echo "Failed to get medium-term top tracks."
+            echo "HTTP status: $http_code"
+
+            cat topTracksMedium.json
+
+            exit 1
+          fi
+
+          if ! jq -e '.items and (.items | type == "array")' topTracksMedium.json > /dev/null; then
+            echo "Spotify returned an unexpected response:"
+            cat topTracksMedium.json
+            exit 1
+          fi
+
+          mediumTrack_1=$(jq -r '.items[0].name // empty' topTracksMedium.json)
+          mediumArtist_1=$(jq -r '.items[0].album.artists[0].name // empty' topTracksMedium.json)
+          mediumImg_1=$(jq -r '.items[0].album.images[2].url // .items[0].album.images[0].url // empty' topTracksMedium.json)
+
+          mediumTrack_2=$(jq -r '.items[1].name // empty' topTracksMedium.json)
+          mediumArtist_2=$(jq -r '.items[1].album.artists[0].name // empty' topTracksMedium.json)
+          mediumImg_2=$(jq -r '.items[1].album.images[2].url // .items[1].album.images[0].url // empty' topTracksMedium.json)
+
+          mediumTrack_3=$(jq -r '.items[2].name // empty' topTracksMedium.json)
+          mediumArtist_3=$(jq -r '.items[2].album.artists[0].name // empty' topTracksMedium.json)
+          mediumImg_3=$(jq -r '.items[2].album.images[2].url // .items[2].album.images[0].url // empty' topTracksMedium.json)
+
+          mediumTrack_4=$(jq -r '.items[3].name // empty' topTracksMedium.json)
+          mediumArtist_4=$(jq -r '.items[3].album.artists[0].name // empty' topTracksMedium.json)
+          mediumImg_4=$(jq -r '.items[3].album.images[2].url // .items[3].album.images[0].url // empty' topTracksMedium.json)
+
+          mediumTrack_5=$(jq -r '.items[4].name // empty' topTracksMedium.json)
+          mediumArtist_5=$(jq -r '.items[4].album.artists[0].name // empty' topTracksMedium.json)
+          mediumImg_5=$(jq -r '.items[4].album.images[2].url // .items[4].album.images[0].url // empty' topTracksMedium.json)
+
+          {
+            echo "mediumTrack_1<<EOF"
+            echo "$mediumTrack_1"
+            echo "EOF"
+
+            echo "mediumArtist_1<<EOF"
+            echo "$mediumArtist_1"
+            echo "EOF"
+
+            echo "mediumImg_1=$mediumImg_1"
+
+            echo "mediumTrack_2<<EOF"
+            echo "$mediumTrack_2"
+            echo "EOF"
+
+            echo "mediumArtist_2<<EOF"
+            echo "$mediumArtist_2"
+            echo "EOF"
+
+            echo "mediumImg_2=$mediumImg_2"
+
+            echo "mediumTrack_3<<EOF"
+            echo "$mediumTrack_3"
+            echo "EOF"
+
+            echo "mediumArtist_3<<EOF"
+            echo "$mediumArtist_3"
+            echo "EOF"
+
+            echo "mediumImg_3=$mediumImg_3"
+
+            echo "mediumTrack_4<<EOF"
+            echo "$mediumTrack_4"
+            echo "EOF"
+
+            echo "mediumArtist_4<<EOF"
+            echo "$mediumArtist_4"
+            echo "EOF"
+
+            echo "mediumImg_4=$mediumImg_4"
+
+            echo "mediumTrack_5<<EOF"
+            echo "$mediumTrack_5"
+            echo "EOF"
+
+            echo "mediumArtist_5<<EOF"
+            echo "$mediumArtist_5"
+            echo "EOF"
+
+            echo "mediumImg_5=$mediumImg_5"
+          } >> "$GITHUB_ENV"
+
+          echo "Medium-term tracks retrieved successfully."
+
+
+      # ------------------------------------------------------------
+      # Get Top Tracks - Long Term
+      # ------------------------------------------------------------
       - name: Get Users Top Tracks (Long)
-        run: |
-          curl -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=long_term" -H "Authorization: Bearer ${{ env.spotifyWebResAccessTokenRefreshed }}" >> topTracksLong.json
-          longTrack_1=$(cat topTracksLong.json | jq -r '.items[0].name')
-          longArtist_1=$(cat topTracksLong.json | jq -r '.items[0].album.artists[0].name')
-          longImg_1=$(cat topTracksLong.json | jq -r '.items[0].album.images[2].url')
-          echo "longTrack_1='$longTrack_1'" >> $GITHUB_ENV
-          echo "longArtist_1='$longArtist_1'" >> $GITHUB_ENV
-          echo "longImg_1=$longImg_1" >> $GITHUB_ENV
-          
-          
-          longTrack_2=$(cat topTracksLong.json | jq -r '.items[1].name')
-          longArtist_2=$(cat topTracksLong.json | jq -r '.items[1].album.artists[0].name')
-          longImg_2=$(cat topTracksLong.json | jq -r '.items[1].album.images[2].url')
-          echo "longTrack_2='$longTrack_2'" >> $GITHUB_ENV
-          echo "longArtist_2='$longArtist_2'" >> $GITHUB_ENV
-          echo "longImg_2=$longImg_2" >> $GITHUB_ENV
-          
-          longTrack_3=$(cat topTracksLong.json | jq -r '.items[2].name')
-          longArtist_3=$(cat topTracksLong.json | jq -r '.items[2].album.artists[0].name')
-          longImg_3=$(cat topTracksLong.json | jq -r '.items[2].album.images[2].url')
-          echo "longTrack_3='$longTrack_3'" >> $GITHUB_ENV
-          echo "longArtist_3='$longArtist_3'" >> $GITHUB_ENV
-          echo "longImg_3=$longImg_3" >> $GITHUB_ENV
-          
-          longTrack_4=$(cat topTracksLong.json | jq -r '.items[3].name')
-          longArtist_4=$(cat topTracksLong.json | jq -r '.items[3].album.artists[0].name')
-          longImg_4=$(cat topTracksLong.json | jq -r '.items[3].album.images[2].url')
-          echo "longTrack_4='$longTrack_4'" >> $GITHUB_ENV
-          echo "longArtist_4='$longArtist_4'" >> $GITHUB_ENV
-          echo "longImg_4=$longImg_4" >> $GITHUB_ENV
-          
-          longTrack_5=$(cat topTracksLong.json | jq -r '.items[4].name')
-          longArtist_5=$(cat topTracksLong.json | jq -r '.items[4].album.artists[0].name')
-          longImg_5=$(cat topTracksLong.json | jq -r '.items[4].album.images[2].url')
-          echo "longTrack_5='$longTrack_5'" >> $GITHUB_ENV
-          echo "longArtist_5='$longArtist_5'" >> $GITHUB_ENV
-          echo "longImg_5=$longImg_5" >> $GITHUB_ENV
         id: top_tracks_long
-        
-      # Update short tracks
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "Getting long-term top tracks..."
+
+          http_code=$(curl -sS \
+            -o topTracksLong.json \
+            -w "%{http_code}" \
+            -X GET "https://api.spotify.com/v1/me/top/tracks?limit=5&time_range=long_term" \
+            -H "Authorization: Bearer ${spotify_access_token}")
+
+          if [[ "$http_code" != "200" ]]; then
+            echo "Failed to get long-term top tracks."
+            echo "HTTP status: $http_code"
+
+            cat topTracksLong.json
+
+            exit 1
+          fi
+
+          if ! jq -e '.items and (.items | type == "array")' topTracksLong.json > /dev/null; then
+            echo "Spotify returned an unexpected response:"
+            cat topTracksLong.json
+            exit 1
+          fi
+
+          longTrack_1=$(jq -r '.items[0].name // empty' topTracksLong.json)
+          longArtist_1=$(jq -r '.items[0].album.artists[0].name // empty' topTracksLong.json)
+          longImg_1=$(jq -r '.items[0].album.images[2].url // .items[0].album.images[0].url // empty' topTracksLong.json)
+
+          longTrack_2=$(jq -r '.items[1].name // empty' topTracksLong.json)
+          longArtist_2=$(jq -r '.items[1].album.artists[0].name // empty' topTracksLong.json)
+          longImg_2=$(jq -r '.items[1].album.images[2].url // .items[1].album.images[0].url // empty' topTracksLong.json)
+
+          longTrack_3=$(jq -r '.items[2].name // empty' topTracksLong.json)
+          longArtist_3=$(jq -r '.items[2].album.artists[0].name // empty' topTracksLong.json)
+          longImg_3=$(jq -r '.items[2].album.images[2].url // .items[2].album.images[0].url // empty' topTracksLong.json)
+
+          longTrack_4=$(jq -r '.items[3].name // empty' topTracksLong.json)
+          longArtist_4=$(jq -r '.items[3].album.artists[0].name // empty' topTracksLong.json)
+          longImg_4=$(jq -r '.items[3].album.images[2].url // .items[3].album.images[0].url // empty' topTracksLong.json)
+
+          longTrack_5=$(jq -r '.items[4].name // empty' topTracksLong.json)
+          longArtist_5=$(jq -r '.items[4].album.artists[0].name // empty' topTracksLong.json)
+          longImg_5=$(jq -r '.items[4].album.images[2].url // .items[4].album.images[0].url // empty' topTracksLong.json)
+
+          {
+            echo "longTrack_1<<EOF"
+            echo "$longTrack_1"
+            echo "EOF"
+
+            echo "longArtist_1<<EOF"
+            echo "$longArtist_1"
+            echo "EOF"
+
+            echo "longImg_1=$longImg_1"
+
+            echo "longTrack_2<<EOF"
+            echo "$longTrack_2"
+            echo "EOF"
+
+            echo "longArtist_2<<EOF"
+            echo "$longArtist_2"
+            echo "EOF"
+
+            echo "longImg_2=$longImg_2"
+
+            echo "longTrack_3<<EOF"
+            echo "$longTrack_3"
+            echo "EOF"
+
+            echo "longArtist_3<<EOF"
+            echo "$longArtist_3"
+            echo "EOF"
+
+            echo "longImg_3=$longImg_3"
+
+            echo "longTrack_4<<EOF"
+            echo "$longTrack_4"
+            echo "EOF"
+
+            echo "longArtist_4<<EOF"
+            echo "$longArtist_4"
+            echo "EOF"
+
+            echo "longImg_4=$longImg_4"
+
+            echo "longTrack_5<<EOF"
+            echo "$longTrack_5"
+            echo "EOF"
+
+            echo "longArtist_5<<EOF"
+            echo "$longArtist_5"
+            echo "EOF"
+
+            echo "longImg_5=$longImg_5"
+          } >> "$GITHUB_ENV"
+
+          echo "Long-term tracks retrieved successfully."
+
+
+      # ------------------------------------------------------------
+      # Update Markdown File - Short
+      # ------------------------------------------------------------
       - name: Update Markdown File (Short)
+        shell: bash
         run: |
-          #!/bin/bash
+          set -euo pipefail
 
-          ID_LIST="shortImg_1~${{ env.shortImg_1 }}~shortTitle_1~\"${{ env.shortTrack_1 }}\"~shortArtist_1~\"${{ env.shortArtist_1 }}\"~
-          shortImg_2~${{ env.shortImg_2 }}~shortTitle_2~\"${{ env.shortTrack_2 }}\"~shortArtist_2~\"${{ env.shortArtist_2 }}\"~
-          shortImg_3~${{ env.shortImg_3 }}~shortTitle_3~\"${{ env.shortTrack_3 }}\"~shortArtist_3~\"${{ env.shortArtist_3 }}\"~
-          shortImg_4~${{ env.shortImg_4 }}~shortTitle_4~\"${{ env.shortTrack_4 }}\"~shortArtist_4~\"${{ env.shortArtist_4 }}\"~
-          shortImg_5~${{ env.shortImg_5 }}~shortTitle_5~\"${{ env.shortTrack_5 }}\"~shortArtist_5~\"${{ env.shortArtist_5 }}\"~"
+          ID_LIST="shortImg_1~${shortImg_1}~shortTitle_1~\"${shortTrack_1}\"~shortArtist_1~\"${shortArtist_1}\"~
+          shortImg_2~${shortImg_2}~shortTitle_2~\"${shortTrack_2}\"~shortArtist_2~\"${shortArtist_2}\"~
+          shortImg_3~${shortImg_3}~shortTitle_3~\"${shortTrack_3}\"~shortArtist_3~\"${shortArtist_3}\"~
+          shortImg_4~${shortImg_4}~shortTitle_4~\"${shortTrack_4}\"~shortArtist_4~\"${shortArtist_4}\"~
+          shortImg_5~${shortImg_5}~shortTitle_5~\"${shortTrack_5}\"~shortArtist_5~\"${shortArtist_5}\"~"
 
           echo "$ID_LIST" | while IFS= read -r ITEM; do
             IMG_ID=$(echo "$ITEM" | cut -d '~' -f1)
@@ -186,23 +458,29 @@ jobs:
             NEW_TRACK=$(echo "$ITEM" | cut -d '~' -f4 | sed "s/'//g" | sed 's/"//g' | sed 's/&/\\\&/g')
             ARTIST_ID=$(echo "$ITEM" | cut -d '~' -f5)
             NEW_ARTIST=$(echo "$ITEM" | cut -d '~' -f6 | sed "s/'//g" | sed 's/"//g' | sed 's/&/\\\&/g')
+
             echo "$NEW_TRACK"
             echo "$NEW_ARTIST"
+
             sed -i "s|<img\s*id=\"$IMG_ID\"\s*src=\"[^\"]*\"|<img id=\"$IMG_ID\" src=\"$NEW_IMG\"|g" README.md
             sed -i "s|<b\s*id=\"$TITLE_ID\">\s*.*</b>|<b id=\"$TITLE_ID\">$NEW_TRACK</b>|g" README.md
             sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*.*</i>|<i id=\"$ARTIST_ID\">$NEW_ARTIST</i>|g" README.md
           done
 
-      # Update medium tracks          
+
+      # ------------------------------------------------------------
+      # Update Markdown File - Medium
+      # ------------------------------------------------------------
       - name: Update Markdown File (Medium)
+        shell: bash
         run: |
-          #!/bin/bash
+          set -euo pipefail
 
-          ID_LIST="mediumImg_1~${{ env.mediumImg_1 }}~mediumTitle_1~\"${{ env.mediumTrack_1 }}\"~mediumArtist_1~\"${{ env.mediumArtist_1 }}\"~
-          mediumImg_2~${{ env.mediumImg_2 }}~mediumTitle_2~\"${{ env.mediumTrack_2 }}\"~mediumArtist_2~\"${{ env.mediumArtist_2 }}\"~
-          mediumImg_3~${{ env.mediumImg_3 }}~mediumTitle_3~\"${{ env.mediumTrack_3 }}\"~mediumArtist_3~\"${{ env.mediumArtist_3 }}\"~
-          mediumImg_4~${{ env.mediumImg_4 }}~mediumTitle_4~\"${{ env.mediumTrack_4 }}\"~mediumArtist_4~\"${{ env.mediumArtist_4 }}\"~
-          mediumImg_5~${{ env.mediumImg_5 }}~mediumTitle_5~\"${{ env.mediumTrack_5 }}\"~mediumArtist_5~\"${{ env.mediumArtist_5 }}\"~"
+          ID_LIST="mediumImg_1~${mediumImg_1}~mediumTitle_1~\"${mediumTrack_1}\"~mediumArtist_1~\"${mediumArtist_1}\"~
+          mediumImg_2~${mediumImg_2}~mediumTitle_2~\"${mediumTrack_2}\"~mediumArtist_2~\"${mediumArtist_2}\"~
+          mediumImg_3~${mediumImg_3}~mediumTitle_3~\"${mediumTrack_3}\"~mediumArtist_3~\"${mediumArtist_3}\"~
+          mediumImg_4~${mediumImg_4}~mediumTitle_4~\"${mediumTrack_4}\"~mediumArtist_4~\"${mediumArtist_4}\"~
+          mediumImg_5~${mediumImg_5}~mediumTitle_5~\"${mediumTrack_5}\"~mediumArtist_5~\"${mediumArtist_5}\"~"
 
           echo "$ID_LIST" | while IFS= read -r ITEM; do
             IMG_ID=$(echo "$ITEM" | cut -d '~' -f1)
@@ -211,23 +489,29 @@ jobs:
             NEW_TRACK=$(echo "$ITEM" | cut -d '~' -f4 | sed "s/'//g" | sed 's/"//g' | sed 's/&/\\\&/g')
             ARTIST_ID=$(echo "$ITEM" | cut -d '~' -f5)
             NEW_ARTIST=$(echo "$ITEM" | cut -d '~' -f6 | sed "s/'//g" | sed 's/"//g' | sed 's/&/\\\&/g')
+
             echo "$NEW_TRACK"
             echo "$NEW_ARTIST"
+
             sed -i "s|<img\s*id=\"$IMG_ID\"\s*src=\"[^\"]*\"|<img id=\"$IMG_ID\" src=\"$NEW_IMG\"|g" README.md
             sed -i "s|<b\s*id=\"$TITLE_ID\">\s*.*</b>|<b id=\"$TITLE_ID\">$NEW_TRACK</b>|g" README.md
-            sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*.*</i>|<i id=\"$ARTIST_ID\">$NEW_ARTIST</i>|g" README.md
+            sed -i "s|<i\s*id=\"$ARTIST_ID\"\s*>\s*.*</i>|<i id=\"$ARTIST_ID\">$NEW_ARTIST</i>|g" README.md
           done
 
-      # Update long tracks   
+
+      # ------------------------------------------------------------
+      # Update Markdown File - Long
+      # ------------------------------------------------------------
       - name: Update Markdown File (Long)
+        shell: bash
         run: |
-          #!/bin/bash
+          set -euo pipefail
 
-          ID_LIST="longImg_1~${{ env.longImg_1 }}~longTitle_1~\"${{ env.longTrack_1 }}\"~longArtist_1~\"${{ env.longArtist_1 }}\"~
-          longImg_2~${{ env.longImg_2 }}~longTitle_2~\"${{ env.longTrack_2 }}\"~longArtist_2~\"${{ env.longArtist_2 }}\"~
-          longImg_3~${{ env.longImg_3 }}~longTitle_3~\"${{ env.longTrack_3 }}\"~longArtist_3~\"${{ env.longArtist_3 }}\"~
-          longImg_4~${{ env.longImg_4 }}~longTitle_4~\"${{ env.longTrack_4 }}\"~longArtist_4~\"${{ env.longArtist_4 }}\"~
-          longImg_5~${{ env.longImg_5 }}~longTitle_5~\"${{ env.longTrack_5 }}\"~longArtist_5~\"${{ env.longArtist_5 }}\"~"
+          ID_LIST="longImg_1~${longImg_1}~longTitle_1~\"${longTrack_1}\"~longArtist_1~\"${longArtist_1}\"~
+          longImg_2~${longImg_2}~longTitle_2~\"${longTrack_2}\"~longArtist_2~\"${longArtist_2}\"~
+          longImg_3~${longImg_3}~longTitle_3~\"${longTrack_3}\"~longArtist_3~\"${longArtist_3}\"~
+          longImg_4~${longImg_4}~longTitle_4~\"${longTrack_4}\"~longArtist_4~\"${longArtist_4}\"~
+          longImg_5~${longImg_5}~longTitle_5~\"${longTrack_5}\"~longArtist_5~\"${longArtist_5}\"~"
 
           echo "$ID_LIST" | while IFS= read -r ITEM; do
             IMG_ID=$(echo "$ITEM" | cut -d '~' -f1)
@@ -236,26 +520,34 @@ jobs:
             NEW_TRACK=$(echo "$ITEM" | cut -d '~' -f4 | sed "s/'//g" | sed 's/"//g' | sed 's/&/\\\&/g')
             ARTIST_ID=$(echo "$ITEM" | cut -d '~' -f5)
             NEW_ARTIST=$(echo "$ITEM" | cut -d '~' -f6 | sed "s/'//g" | sed 's/"//g' | sed 's/&/\\\&/g')
+
             echo "$NEW_TRACK"
             echo "$NEW_ARTIST"
+
             sed -i "s|<img\s*id=\"$IMG_ID\"\s*src=\"[^\"]*\"|<img id=\"$IMG_ID\" src=\"$NEW_IMG\"|g" README.md
             sed -i "s|<b\s*id=\"$TITLE_ID\">\s*.*</b>|<b id=\"$TITLE_ID\">$NEW_TRACK</b>|g" README.md
-            sed -i "s|<i\s*id=\"$ARTIST_ID\">\s*.*</i>|<i id=\"$ARTIST_ID\">$NEW_ARTIST</i>|g" README.md
+            sed -i "s|<i\s*id=\"$ARTIST_ID\"\s*>\s*.*</i>|<i id=\"$ARTIST_ID\">$NEW_ARTIST</i>|g" README.md
           done
-      
-      # Push changes
+
+
+      # ------------------------------------------------------------
+      # Commit and Push Changes
+      # ------------------------------------------------------------
       - name: GIT commit and push all changed files
-        env: 
+        env:
           CI_COMMIT_MESSAGE: Update Spotify Section
           CI_COMMIT_AUTHOR: Spotify Updater
+        shell: bash
         run: |
-          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+          set -euo pipefail
+
+          git config --global user.name "${CI_COMMIT_AUTHOR}"
           git config --global user.email "noreply@example.com"
-          if [[ -n $(git status --porcelain | grep '^ M\|^ D') ]]; then
+
+          if [[ -n "$(git status --porcelain | grep '^ M\|^ D' || true)" ]]; then
             git add -u .
-            git commit -m "${{ env.CI_COMMIT_MESSAGE }}" --no-verify
+            git commit -m "${CI_COMMIT_MESSAGE}" --no-verify
             git push
           else
             echo "No changes to commit"
           fi
-  

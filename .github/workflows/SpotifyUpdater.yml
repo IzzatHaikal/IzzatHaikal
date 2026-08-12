@@ -15,6 +15,7 @@ env:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   update:
@@ -56,9 +57,28 @@ jobs:
               echo "Description: $error_description"
             fi
 
+            if [[ "$error" == "invalid_grant" ]]; then
+              echo "Spotify refresh token is invalid or has been revoked."
+              echo "Marking the workflow so a GitHub Issue can be created."
+
+              if [[ -z "$error_description" ]]; then
+                error_description="No description provided."
+              fi
+
+              echo "refresh_failed=true" >> "$GITHUB_OUTPUT"
+              echo "refresh_error=${error}" >> "$GITHUB_OUTPUT"
+
+              {
+                echo "refresh_error_description<<EOF"
+                echo "$error_description"
+                echo "EOF"
+              } >> "$GITHUB_OUTPUT"
+
+              exit 0
+            fi
+
             echo ""
-            echo "If the error is 'invalid_grant', your Spotify refresh token"
-            echo "is invalid or has expired and needs to be regenerated."
+            echo "Unexpected Spotify token error; failing the workflow."
 
             exit 1
           fi
@@ -76,6 +96,121 @@ jobs:
           echo "SPOTIFY_ACCESS_TOKEN_RUNTIME=$SPOTIFY_ACCESS_TOKEN_RUNTIME" >> "$GITHUB_ENV"
 
           echo "Spotify access token refreshed successfully."
+
+
+      # ------------------------------------------------------------
+      # Create GitHub Issue for Revoked Refresh Token
+      # ------------------------------------------------------------
+      - name: Create Spotify Reauthorization Issue
+        if: steps.spotify_token.outputs.refresh_failed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REFRESH_ERROR: ${{ steps.spotify_token.outputs.refresh_error }}
+          REFRESH_ERROR_DESCRIPTION: ${{ steps.spotify_token.outputs.refresh_error_description }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "Spotify refresh token rejected by Spotify."
+          echo "Checking for an existing open issue..."
+
+          http_code=$(curl -sS \
+            -o issues_response.json \
+            -w "%{http_code}" \
+            -X GET \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2026-03-10" \
+            "${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/issues?state=open&per_page=100")
+
+          if [[ "$http_code" != "200" ]]; then
+            echo "Failed to list open GitHub issues."
+            echo "HTTP status: $http_code"
+            jq -r '.message // .' issues_response.json 2>/dev/null || cat issues_response.json
+            exit 1
+          fi
+
+          matching_issues=$(jq --arg title "Spotify refresh token revoked" \
+            '[.[] | select(.title == $title and .pull_request == null)] | length' issues_response.json)
+
+          if [[ "$matching_issues" -gt 0 ]]; then
+            echo "An open issue titled 'Spotify refresh token revoked' already exists."
+            echo "No new issue will be created."
+            exit 0
+          fi
+
+          echo "No existing issue found. Creating a new issue..."
+
+          detected_at=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+
+          issue_body=$(cat <<EOF
+          ## Spotify authorization required
+
+          The Spotify refresh token used by the Spotify Updater workflow is no longer valid.
+
+          ### Spotify response
+
+          - Error: \`${REFRESH_ERROR}\`
+          - Description: \`${REFRESH_ERROR_DESCRIPTION}\`
+
+          ### Action required
+
+          Re-authorize the Spotify application and update the repository secret:
+
+          \`SPOTIFY_REFRESH_TOKEN\`
+
+          After updating the secret, manually re-run the Spotify Updater workflow.
+
+          ### Workflow information
+
+          - Workflow: ${GITHUB_WORKFLOW}
+          - Run: ${run_url}
+          - Detected: ${detected_at}
+          EOF
+          )
+
+          payload=$(jq -n \
+            --arg title "Spotify refresh token revoked" \
+            --arg body "$issue_body" \
+            '{title: $title, body: $body}')
+
+          create_http_code=$(curl -sS \
+            -o issue_response.json \
+            -w "%{http_code}" \
+            -X POST \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2026-03-10" \
+            -H "Content-Type: application/json" \
+            -d "$payload" \
+            "${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/issues")
+
+          if [[ "$create_http_code" != "201" ]]; then
+            echo "Failed to create GitHub Issue."
+            echo "HTTP status: $create_http_code"
+            jq -r '.message // .' issue_response.json 2>/dev/null || cat issue_response.json
+            exit 1
+          fi
+
+          issue_number=$(jq -r '.number // empty' issue_response.json)
+          echo "GitHub Issue created: #${issue_number}"
+
+
+      # ------------------------------------------------------------
+      # Stop workflow when refresh token is revoked
+      # ------------------------------------------------------------
+      - name: Fail on Revoked Spotify Refresh Token
+        if: steps.spotify_token.outputs.refresh_failed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "Spotify refresh token is invalid."
+          echo "GitHub Issue created/already exists."
+          echo "Workflow cannot continue until Spotify is re-authorized."
+
+          exit 1
 
 
       # ------------------------------------------------------------

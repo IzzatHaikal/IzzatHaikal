@@ -50,31 +50,31 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="shortImg_1" src="null" width="64" height="64"><br/><b id="shortTitle_1">null</b><br/><i id="shortArtist_1">null</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="null" width="64" height="64"><br/><b id="shortTitle_2">null</b><br/><i id="shortArtist_2">null</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="null" width="64" height="64"><br/><b id="shortTitle_3">null</b><br/><i id="shortArtist_3">null</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="null" width="64" height="64"><br/><b id="shortTitle_4">null</b><br/><i id="shortArtist_4">null</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="null" width="64" height="64"><br/><b id="shortTitle_5">null</b><br/><i id="shortArtist_5">null</i></p> |
+| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851b5097b81179824803664aaaf" width="64" height="64"><br/><b id="shortTitle_1">Save Your Tears (Remix) (with Ariana Grande) - Bonus Track</b><br/><i id="shortArtist_1">The Weeknd</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048514718e2b124f79258be7bc452" width="64" height="64"><br/><b id="shortTitle_2">Starboy</b><br/><i id="shortArtist_2">The Weeknd</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851deec12a28d1e336c5052e9aa" width="64" height="64"><br/><b id="shortTitle_3">Love Me Harder</b><br/><i id="shortArtist_3">Ariana Grande</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048518baf677ee2d8dda6cc9fcbd7" width="64" height="64"><br/><b id="shortTitle_4">oh well</b><br/><i id="shortArtist_4">Ariana Grande</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048518dd53da15b55d402dfc3a20e" width="64" height="64"><br/><b id="shortTitle_5">The Sweet Escape</b><br/><i id="shortArtist_5">Gwen Stefani</i></p> |
 
 </td><td>
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="mediumImg_1" src="null" width="64" height="64"><br/><b id="mediumTitle_1">null</b><br/><i id="mediumArtist_1">null</i></p> |
-| 2 | <p align="center"><img id="mediumImg_2" src="null" width="64" height="64"><br/><b id="mediumTitle_2">null</b><br/><i id="mediumArtist_2">null</i></p> |
-| 3 | <p align="center"><img id="mediumImg_3" src="null" width="64" height="64"><br/><b id="mediumTitle_3">null</b><br/><i id="mediumArtist_3">null</i></p> |
-| 4 | <p align="center"><img id="mediumImg_4" src="null" width="64" height="64"><br/><b id="mediumTitle_4">null</b><br/><i id="mediumArtist_4">null</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="null" width="64" height="64"><br/><b id="mediumTitle_5">null</b><br/><i id="mediumArtist_5">null</i></p> |
+| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d0000485189d0ff2366a208016b6e9c6e" width="64" height="64"><br/><b id="mediumTitle_1">Make You Feel My Love</b><br/><i id="mediumArtist_1">Adele</i></p> |
+| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="mediumTitle_2">Rapunzel Theme (from Barbie as Rapunzel)</b><br/><i id="mediumArtist_2">Minnz Piano</i></p> |
+| 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="mediumTitle_3">Written in Your Heart (from Barbie as the Princess and the Pauper)</b><br/><i id="mediumArtist_3">Minnz Piano</i></p> |
+| 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="mediumTitle_4">Constant As the Stars Above (from Barbie as Rapunzel)</b><br/><i id="mediumArtist_4">Minnz Piano</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d00004851b5097b81179824803664aaaf" width="64" height="64"><br/><b id="mediumTitle_5">Save Your Tears (Remix) (with Ariana Grande) - Bonus Track</b><br/><i id="mediumArtist_5">The Weeknd</i></p> |
 
 </td><td>
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="longImg_1" src="null" width="64" height="64"><br/><b id="longTitle_1">null</b><br/><i id="longArtist_1">null</i></p> |
-| 2 | <p align="center"><img id="longImg_2" src="null" width="64" height="64"><br/><b id="longTitle_2">null</b><br/><i id="longArtist_2">null</i></p> |
-| 3 | <p align="center"><img id="longImg_3" src="null" width="64" height="64"><br/><b id="longTitle_3">null</b><br/><i id="longArtist_3">null</i></p> |
-| 4 | <p align="center"><img id="longImg_4" src="null" width="64" height="64"><br/><b id="longTitle_4">null</b><br/><i id="longArtist_4">null</i></p> | 
-| 5 | <p align="center"><img id="longImg_5" src="null" width="64" height="64"><br/><b id="longTitle_5">null</b><br/><i id="longArtist_5">null</i></p> |
+| 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="longTitle_1">Love Is Lonely</b><br/><i id="longArtist_1">NMIXX</i></p> |
+| 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d0000485146085aa1855bd888abc51a5a" width="64" height="64"><br/><b id="longTitle_2">APT.</b><br/><i id="longArtist_2">ROSÉ</i></p> |
+| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="longTitle_3">Missing You (Feat. Kim Yuna)</b><br/><i id="longArtist_3">G-DRAGON</i></p> |
+| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851e1b8e368ceafe1117e846859" width="64" height="64"><br/><b id="longTitle_4">HOME SWEET HOME (feat. TAEYANG & DAESUNG)</b><br/><i id="longArtist_4">G-DRAGON</i></p> | 
+| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851e467a8e8d7b0aa92d354aa75" width="64" height="64"><br/><b id="longTitle_5">Whiplash</b><br/><i id="longArtist_5">aespa</i></p> |
 </td></tr> </table>
 
 </details>

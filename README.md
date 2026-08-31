@@ -51,17 +51,17 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851b5097b81179824803664aaaf" width="64" height="64"><br/><b id="shortTitle_1">Save Your Tears (Remix) (with Ariana Grande) - Bonus Track</b><br/><i id="shortArtist_1">The Weeknd</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048518baf677ee2d8dda6cc9fcbd7" width="64" height="64"><br/><b id="shortTitle_2">oh well</b><br/><i id="shortArtist_2">Ariana Grande</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048518baf677ee2d8dda6cc9fcbd7" width="64" height="64"><br/><b id="shortTitle_3">warning signs (interlude)</b><br/><i id="shortArtist_3">Ariana Grande</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048518baf677ee2d8dda6cc9fcbd7" width="64" height="64"><br/><b id="shortTitle_4">kiss me</b><br/><i id="shortArtist_4">Ariana Grande</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048518baf677ee2d8dda6cc9fcbd7" width="64" height="64"><br/><b id="shortTitle_5">like i do</b><br/><i id="shortArtist_5">Ariana Grande</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048518b58d20f1b77295730db15b4" width="64" height="64"><br/><b id="shortTitle_2">we cant be friends (wait for your love)</b><br/><i id="shortArtist_2">Ariana Grande</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048518b58d20f1b77295730db15b4" width="64" height="64"><br/><b id="shortTitle_3">supernatural</b><br/><i id="shortArtist_3">Ariana Grande</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485156ac7b86e090f307e218e9c8" width="64" height="64"><br/><b id="shortTitle_4">thank u, next</b><br/><i id="shortArtist_4">Ariana Grande</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851cbfa5ab43f7d48e3c85a174e" width="64" height="64"><br/><b id="shortTitle_5">Price Tag</b><br/><i id="shortArtist_5">Jessie J</i></p> |
 
 </td><td>
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d0000485189d0ff2366a208016b6e9c6e" width="64" height="64"><br/><b id="mediumTitle_1">Make You Feel My Love</b><br/><i id="mediumArtist_1">Adele</i></p> |
-| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851b5097b81179824803664aaaf" width="64" height="64"><br/><b id="mediumTitle_2">Save Your Tears (Remix) (with Ariana Grande) - Bonus Track</b><br/><i id="mediumArtist_2">The Weeknd</i></p> |
+| 1 | <p align="center"><img id="mediumImg_1" src="https://i.scdn.co/image/ab67616d00004851b5097b81179824803664aaaf" width="64" height="64"><br/><b id="mediumTitle_1">Save Your Tears (Remix) (with Ariana Grande) - Bonus Track</b><br/><i id="mediumArtist_1">The Weeknd</i></p> |
+| 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d0000485189d0ff2366a208016b6e9c6e" width="64" height="64"><br/><b id="mediumTitle_2">Make You Feel My Love</b><br/><i id="mediumArtist_2">Adele</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="mediumTitle_3">Rapunzel Theme (from Barbie as Rapunzel)</b><br/><i id="mediumArtist_3">Minnz Piano</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="mediumTitle_4">Written in Your Heart (from Barbie as the Princess and the Pauper)</b><br/><i id="mediumArtist_4">Minnz Piano</i></p> |
 | 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="mediumTitle_5">Constant As the Stars Above (from Barbie as Rapunzel)</b><br/><i id="mediumArtist_5">Minnz Piano</i></p> |

@@ -54,7 +54,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851d5c717a748b40b026290622f" width="64" height="64"><br/><b id="shortTitle_2">Hips Dont Lie - Spotify Anniversary Version</b><br/><i id="shortArtist_2">Shakira</i></p> |
 | 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851b4c5982e1b92f97a126fc18c" width="64" height="64"><br/><b id="shortTitle_3">Sweet Dreams</b><br/><i id="shortArtist_3">Beyoncé</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851b4c5982e1b92f97a126fc18c" width="64" height="64"><br/><b id="shortTitle_4">Disappear</b><br/><i id="shortArtist_4">Beyoncé</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851b5097b81179824803664aaaf" width="64" height="64"><br/><b id="shortTitle_5">Save Your Tears (Remix) (with Ariana Grande) - Bonus Track</b><br/><i id="shortArtist_5">The Weeknd</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851bd6f8ac82dc5fe1028c14f7d" width="64" height="64"><br/><b id="shortTitle_5">Moth To A Flame (with The Weeknd)</b><br/><i id="shortArtist_5">Swedish House Mafia</i></p> |
 
 </td><td>
 
@@ -64,7 +64,7 @@ Since I like listening to music, it might be interesting to share my top tracks 
 | 2 | <p align="center"><img id="mediumImg_2" src="https://i.scdn.co/image/ab67616d00004851d5c717a748b40b026290622f" width="64" height="64"><br/><b id="mediumTitle_2">Hips Dont Lie - Spotify Anniversary Version</b><br/><i id="mediumArtist_2">Shakira</i></p> |
 | 3 | <p align="center"><img id="mediumImg_3" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="mediumTitle_3">Rapunzel Theme (from Barbie as Rapunzel)</b><br/><i id="mediumArtist_3">Minnz Piano</i></p> |
 | 4 | <p align="center"><img id="mediumImg_4" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="mediumTitle_4">Constant As the Stars Above (from Barbie as Rapunzel)</b><br/><i id="mediumArtist_4">Minnz Piano</i></p> |
-| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048511ae824945cb3cd1baa742498" width="64" height="64"><br/><b id="mediumTitle_5">Written in Your Heart (from Barbie as the Princess and the Pauper)</b><br/><i id="mediumArtist_5">Minnz Piano</i></p> |
+| 5 | <p align="center"><img id="mediumImg_5" src="https://i.scdn.co/image/ab67616d000048514aa538a481e67131c214135a" width="64" height="64"><br/><b id="mediumTitle_5">Levitating (feat. DaBaby)</b><br/><i id="mediumArtist_5">Dua Lipa</i></p> |
 
 </td><td>
 

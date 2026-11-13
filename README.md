@@ -72,9 +72,9 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="longImg_1" src="https://i.scdn.co/image/ab67616d00004851c9c9aaadb2d6d3d44be06332" width="64" height="64"><br/><b id="longTitle_1">Love Is Lonely</b><br/><i id="longArtist_1">NMIXX</i></p> |
 | 2 | <p align="center"><img id="longImg_2" src="https://i.scdn.co/image/ab67616d000048514687bc7a0bda65c282c13afa" width="64" height="64"><br/><b id="longTitle_2">Missing You (Feat. Kim Yuna)</b><br/><i id="longArtist_2">G-DRAGON</i></p> |
-| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d0000485146085aa1855bd888abc51a5a" width="64" height="64"><br/><b id="longTitle_3">APT.</b><br/><i id="longArtist_3">ROSÉ</i></p> |
-| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851e1b8e368ceafe1117e846859" width="64" height="64"><br/><b id="longTitle_4">HOME SWEET HOME (feat. TAEYANG & DAESUNG)</b><br/><i id="longArtist_4">G-DRAGON</i></p> | 
-| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851e467a8e8d7b0aa92d354aa75" width="64" height="64"><br/><b id="longTitle_5">Whiplash</b><br/><i id="longArtist_5">aespa</i></p> |
+| 3 | <p align="center"><img id="longImg_3" src="https://i.scdn.co/image/ab67616d00004851e1b8e368ceafe1117e846859" width="64" height="64"><br/><b id="longTitle_3">HOME SWEET HOME (feat. TAEYANG & DAESUNG)</b><br/><i id="longArtist_3">G-DRAGON</i></p> |
+| 4 | <p align="center"><img id="longImg_4" src="https://i.scdn.co/image/ab67616d00004851e467a8e8d7b0aa92d354aa75" width="64" height="64"><br/><b id="longTitle_4">Whiplash</b><br/><i id="longArtist_4">aespa</i></p> | 
+| 5 | <p align="center"><img id="longImg_5" src="https://i.scdn.co/image/ab67616d00004851b479bb2aed275bb1b13d83da" width="64" height="64"><br/><b id="longTitle_5">Skyfall</b><br/><i id="longArtist_5">Adele</i></p> |
 </td></tr> </table>
 
 </details>

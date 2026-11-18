@@ -51,10 +51,10 @@ Since I like listening to music, it might be interesting to share my top tracks 
 |No.|      Song       |
 |:-:|:---------------:|
 | 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048514aa538a481e67131c214135a" width="64" height="64"><br/><b id="shortTitle_1">Levitating (feat. DaBaby)</b><br/><i id="shortArtist_1">Dua Lipa</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851d5c717a748b40b026290622f" width="64" height="64"><br/><b id="shortTitle_2">Hips Dont Lie - Spotify Anniversary Version</b><br/><i id="shortArtist_2">Shakira</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851af384269742c6b04308c1be8" width="64" height="64"><br/><b id="shortTitle_3">Stronger (What Doesnt Kill You)</b><br/><i id="shortArtist_3">Kelly Clarkson</i></p> |
-| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d00004851bd6f8ac82dc5fe1028c14f7d" width="64" height="64"><br/><b id="shortTitle_4">Moth To A Flame (with The Weeknd)</b><br/><i id="shortArtist_4">Swedish House Mafia</i></p> |
-| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048519cf85b6196c53ca41416cda4" width="64" height="64"><br/><b id="shortTitle_5">Cant Fight The Moonlight</b><br/><i id="shortArtist_5">LeAnn Rimes</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851af384269742c6b04308c1be8" width="64" height="64"><br/><b id="shortTitle_2">Stronger (What Doesnt Kill You)</b><br/><i id="shortArtist_2">Kelly Clarkson</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d000048518daa8ac6367fc997c1873b9b" width="64" height="64"><br/><b id="shortTitle_3">How Deep Is Your Love</b><br/><i id="shortArtist_3">Calvin Harris</i></p> |
+| 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d0000485105005dc483e9f8a73ccc6d3d" width="64" height="64"><br/><b id="shortTitle_4">I Adore You (feat. Daecolm)</b><br/><i id="shortArtist_4">HUGEL</i></p> |
+| 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d00004851d5c717a748b40b026290622f" width="64" height="64"><br/><b id="shortTitle_5">Hips Dont Lie - Spotify Anniversary Version</b><br/><i id="shortArtist_5">Shakira</i></p> |
 
 </td><td>
 

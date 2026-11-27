@@ -50,9 +50,9 @@ Since I like listening to music, it might be interesting to share my top tracks 
 
 |No.|      Song       |
 |:-:|:---------------:|
-| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d000048514aa538a481e67131c214135a" width="64" height="64"><br/><b id="shortTitle_1">Levitating (feat. DaBaby)</b><br/><i id="shortArtist_1">Dua Lipa</i></p> |
-| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d00004851af384269742c6b04308c1be8" width="64" height="64"><br/><b id="shortTitle_2">Stronger (What Doesnt Kill You)</b><br/><i id="shortArtist_2">Kelly Clarkson</i></p> |
-| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851edf5b257be1d6593e81bb45f" width="64" height="64"><br/><b id="shortTitle_3">Ditto</b><br/><i id="shortArtist_3">NewJeans</i></p> |
+| 1 | <p align="center"><img id="shortImg_1" src="https://i.scdn.co/image/ab67616d00004851edf5b257be1d6593e81bb45f" width="64" height="64"><br/><b id="shortTitle_1">Ditto</b><br/><i id="shortArtist_1">NewJeans</i></p> |
+| 2 | <p align="center"><img id="shortImg_2" src="https://i.scdn.co/image/ab67616d000048514aa538a481e67131c214135a" width="64" height="64"><br/><b id="shortTitle_2">Levitating (feat. DaBaby)</b><br/><i id="shortArtist_2">Dua Lipa</i></p> |
+| 3 | <p align="center"><img id="shortImg_3" src="https://i.scdn.co/image/ab67616d00004851af384269742c6b04308c1be8" width="64" height="64"><br/><b id="shortTitle_3">Stronger (What Doesnt Kill You)</b><br/><i id="shortArtist_3">Kelly Clarkson</i></p> |
 | 4 | <p align="center"><img id="shortImg_4" src="https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b" width="64" height="64"><br/><b id="shortTitle_4">Cool With You</b><br/><i id="shortArtist_4">NewJeans</i></p> |
 | 5 | <p align="center"><img id="shortImg_5" src="https://i.scdn.co/image/ab67616d000048519d28fd01859073a3ae6ea209" width="64" height="64"><br/><b id="shortTitle_5">Hype Boy</b><br/><i id="shortArtist_5">NewJeans</i></p> |
 
